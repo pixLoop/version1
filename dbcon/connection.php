@@ -11,6 +11,6 @@ function getConnection() {
 }
 
 function closeConnection($con) {
-	mysql_close($con);
+	mysqli_close($con);
 }
 ?>
