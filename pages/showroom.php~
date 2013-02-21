@@ -76,16 +76,16 @@ function displayNews($newsArray) {
 }
 
 function displayPages($current, $max) {
-	echo '<div id="pagination"><span'.isPageSelected($current, 1).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page=1">1</a></span> ';
+	echo '<div id="pagination"><span'.isSelected($current, 1).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page=1">1</a></span> ';
 	if (($current - 3) > 1) echo '... ';
 
 	for ($i = -2; $i <= 2; $i++) {
 		if ((($current + $i) > 1) && (($current + $i) < $max)) {
-			echo '<span'.isPageSelected($current, ($current + $i)).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.($current + $i).'">'.($current + $i).'</a></span> ';
+			echo '<span'.isSelected($current, ($current + $i)).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.($current + $i).'">'.($current + $i).'</a></span> ';
 		}
 	}
 
 	if (($current + 3) < $max) echo '... ';
-	echo '<span'.isPageSelected($current, $max).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.$max.'">'.$max.'</a></span></div>';
+	echo '<span'.isSelected($current, $max).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.$max.'">'.$max.'</a></span></div>';
 }
 ?>
