@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+body {
+	background-color: #F0F0F0;
+}
+#content {
+	position: absolute;
+	height: 600px;
+	width: 900px;
+	top: 50%;
+	left: 50%;
+	margin-top: -330px;
+	margin-left: -470px;
+	background-color: #DDD;
+	border: 10px double #666;
+	border-radius: 50px;
+	box-shadow: 0 0 40px 20px #DDD;
+	padding: 20px;
+}
+#title {
+	margin-left: auto;
+	font-size: 22pt;
+	color: #666;
+}
+#title span {
+	color: #000;
+}
+table {
+	border-spacing: 20px;
+	border-collapse: separate;
+}
+td {
+	position: relative;
+	height: 160px;
+	width: 275px;
+	border: 5px solid #666;
+	border-radius: 20px;
+}
+td:hover {
+	border: 5px solid #000;
+}
+td.videogames {
+	background: linear-gradient(-45deg, #DDD 20%, #3A3 40%, #DDD);
+	background: -webkit-linear-gradient(-45deg, #DDD 20%, #3A3 40%, #DDD);
+	background: -moz-linear-gradient(-45deg, #DDD 20%, #3A3 40%, #DDD);
+	background: -o-linear-gradient(-45deg, #DDD 20%, #3A3 40%, #DDD);
+}
+td.software {
+	background: linear-gradient(-45deg, #DDD 20%, #AA3 40%, #DDD);
+	background: -webkit-linear-gradient(-45deg, #DDD 20%, #AA3 40%, #DDD);
+	background: -moz-linear-gradient(-45deg, #DDD 20%, #AA3 40%, #DDD);
+	background: -o-linear-gradient(-45deg, #DDD 20%, #AA3 40%, #DDD);
+}
+td.hardware {
+	background: linear-gradient(-45deg, #DDD 20%, #33A 40%, #DDD);
+	background: -webkit-linear-gradient(-45deg, #DDD 20%, #33A 40%, #DDD);
+	background: -moz-linear-gradient(-45deg, #DDD 20%, #33A 40%, #DDD);
+	background: -o-linear-gradient(-45deg, #DDD 20%, #33A 40%, #DDD);
+}
+td.mobile {
+	background: linear-gradient(-45deg, #DDD 20%, #A3A 40%, #DDD);
+	background: -webkit-linear-gradient(-45deg, #DDD 20%, #A3A 40%, #DDD);
+	background: -moz-linear-gradient(-45deg, #DDD 20%, #A3A 40%, #DDD);
+	background: -o-linear-gradient(-45deg, #DDD 20%, #A3A 40%, #DDD);
+}
+td a {
+	float: right;
+	margin-right: 10px;
+	color: #666;
+	font-size: 30pt;
+	font-weight: bolder;
+	font-style: italic;
+	font-variant: small-caps;
+	text-decoration: none;
+	text-shadow: 0 0 20px #DDD;
+}
+td:hover a {
+	color: #000;
+	text-shadow: 0 0 40px #FFF;
+}

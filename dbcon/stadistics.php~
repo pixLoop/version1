@@ -1,0 +1,12 @@
+<?php
+require("./dbcon/connection.php");
+
+function getTotals($par) {
+	$total = mysql_query("SELECT COUNT(*) AS total FROM ".$par);
+	$total = mysql_fetch_array($total)
+	$total = $total['total'];
+	return $total;
+}
+
+closeConnection();
+?>

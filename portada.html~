@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>pixLoop - Descubre qué se cuece</title>
+
+	<link rel="stylesheet" type="text/css" media="all" href="./css/portada.css"/>
+
+	<link rel="icon" href="./img/icon.png" type="image/png" sizes="128x128"/>
+	<link rel="icon" href="./img/icon.png" type="image/png" sizes="64x64"/>
+	<link rel="shortcut icon" href="./img/icon16.png" type="image/png" sizes="16x16"/>
+	<link rel="apple-touch-icon" href="./img/icon.png"/>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script src="demoscript.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="title">Bienvenido a <span>pix<b>Loop</b></span></div>
+		<table id="pages">
+			<tr>
+				<td class="videogames">
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+				<td class="software">
+					<a href=".?site=software" title="Software">Software</a>
+				</td>
+				<td class="hardware">
+					<a href=".?site=hardware" title="Hardware">Hardware</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href=".?site=movil" title="Móvil">Móvil</a>
+				</td>
+				<td>
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+				<td>
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+				<td>
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+				<td>
+					<a href=".?site=videojuegos" title="Videojuegos">Videojuegos</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

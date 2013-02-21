@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
+
+	<link rel="stylesheet" type="text/css" media="all" href="../css/demostyle.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/proto.css"/>
+
+	<link rel="icon" href="./img/icon.png" type="image/png" sizes="128x128"/>
+	<link rel="icon" href="./img/icon.png" type="image/png" sizes="64x64"/>
+	<link rel="shortcut icon" href="./img/icon16.png" type="image/png" sizes="16x16"/>
+	<link rel="apple-touch-icon" href="./img/icon.png"/>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script src="demoscript.js"></script>
+</head>
+<body>
+	<!--header-->
+	<div id="header">
+		<div id="header-top">
+			<ul id="links">
+				<li class="selected">
+					<a href="./" title="Videojuegos">Viedojuegos</a>
+				</li>
+				<li>
+					<a href="./" title="Software">Software</a>
+				</li>
+				<li>
+					<a href="./" title="Hardware">Hardware</a>
+				</li>
+				<li>
+					<a href="./" title="Movil">Movil</a>
+				</li>
+				<li>
+					<a href="./" title="Deportes">Deportes</a>
+				</li>
+				<li>
+					<a href="./" title="Motor">Motor</a>
+				</li>
+			</ul>
+			<div class="social">
+				<a href="" title="síguenos en Facebook">
+					<img class="semiopaque" src="http://mnmstatic.net/img/external/fb-icon-01.png" alt="Facebook"/></a>
+				<a href="" title="síguenos en Twitter">
+					<img class="semiopaque" src="http://mnmstatic.net/img/external/tw-icon-01.png" alt="Twitter"/></a>
+			</div>
+
+			<ul id="userinfo">
+				<li class="usertext">
+					<a href="">login</a>
+				</li>
+				<li class="usertext">
+					<a href="">registrarse</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="header-menu">
+			<span class="pagetitle" title="pixLoop">pix<b>Loop</b></span>
+			<ul id="sections">    
+				<li class="selected">
+					<a href="/" title="Página principal">Portada</a>
+				</li>  
+				<li>
+					<a href="/" title="Ver las últimas noticias">+Nuevas</a>
+				</li>  
+				<li>
+					<a href="/" title="Ver las noticias más destacadas">+Destacadas</a>
+				</li>  
+				<li>
+					<a href="/" title="Ver las noticias más leídas">+Vistas</a>
+				</li>
+				<li>
+					<a href="/" title="Ver las noticias más comentadas">+Comentadas</a>
+				</li>
+			</ul>
+
+			<div id="searchform"> 
+				<form action="" method="get"> 
+					<a href="" id="searchglass">
+						<img src="http://mnmstatic.net/img/common/h9_search02.png" width="12" height="12" alt="">
+					</a>
+					<input id="searchbox" name="q" type="text" /> 
+				</form> 
+			</div> 
+		</div>
+		<div id="header-time">
+			<ul id="time-snap">    
+				<li class="selected">
+					<a href="/" title="Últimas 24 horas">24 horas</a>
+				</li>
+				<li>
+					<a href="/" title="Últimas 48 horas">48 horas</a>
+				</li>
+				<li>
+					<a href="/" title="Última semana">Semana</a>
+				</li>
+				<li>
+					<a href="/" title="Último mes">Mes</a>
+				</li>
+				<li>
+					<a href="/" title="Últimos 6 meses">6 meses</a>
+				</li>
+				<li>
+					<a href="/" title="Último año">Año</a>
+				</li>
+				<li>
+					<a href="/" title="Todas">Todas</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--header--> 
+
+	<div id="newswrap">
+		<ul class="list">
+<?php
+function cURLcheckBasicFunctions(){
+	if( !function_exists("curl_init") &&!function_exists("curl_setopt") &&!function_exists("curl_exec") &&!function_exists("curl_close") ) 
+		return false;
+	else return true;
+}
+function cURLdownload($url, $file){
+	if( !cURLcheckBasicFunctions() ) return "UNAVAILABLE: cURL Basic Functions";
+	$ch = curl_init();
+	if($ch){
+		$fp = fopen($file, "w");
+		if($fp){
+			if( !curl_setopt($ch, CURLOPT_URL, $url) ) return "FAIL: curl_setopt(CURLOPT_URL)";
+			if( !curl_setopt($ch, CURLOPT_FILE, $fp) ) return "FAIL: curl_setopt(CURLOPT_FILE)";
+			if( !curl_setopt($ch, CURLOPT_HEADER, 0) ) return "FAIL: curl_setopt(CURLOPT_HEADER)";
+			if( !curl_exec($ch) ) return "FAIL: curl_exec()";
+
+			curl_close($ch);
+			fclose($fp);
+			return "SUCCESS: $file [$url]";
+		}else return "FAIL: fopen()";
+	}else return "FAIL: curl_init()";
+}
+cURLdownload("http://pipes.yahoo.com/pipes/pipe.run?_id=87a576fa7f04cade1b722de4041b164c&_render=rss", "../latestLogs/file.xml");
+
+date_default_timezone_set('Europe/Madrid');
+$xml = new DOMDocument(); 
+$xml->load('../latestLogs/file.xml');
+$raiz = $xml->documentElement;
+$entradas = $raiz->getElementsByTagName('item'); 
+$count = $entradas->length; 
+
+for ($i=0; $i<$count; $i++) { 
+	$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue; 
+	$link = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue; 
+	$pubDate = $entradas->item($i)->getElementsByTagName('pubDate')->item(0)->nodeValue;
+	$description = $entradas->item($i)->getElementsByTagName('description')->item(0)->nodeValue;
+
+	$image = "";
+	$startimage = stripos($description, "<img");
+	if ($startimage !== FALSE) {
+		$endimage = stripos($description, ">", $image);
+		$fullimage = substr($description, $startimage, ($endimage - $startimage));
+		$startsrc = stripos($fullimage, 'src="');
+		$endsrc = stripos($fullimage, '"', ($startsrc + 5));
+		if ($startsrc === FALSE) {
+			$startsrc = stripos($fullimage, "src='");
+			$endsrc = stripos($fullimage, "'", ($startsrc + 5));
+		}
+		if ($startsrc !== FALSE)
+			$image = substr($fullimage, ($startsrc + 5), ($endsrc - $startsrc - 5));
+	}
+?>
+	<li>
+		<div class="news-body">
+			<div class="news-resume">
+				<a href="<?php echo $link; ?>" target="_blank">
+					<img class="news-image" src="<?php echo $image; ?>"/>
+				</a>
+				<button class="loopit">Loop it!</button>
+				<div class="news-static">
+					<div class="news-title"><a href="<?php echo $link; ?>" target="_blank"><h2>
+<?php 
+	if (strlen($titulo) >= 60)
+		echo substr($titulo, 0, 57)."...";
+	else echo $titulo;
+?>
+</h2></a></div>
+					<div class="news-text"><?php echo substr(preg_replace("'<.*?>'si", "", $description), 0, 140); ?>...(<a href="<?php echo $link; ?>" target="_blank">leer+</a>)</div>
+				</div>
+			</div>
+			<div class="news-info">	
+				<span class="comments-counter"><a href=""><span class="counter">35</span> comentarios</a></span>	
+				<span class="tool">hace 
+<?php 
+	$since = time() - strtotime($pubDate);
+	if ($since < 60) echo $since." segundos";
+	else {
+		$sincei = floor($since / 60);
+		if ($sincei < 60) echo $sincei." minutos ".($since - (60 * $sincei))." segundos";
+		else {
+			$sinceh = floor($sincei / 60);
+			if ($sinceh < 24) echo $sinceh." horas ".($sincei - (60 * $sinceh))." minutos";
+			else {
+				$sinced = floor($sinceh / 24);
+				if ($sinced < 30) echo $sinced." días ".($sinceh - (24 * $sinced))." horas";
+				else {
+					$sincem = floor($sinced / 30);
+					if ($sincem < 12) echo $sincem." meses ".($sinced - (12 * $sincem))." días";
+					else {
+						$sincey = floor($sincem / 12);
+						echo $sincey." años ".($sincem - (12 * $sincey))." meses";
+					}
+				}
+			}
+		}
+	}
+?>
+				</span>
+			</div> 
+		</div>
+	</li>
+<?php } ?>
+		</ul>
+	</div>
+
+	<div id="footer">
+		<p>pixLoop</p>
+		<ul id="legalese">
+			<li>
+				<a href="">condiciones legales</a>
+				<a href="">y de uso</a>
+			</li>
+			<li>
+				<a href="">quiénes somos</a>
+			</li>
+			<li>licencias: 
+				<a href="">código</a>, 
+				<a href="">gráficos</a>, 
+				<a href="">contenido</a> 
+			</li>
+			<li>
+				<a href="">HTML5</a> 
+			</li>
+			<li>
+				<a href="">descargar código</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
