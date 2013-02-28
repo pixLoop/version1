@@ -74,10 +74,10 @@
 
 			foreach($array as $page => $rss){
 				echo '<div id="'.$page.'">';
-				echo cURLdownload($rss, "../latestLogs/".$page.".xml")."<br><br>";
+				echo cURLdownload($rss, "./latestLogs/".$page.".xml")."<br><br>";
 
 				$xml = new DOMDocument(); 
-				$xml->load('../latestLogs/'.$page.'.xml');
+				$xml->load('./latestLogs/'.$page.'.xml');
 				$raiz = $xml->documentElement;
 				$entradas = $raiz->getElementsByTagName('item'); 
 				$count = $entradas->length; 
