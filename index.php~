@@ -25,7 +25,6 @@ if (!isset($_GET['site'])) {
 				require("./dbcon/getter.php");
 				$story = getStory($_GET['site'], $_GET['story']);
 				if ($story !== null) {
-					require("./pages/news.php");
 				} else {
 					header("Location: ./?site=".$_GET['site']."&section=portada&page=1");
 				}

@@ -49,10 +49,9 @@ function getStory($site, $story) {
 	$rows = mysqli_num_rows($story);
 
 	closeConnection($con);
-	if ($rows !== 1) {
+	if ($rows !== 1)
 		return null;
-	} else {
+	else
 		return $story;
-	}
 }
 ?>

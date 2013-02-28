@@ -36,7 +36,7 @@ function displayNews($newsArray) {
 	else echo $row['title'];
 ?>
 </h2></a></div>
-					<div class="news-text"><?php echo substr($row['resume'], 0, 140); ?>...(<a href="<?php echo './?site='.$_GET['site'].'&section=noticia&story='.$row['id'] ;?>">leer+</a>)</div>
+					<div class="news-text"><?php echo substr($row['resume'], 0, 140); ?>...(<a href="<?php echo './?site='.$_GET['site'].'&section=noticia&story='.$row['id'] ;?>" target="_blank">leer+</a>)</div>
 				</div>
 			</div>
 			<div class="news-info">	

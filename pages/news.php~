@@ -157,7 +157,7 @@
 
 	<div id="wrapper">
 <?php
-	displayStory(mysqli_fetch_array($story));
+	displayStory($story);
 ?>
 	</div>
 
