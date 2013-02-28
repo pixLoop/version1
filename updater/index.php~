@@ -39,7 +39,6 @@ function updateNews($site, $font, $link, $image, $title, $resume, $time) {
 
 	echo "</b><br><br>";
 
-<<<<<<< HEAD
 	closeConnection($con);
 }
 function cURLcheckBasicFunctions(){
@@ -47,6 +46,7 @@ function cURLcheckBasicFunctions(){
 		return false;
 	else return true;
 }
+
 function cURLdownload($url, $file){
 	if( !cURLcheckBasicFunctions() ) return "UNAVAILABLE: cURL Basic Functions";
 	$ch = curl_init();
@@ -71,22 +71,22 @@ function getAndUpdate($site) {
 
 	echo "<ul>";
 	foreach($array as $page => $rss){
-		echo '<li><a href="#'..$page'">'.$page.'</a></li>';
+		echo '<li><a href="#'.$page.'">'.$page.'</a></li>';
 	}
 	echo "</ul>";
 
 	foreach($array as $page => $rss){
 		echo '<div id="'.$page.'">';
-		echo cURLdownload($rss, "../latestLogs/".$page.".xml")."<br><br>";
+		echo cURLdownload($rss, "./latestLogs/".$page.".xml")."<br><br>";
 
-		$xml = new DOMDocument(); 
-		$xml->load('../latestLogs/'.$page.'.xml');
+		$xml = new DOMDocument();
+		$xml->load("./latestLogs/".$page.".xml");
 		$raiz = $xml->documentElement;
-		$entradas = $raiz->getElementsByTagName('item'); 
-		$count = $entradas->length; 
+		$entradas = $raiz->getElementsByTagName('item');
+		$count = $entradas->length;
 
-		for ($i=0; $i<$count; $i++) { 
-			$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue; 
+		for ($i=0; $i<$count; $i++) {
+			$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue;
 			$url = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue;
 			echo $url.'<br>';
 			$font = substr($url, 0, stripos($url, "/", 8));
@@ -106,55 +106,6 @@ function getAndUpdate($site) {
 				if ($startsrc === FALSE) {
 					$startsrc = stripos($fullimage, "src='");
 					$endsrc = stripos($fullimage, "'", ($startsrc + 5));
-=======
-		function getAndUpdate($site) {
-			require_once("./list/".$site.".inc");
-			echo "<ul>";
-			foreach($array as $page => $rss){
-				echo '<li><a href="#'..$page'">'.$page.'</a></li>';
-			}
-			echo "</ul>";
-
-			foreach($array as $page => $rss){
-				echo '<div id="'.$page.'">';
-				echo cURLdownload($rss, "./latestLogs/".$page.".xml")."<br><br>";
-
-				$xml = new DOMDocument(); 
-				$xml->load('./latestLogs/'.$page.'.xml');
-				$raiz = $xml->documentElement;
-				$entradas = $raiz->getElementsByTagName('item'); 
-				$count = $entradas->length; 
-
-				for ($i=0; $i<$count; $i++) { 
-					$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue; 
-					$url = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue;
-					echo $url.'<br>';
-					$font = substr($url, 0, stripos($url, "/", 8));
-					$link = substr($url, stripos($url, "/", 8) + 1);
-					$pubDate = $entradas->item($i)->getElementsByTagName('pubDate')->item(0)->nodeValue;
-					$pubDate = date('Y-m-d H:i:s', strtotime($pubDate));
-					echo $pubDate.'<br>';
-					$description = $entradas->item($i)->getElementsByTagName('description')->item(0)->nodeValue;
-
-					$image = "";
-					$startimage = stripos($description, "<img");
-					if ($startimage !== FALSE) {
-						$endimage = stripos($description, ">", $image);
-						$fullimage = substr($description, $startimage, ($endimage - $startimage));
-						$startsrc = stripos($fullimage, 'src="');
-						$endsrc = stripos($fullimage, '"', ($startsrc + 5));
-						if ($startsrc === FALSE) {
-							$startsrc = stripos($fullimage, "src='");
-							$endsrc = stripos($fullimage, "'", ($startsrc + 5));
-						}
-						if ($startsrc !== FALSE)
-							$image = substr($fullimage, ($startsrc + 5), ($endsrc - $startsrc - 5));
-					}
-
-					$description = trim(preg_replace("'<.*?>'si", "", $description));
-
-					updateNews($site, $font, $link, $image, $titulo, $description, $pubDate);
->>>>>>> 3833c39fecd5f1aa4f90c037ecf2315b6fc96edd
 				}
 				if ($startsrc !== FALSE)
 					$image = substr($fullimage, ($startsrc + 5), ($endsrc - $startsrc - 5));

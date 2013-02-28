@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2spanishfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" version="2.0">
+
+<channel>
+	<title>VideoShock</title>
+	
+	<link>http://www.videoshock.es</link>
+	<description>La web sobre videojuegos que busca entenderlos.</description>
+	<lastBuildDate>Thu, 28 Feb 2013 15:29:23 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/videoshock" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="videoshock" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>39.500862</geo:lat><geo:long>-0.376968</geo:long><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://add.my.yahoo.com/content?lg=es&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://eur.i1.yimg.com/eur.yimg.com/i/es/my/addto1.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.feedness.com/alta/http://feeds.feedburner.com/videoshock" src="http://www.feedness.com/ayuda/wp-content/square_b_sh_feed.gif">Subscribe with Feedness</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/videoshock" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.newsalloy.com/?rss=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.newsalloy.com/subrss3.gif">Subscribe with NewsAlloy</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://download.attensa.com/app/get_attensa.html?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.attensa.com/blogs/attensa/WindowsLiveWriter/BadgeredintoBadges_10C02/attensa_feed_button5.gif">Subscribe with Attensa for Outlook</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.flurry.com/pushRssFeed.do?r=fb&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.flurry.com/images/flurry_rss_logo2.gif">Subscribe with Flurry</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+		<title>Tráiler de Mars: War Logs (PC, 360, PS3)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-mars-war-logs-pc-360-ps3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-mars-war-logs-pc-360-ps3</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-mars-war-logs-pc-360-ps3/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 15:29:23 +0000</pubDate>
+		<dc:creator>Xabier Pou</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Focus Home]]></category>
+		<category><![CDATA[Mars war logs]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[Playstation 3]]></category>
+		<category><![CDATA[Playstation Network]]></category>
+		<category><![CDATA[Xbox 360]]></category>
+		<category><![CDATA[Xbox Live Arcade]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42650</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/0c3WeyCra4A?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/focus-home/" rel="tag">Focus Home</a>, <a href="http://www.videoshock.es/etiqueta/mars-war-logs/" rel="tag">Mars war logs</a>, <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/playstation-3/" rel="tag">Playstation 3</a>, <a href="http://www.videoshock.es/etiqueta/playstation-network/" rel="tag">Playstation Network</a>, <a href="http://www.videoshock.es/etiqueta/xbox-360/" rel="tag">Xbox 360</a>, <a href="http://www.videoshock.es/etiqueta/xbox-live-arcade/" rel="tag">Xbox Live Arcade</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-mars-war-logs-pc-360-ps3/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-obscure-xbox-360-ps3-pc/" rel="bookmark">
+           Tráiler de Obscure (Xbox 360, Ps3, Pc)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-terraria-xbox-360-playstation-3-pc/" rel="bookmark">
+           Tráiler Terraria (Xbox 360, Playstation 3, Pc)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-resident-evil-generations-unveiled-edition-xbox-360-ps3-wii-u-pc/" rel="bookmark">
+           Tráiler de Resident Evil Revelations Unveiled Edition (Xbox 360, Ps3, Wii U, Pc)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/BmZH_tElnl0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-mars-war-logs-pc-360-ps3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The button affair, ya disponible (PC, Mac)</title>
+		<link>http://www.videoshock.es/noticias/2013/02/the-button-affair-ya-disponible-pc-mac/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-button-affair-ya-disponible-pc-mac</link>
+		<comments>http://www.videoshock.es/noticias/2013/02/the-button-affair-ya-disponible-pc-mac/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 12:01:00 +0000</pubDate>
+		<dc:creator>Xabier Pou</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Chris Randle]]></category>
+		<category><![CDATA[Helana Santos]]></category>
+		<category><![CDATA[Indie]]></category>
+		<category><![CDATA[Jon Mann]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Ollie Clark]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[The button affair]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42603</guid>
+		<description><![CDATA[Los creadores del recomendable The cat that got the milk ya han terminado y lanzado vía internet su último trabajo: The button affair. Se trata de un juego de acción con scroll horizontal centrado en el ladrón Enzo Gabriel y su aventura para robar el diamante más valioso del mundo. Un<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>Los creadores del recomendable <em><a href="http://www.thecatthatgotthemilk.com/">The cat that got the milk</a> </em>ya han terminado y lanzado vía internet su último trabajo: <em>The button affair</em>.</p>
+<p><span style="line-height: 1.5;">Se trata de un juego de acción con <em>scroll</em> horizontal centrado en el ladrón Enzo Gabriel y su aventura para robar el diamante más valioso del mundo. Un juego parecido a <a title="Versión en línea de Canabalt, lista para jugar" href="http://www.adamatomic.com/canabalt/"><em>Canabalt</em></a>, con una estética que recuerda mucho a</span><em style="line-height: 1.5;"> Another World</em><span style="line-height: 1.5;"> o a su referente más actual: la intro animada de </span><em style="line-height: 1.5;">Mad Men</em><span style="line-height: 1.5;">.</span><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-42605 alignright" style="color: #333333; font-style: normal; line-height: 1.5; border-color: #bbbbbb; background-color: #eeeeee;" alt="The button affair" src="http://www.videoshock.es/wp-content/uploads/2013/02/The-button-affair-250x140.jpg" width="250" height="140" /></p>
+<p>Los creadores han iniciado una campaña para pedir donaciones para la ONG <a title="Página de donativos a Special Effect" href="www.justgiving.com/ButtonAffair">Special Effect</a>. Esta organización tiene por objetivo que las personas discapacitadas también puedan disfrutar de los videojuegos y otros medios creativos digitales.</p>
+<p><em>The button affair</em> se puede descargar gratuitamente en <a href="http://www.thebuttonaffair.com/">su web oficial</a>.<!--more--></p>
+<p><iframe src="http://www.youtube.com/embed/YsRe9xVolXA?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/chris-randle/" rel="tag">Chris Randle</a>, <a href="http://www.videoshock.es/etiqueta/helana-santos/" rel="tag">Helana Santos</a>, <a href="http://www.videoshock.es/etiqueta/indie/" rel="tag">Indie</a>, <a href="http://www.videoshock.es/etiqueta/jon-mann/" rel="tag">Jon Mann</a>, <a href="http://www.videoshock.es/etiqueta/mac/" rel="tag">Mac</a>, <a href="http://www.videoshock.es/etiqueta/ollie-clark/" rel="tag">Ollie Clark</a>, <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/the-button-affair/" rel="tag">The button affair</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/02/the-button-affair-ya-disponible-pc-mac/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/2011/12/wizorb-ya-se-encuentra-disponible-para-linux-mac-y-windows/" rel="bookmark">
+           Wizorb ya se encuentra disponible para Linux, Mac y Windows</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2013/02/brutal-legend-estara-disponible-para-pc/" rel="bookmark">
+           Brütal Legend estará disponible para PC</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2012/02/ya-disponible-el-trailer-con-jugabilidad-de-hybrid/" rel="bookmark">
+           Ya disponible el trailer con jugabilidad de Hybrid</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/XC3iOTqL6DU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/2013/02/the-button-affair-ya-disponible-pc-mac/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sony enseñó el terror</title>
+		<link>http://www.videoshock.es/opiniones/2013/02/sony-enseno-el-terror/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sony-enseno-el-terror</link>
+		<comments>http://www.videoshock.es/opiniones/2013/02/sony-enseno-el-terror/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 11:22:59 +0000</pubDate>
+		<dc:creator>Javier Cadenas</dc:creator>
+				<category><![CDATA[Opiniones]]></category>
+		<category><![CDATA[Playstation 4]]></category>
+		<category><![CDATA[Sociedad]]></category>
+		<category><![CDATA[Sony]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42393</guid>
+		<description><![CDATA[Que Sony no enseñara la máquina, que no diera precio, que no especificara prestaciones no tiene importancia. Ni que sea o no sea un PC; es su negocio: espacio habrá para todo, allá ellos con su estrategia. Ni siquiera el tema de la retrocompatibilidad: huelga<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p><img width="650" height="180" src="http://www.videoshock.es/wp-content/uploads/2013/02/ps4-upstream.jpg" class="attachment-post-thumbnail wp-post-image" alt="ps4-upstream" /></p><p>Que Sony no enseñara la máquina, que no diera precio, que no especificara prestaciones no tiene importancia. Ni que sea o no sea un PC; es su negocio: espacio habrá para todo, allá ellos con su estrategia. Ni siquiera el tema de la retrocompatibilidad: huelga decir que esto lleva pasando desde el principio de los tiempos. La importancia está en lo que sí enseñó. Dejando al margen algo como <a title=" Knack Announce Trailer (PS4)" href="http://youtu.be/q59tHyhDMkI"><em>Knack</em></a>, que unas buenas risas nos proporcionó a los que vimos el <em>streaming</em> “latino” (latino: ese concepto desvirtuado), Sony enseñó al mundo que quiere que el futuro pase por criar más y más tarados hiperconectados, más <em>attention whores</em> que vayan por ahí desplegando su muy particular sabiduría de expertos en todo y en todo momento. Una pesadilla que ha conseguido que la ya de por sí delirante teoría de los quince minutos de fama sea algo en lo que ojalá nos hubiéramos quedado.<!--more--></p>
+<p><a href="http://www.videoshock.es/wp-content/uploads/2013/02/ps4-announce.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-42640 alignright" alt="ps4-announce" src="http://www.videoshock.es/wp-content/uploads/2013/02/ps4-announce-250x166.jpg" width="250" height="166" /></a>Esa es la parte tecnológica del ideal del videojuego de Sony. Que ahora cualquiera pueda retransmitirse en directo mientras juega. Cualquiera, no miembros de, otro concepto feliz, ligas profesionales: tú enviándoles una emisión en directo a tus amigos o a uno que pasaba por allí mientras te dedicas a jugar solo. Pero ya no será jugar solo. Ahora tener compañía es que mientras estás concentrado en lo tuyo te pidan que trepes a aquella roca, dispares a ese señor o explores este camino (esperemos que a partir de ahí todos los juegos incluyan la posibilidad de poner a bailar al personaje: vídeos y vídeos en YouTube con <em>flashmob</em> virtuales, el futuro). El multijugador asíncrono. Por <em>chat</em>. <em>Oh, this is hardcore</em>.</p>
+<p>La enésima progresión gráfica. Michael Bay y Roland Emmerich hermanados en espíritu con Guerrilla y Sucker Punch en productos donde lo interactivo está sepultado por lo impactante. David Cage, músico visionario con alma de innovador, confundiendo, atención, emociones con polígonos, realismo con narrativa. Jonathan Blow llevando los pasatiempos del <a title="Ahora con descargable interactivo" href="https://www.google.es/search?q=panorama+juvenil+de+selecciones&amp;um=1&amp;ie=UTF-8&amp;hl=es&amp;tbm=isch&amp;source=og&amp;biw=1280&amp;bih=880&amp;sei=Gq4nUaSwCYaX0QWih4DIBQ">panorama juvenil de selecciones</a> a una colorida isla. Esto ya lo hemos visto antes, con los mismos protagonistas o con otros. Hay otras cosas, claro. Habrá más, nadie lo duda. Y serán jugables y divertidas o no lo serán, en la proporción que sea, como ha ocurrido desde hace tres décadas.</p>
+<p>Que no hayan mostrado más títulos, que no hayan mostrado <em>hardware</em>, que no hayan hablado de posibilidades de interacción aún no realizadas no es lo importante. Si se hubieran centrado en eso igual el terror habría sido menor. Igual el deseo de recluirse uno en su cueva virtual no sería tan acuciante. Igual algunos no estaríamos espeluznados por ese sentimiento de que hasta a los videojuegos —esa evasión, ese reducto galo— ha alcanzado la alienación y de que esa alienación está tomando el camino de lo inevitable. Porque la gran presentación de PlayStation 4 se ha tomado el lema &#8220;<em>el jugador es el centro</em>&#8221; por lo literal y ha puesto renovado énfasis en lo social mal entendido, en querer llevar a lo masivo, a lo generalizado, precisamente lo anti-social, sentando la base de una futurible <em>obligatoriedad </em>y ahondando en la idea de que eso es lo deseable: la experiencia individual como centro de todo, expuesta, pública. Un signo de los tiempos. Esperemos que los juegos sean el verdadero centro de PlayStation 4; que la gente se dedique a jugar, no a enseñar cómo juega.</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/opiniones/" title="Ver todas las entradas en Opiniones" rel="category tag">Opiniones</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/playstation-4/" rel="tag">Playstation 4</a>, <a href="http://www.videoshock.es/etiqueta/sociedad/" rel="tag">Sociedad</a>, <a href="http://www.videoshock.es/etiqueta/sony/" rel="tag">Sony</a>.  <a target="_blank" href="http://www.videoshock.es/opiniones/2013/02/sony-enseno-el-terror/#comments"><b>1 Respuesta</b></a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/2013/01/250-000-libras-de-multa-a-sony-por-los-fallos-de-seguridad/" rel="bookmark">
+           250.000 libras de multa a Sony por los fallos de seguridad</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/03/el-litigio-de-lg-contra-sony-bloquea-la-entrada-de-miles-de-ps3-a-europa/" rel="bookmark">
+           El litigio de LG contra Sony bloquea la entrada de miles de PS3 a Europa</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/12/demandan-a-sony-en-california-eeuu-a-causa-de-las-nuevas-condiciones-de-servicio-de-psn/" rel="bookmark">
+           Demandan a Sony en California (EEUU) a causa de las nuevas condiciones de servicio de PSN</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/pZflJNcVtbs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/opiniones/2013/02/sony-enseno-el-terror/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Blizzard concreta la fecha de la BlizzCon 2013</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/02/blizzard-concreta-la-fecha-de-la-blizzcon-2013/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=blizzard-concreta-la-fecha-de-la-blizzcon-2013</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/02/blizzard-concreta-la-fecha-de-la-blizzcon-2013/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 10:44:56 +0000</pubDate>
+		<dc:creator>Rafael Minguet</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Blizzard]]></category>
+		<category><![CDATA[Blizzard Entertainment Inc]]></category>
+		<category><![CDATA[Blizzard-Activision]]></category>
+		<category><![CDATA[BlizzCon]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42621</guid>
+		<description><![CDATA[Si eres de los que están esperando una nueva expansión de World of Warcraft, más actualizaciones de Starcraft 2 o de Diablo 3, o eres de los que están a la espectativa sobre ese nuevo proyecto MMO que tanto se rumorea que está desarrollando Blizzard<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>Si eres de los que están esperando una nueva expansión de <em>World of Warcraft</em>, más actualizaciones de <em>Starcraft 2</em> o de <em>Diablo 3</em>, o eres de los que están a la espectativa sobre ese nuevo proyecto <em>MMO</em> que tanto se rumorea que está desarrollando Blizzard <em>—Titán</em>—, es posible que te interese saber que, quizá, estas y otras muchas preguntas podrás resolverlas el <strong>8 y 9 de noviembre</strong> en el Centro de Convenciones de Anaheim (California), lugar en el que la compañía a fijado su <a title="BlizzCon 2013" href="http://eu.blizzard.com/en-gb/company/press/pressreleases.html?id=7302808" target="_blank">BlizzCon de este año</a>.</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/blizzard/" rel="tag">Blizzard</a>, <a href="http://www.videoshock.es/etiqueta/blizzard-entertainment-inc/" rel="tag">Blizzard Entertainment Inc</a>, <a href="http://www.videoshock.es/etiqueta/blizzard-activision/" rel="tag">Blizzard-Activision</a>, <a href="http://www.videoshock.es/etiqueta/blizzcon/" rel="tag">BlizzCon</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/02/blizzard-concreta-la-fecha-de-la-blizzcon-2013/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/2011/06/fecha-salida-invizimals-the-lost-tribes/" rel="bookmark">
+           Anunciada la fecha de salida de Invizimals The Lost Tribes,</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/12/nuevo-humble-indie-bundle-el-cuarto-lanzado-hasta-la-fecha/" rel="bookmark">
+           Nuevo Humble Indie Bundle, el cuarto lanzado hasta la fecha</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/05/game-connection-europe-cambia-de-fecha-y-de-lugar/" rel="bookmark">
+           Game Connection Europe cambia de fecha&#8230; y de lugar</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/tEomqihEK4E" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/02/blizzard-concreta-la-fecha-de-la-blizzcon-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Electronic Arts completa su Single Identity</title>
+		<link>http://www.videoshock.es/noticias/2013/02/electronic-arts-completa-su-single-identity/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=electronic-arts-completa-su-single-identity</link>
+		<comments>http://www.videoshock.es/noticias/2013/02/electronic-arts-completa-su-single-identity/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 10:24:31 +0000</pubDate>
+		<dc:creator>Xabier Pou</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Electronic Arts]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Origin]]></category>
+		<category><![CDATA[PSN]]></category>
+		<category><![CDATA[Xbox Live Arcade]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42598</guid>
+		<description><![CDATA[En la actualidad, existe una guerra de plataformas de distribución y juego on-line. Cada compañía quiere gestionar directamente sus productos y llevar a los jugadores a su terreno, lo que ha llevado a situaciones como que en Steam únicamente se puedan encontrar la primera y<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>En la actualidad, existe una guerra de plataformas de distribución y juego <em>on-line</em>. Cada compañía quiere gestionar directamente sus productos y llevar a los jugadores a su terreno, lo que ha llevado a situaciones como que en Steam únicamente se puedan encontrar la primera y segunda parte de la saga <em>Mass Effect</em>.</p>
+<p>En este contexto, <a href="http://venturebeat.com/2013/02/26/ea-enables-gamers-to-use-a-single-identity-across-game-platforms-exclusive/">según podemos leer en Venture Beat</a>, Electronic Arts ha completado un proyecto que le ha costado los últimos 18 meses y que ha involucrado a 1.500 ingenieros informáticos. El objetivo era crear <strong>Single identity</strong><em>, </em><strong>un sistema de identificación de los jugadores de juegos de EA independiente de la plataforma en la que lo jueguen</strong>.<!--more--></p>
+<p><span style="line-height: 1.5;">Es decir, que ya se juegue en Playstation 3, Xbox 360, Origin, Facebook o iPhone, se podrá mantener una identidad común mediante el ya mencionado Single identity<em>.<br />
+</em></span></p>
+<p><span style="line-height: 1.5;"><a href="http://www.videoshock.es/wp-content/uploads/2013/02/single-identity.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-42626 alignright" alt="single-identity" src="http://www.videoshock.es/wp-content/uploads/2013/02/single-identity-250x135.jpg" width="250" height="135" /></a>Con ello llegan más beneficios para los jugadores, como la posibilidad de que se comuniquen entre ellos y jueguen con amigos independientemente de la plataforma en la que se encuentren, si el juego permite esta función. Y otra posibilidad como que el jugador deje la partida en un sistema, y pase a otro sistema recuperando la partida en el punto en que la dejó. Eso si, </span><span style="line-height: 1.5;">EA no ha asegurado nada sobre ventas <em>cross-platform</em>, aunque es posible que se deba a que el precio de los juegos podría depender del número de plataformas en las que se pueda usar. </span></p>
+<p>Otro punto a tener muy en cuenta es que se trata de un un sistema que ayuda a la propia EA, puesto que les permite reducir a la mitad el coste del almacenamiento de los datos de sus usuarios. Y no solamente eso, sino que también ayuda a la compañía a definir mejor cuál es el perfil de los jugadores para ayudarles a la hora de mandar publicidad de sus productos. Y eso es algo que resulta claramente beneficioso para la compañía en aras de aumentar sus beneficios.</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/electronic-arts/" rel="tag">Electronic Arts</a>, <a href="http://www.videoshock.es/etiqueta/ipad/" rel="tag">ipad</a>, <a href="http://www.videoshock.es/etiqueta/iphone/" rel="tag">iPhone</a>, <a href="http://www.videoshock.es/etiqueta/origin/" rel="tag">Origin</a>, <a href="http://www.videoshock.es/etiqueta/psn/" rel="tag">PSN</a>, <a href="http://www.videoshock.es/etiqueta/xbox-live-arcade/" rel="tag">Xbox Live Arcade</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/02/electronic-arts-completa-su-single-identity/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/2012/08/electronic-arts-prepara-su-tienda-origin-para-android-y-osx-entre-otras-plataformas/" rel="bookmark">
+           Electronic Arts prepara su tienda Origin para Android y OSX entre otras plataformas</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/02/nvidia-y-microsoft-abandonan-la-pc-gaming-alliance/" rel="bookmark">
+           Nvidia y Microsoft abandonan la PC Gaming Alliance</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2010/12/onlive-obtiene-una-importante-patente-sobre-los-juegos-en-streaming/" rel="bookmark">
+           OnLive obtiene una importante patente sobre los juegos &#8220;en streaming&#8221;</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/aGlPRWGakpY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/2013/02/electronic-arts-completa-su-single-identity/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Big Red Racing</title>
+		<link>http://www.videoshock.es/criticas/2013/02/big-red-racing/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=big-red-racing</link>
+		<comments>http://www.videoshock.es/criticas/2013/02/big-red-racing/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 18:56:33 +0000</pubDate>
+		<dc:creator>Jaime Parada Vila</dc:creator>
+				<category><![CDATA[Críticas]]></category>
+		<category><![CDATA[Big Red Software]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42527</guid>
+		<description><![CDATA[En el mundo de los videojuegos el género de las carreras siempre ha sido muy relevante a nivel de mercado, y los títulos de esta clase suelen situarse entre los más vendidos cada año. Dichos juegos suelen estar especializados en una disciplina en concreto: Formula<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p><img width="650" height="180" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-Red-Racing.jpg" class="attachment-post-thumbnail wp-post-image" alt="Big Red Racing" /></p><p>En el mundo de los videojuegos el género de las carreras siempre ha sido muy relevante a nivel de mercado, y los títulos de esta clase suelen situarse entre los más vendidos cada año. Dichos juegos suelen estar especializados en una disciplina en concreto: Formula 1, GT, Motociclismo, naves espaciales, <em>rallys</em>; Pero en 1995 surgió una alternativa a todo esto. ¿Por qué elegir una única disciplina si podemos aunarlas a todas? Con esta premisa, <strong>Big Red Software</strong> empezó a desarrollar un videojuego que permitiese disputar carreras con todo tipo de vehículos y escenarios imaginables. Voy a hablaros de <strong><em>Big Red Racing</em></strong>.<!--more--></p>
+<p>Tan atrevido planteamiento está claro que iba a tener su hogar en los ordenadores personales y <strong><em>Big Red Racing</em></strong> apareció en el mercado de <strong>PC</strong> de la mano de <strong>Domark</strong>. Hubo planes de llevarlo al mundo de las consolas, concretamente a las máquinas PlayStation, 3DO y Saturn, pero que finalmente fueron cancelados. Su aceptación por parte de la crítica fue dispar, con esa tendencia conservadurista que suele tener la prensa especializada, pero el público si que acogió la idea con cierto entusiasmo. A unas ventas iniciales más que aceptables hay que unir su aparición posterior en diversas colecciones por fascículos que extendió aún más el juego entre el público.</p>
+<p><em><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-4.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="alignright size-medium wp-image-42561" alt="Big red racing (4)" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-4-250x187.jpg" width="250" height="187" /></a>Big Red Racing</em> consta de 24 circuitos distintos que se emplazan en zonas del la Tierra, la Luna, Venus y Marte. Dependiendo del circuito, el terreno asociado será de un tipo y dispondrá de una de las ocho clases de vehículos con las que cuenta el juego, en cada una existen a su vez dos modelos: ciudad (Mini o Escarabajo), campo a través (Jeep o ATV),  aire (helicóptero o prototipo), espacio (todoterreno o nave espacial), camiones (semiremolque o Monster Truck), nieve (máquina quitanieves o minitodoterreno), cantera (excavadora o camión) y agua (lancha u hovercraft).</p>
+<p>Ante tanta diversidad es un acierto que el control de los vehículos sea muy simple, estos son de control automático y nos limitaremos a acelerar o frenar. Dependiendo del tipo de vehículo la experiencia de conducción varía, pero <em>Big Red Racing</em> no pretende en ningún momento ser un simulador y en poco tiempo conseguiremos pericia en cada una de las disciplinas. Esta sencillez en el manejo no significa que ganar carreras sea especialmente fácil, ya que los rivales son muy duros, pero si sirve para que ir mejorando sea una experiencia dinámica y divertida.</p>
+<p>Cada uno de los circuitos se desarrolla en un escenario característico de la zona y cuenta con una denominación que suelen ser algún juego de palabras: <em>Fjord Scort</em> en Noruega, <em>Margarita Meander</em> en México, <em>The Italian Job</em> en Italia o <em>Spanish Inquisition</em> en España. La ambientación se complementa con un comentarista para la carrera totalmente estereotipado y que en algunos casos incluso habla en el idioma nativo de donde se celebra la carrera.</p>
+<p><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-2.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="alignleft size-medium wp-image-42559" alt="Big red racing (2)" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-2-250x187.jpg" width="203" height="154" /></a>En el terreno de los gráficos queda patente que se trata de un desarrollo en el que ha primado la experiencia de juego sobre el aspecto. Para poder mantener una buena velocidad en la mayoría de equipos <em>Big Red Racing</em> cuenta con unos gráficos simplificados que terminan siendo una amalgama de polígonos de formas simples pero que se mueven extraordinariamente bien. De todas maneras, están lo suficientemente definidos para hacer su función y no quitar un ápice de la diversión.</p>
+<p>Pero sin lugar a dudas, la estrella del apartado técnico es el audio. La banda sonora cuenta con un excelente canción<em> hard rock</em> como tema principal: <em>Let it roll</em> de Hangnail. Cada circuito también cuenta con un tema característico y, de nuevo, esterotipado obra de Gerard Gourley. Además la música era reproducible en cualquier reproductor de CD ya que estaban grabados en pistas de audio del CD-Rom, un favor al usuario habitual en la década de lanzamiento. Por último merece la pena destacar de nuevo el trabajo con los comentaristas, interpretados por dos veteranos en el doblaje de los videojuegos como son Lani Minella (<em>Soulcalibur, Baldur&#8217;s Gate</em>&#8230;) y Jon St. John (<em>Duke Nukem, Runaway: A Road Adventure</em>&#8230;). Resulta sorprendente la cantidad de personajes que pueden crear únicamente dos personas.</p>
+<p>En definitiva, <em>Big Red Racing</em> es un título que, si bien está desfasado técnicamente, sigue siendo uno de los videojuegos de carreras más divertidos y variados. Lástima que no contara con un modo multijugador, si no, a buen seguro que aún habría infinidad de jugadores pisando el acelerador a fondo.</p>
+<div class="fancy-gallery gallery" style="max-width: 640px; float: left; max-height: 164px; margin-bottom:5px; overflow:hidden; clear: both;" id="gallery_42551"><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-9.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-9-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-10.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-10-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-11.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-11-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-12.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-12-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-0.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-0-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-1.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-1-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-2.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-2-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-3.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-3-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-4.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-4-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-5.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-5-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-6.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-6-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-7.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-7-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-8.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/02/Big-red-racing-8-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><div class="clear"></div></div>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/criticas/" title="Ver todas las entradas en Críticas" rel="category tag">Críticas</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/big-red-software/" rel="tag">Big Red Software</a>.  <a target="_blank" href="http://www.videoshock.es/criticas/2013/02/big-red-racing/#comments">Comentar</a></span><br /><hr /><div class="ficha-min">Plataformas: <a href="http://www.videoshock.es/plataformas/pc/" rel="tag">PC</a>.  Generos: <a href="http://www.videoshock.es/genero/carreras/" rel="tag">Carreras</a>.  Desarrolladores: <a href="http://www.videoshock.es/desarrollador/the-big-red-software-company/" rel="tag">The Big Red Software Company</a>.  <a title="Visitar la Ficha Completa de Big Red Racing" href="http://www.videoshock.es/juego/big-red-racing/">Ficha Completa</a><span class="blocka"></span></div><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/resenyas/2012/09/test-drive-ferrari-racing-legends/" rel="bookmark">
+           Test Drive: Ferrari Racing Legends</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-real-world-racing-pc/" rel="bookmark">
+           Demo de Real World Racing disponible</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2013/02/fecha-de-salida-de-real-racing-3-ios-android/" rel="bookmark">
+           Fecha de salida de Real Racing 3</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/t3_hio2VvzM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/criticas/2013/02/big-red-racing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dark Souls y el cerebro reptil</title>
+		<link>http://www.videoshock.es/opiniones/2013/02/dark-souls-y-el-cerebro-reptil/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dark-souls-y-el-cerebro-reptil</link>
+		<comments>http://www.videoshock.es/opiniones/2013/02/dark-souls-y-el-cerebro-reptil/#comments</comments>
+		<pubDate>Tue, 26 Feb 2013 16:30:44 +0000</pubDate>
+		<dc:creator>dreaper</dc:creator>
+				<category><![CDATA[Opiniones]]></category>
+		<category><![CDATA[Dark Souls]]></category>
+		<category><![CDATA[From Software]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42289</guid>
+		<description><![CDATA[Dark Souls se ha convertido, casi desde momento de su salida, en un juego de culto entre buena parte de los que se han atrevido a enfrentarse a él. Y gran parte de esa adoración reside, afirman muchos, en la vuelta a una dificultad de<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p><img width="650" height="180" src="http://www.videoshock.es/wp-content/uploads/2013/02/Dark-Souls2.jpg" class="attachment-post-thumbnail wp-post-image" alt="Dark Souls" /></p><p><em>Dark Souls</em> se ha convertido, casi desde momento de su salida, en un juego de culto entre buena parte de los que se han atrevido a enfrentarse a él. Y gran parte de esa adoración reside, afirman muchos, en la vuelta a una dificultad de las de antaño, en <strong>la vuelta al desafío en el videojuego</strong>, algo completamente alejado de los actuales caminos de baldosas amarillas que marcan el destino y opuesto a los puntos de guardado tras cada esquina que hacen que jugar recostado en el sofá con el cerebro en reposo sea una conducta habitual.</p>
+<p>Con el título de From Software la cosa es muy, muy distinta. Qué demonios, es absolutamente opuesta. Y, seamos claros de una vez, no porque el juego sea difícil como lo eran los <em>Contra</em> o <em>Ninja Gaiden</em> de NES, sino porque<strong> exige al jugador actual algo que ha perdido</strong> hace tiempo en la mayoría de los casos: la capacidad de concentrarse al 100% en lo que sucede en su partida.<!--more--></p>
+<p><img style="float: right; padding:5px; max-width:50%; height:auto;" class="wp-image-42512 alignright" alt="dark-souls-soldier" src="http://www.videoshock.es/wp-content/uploads/2013/02/dark-souls-soldier.jpg" width="244" height="442" />Aquí volvemos a tener que jugar con el culo al borde del sofá, los músculos tensos y los nervios a flor de piel por lo que pueda venir en la siguiente zona. El miedo primigenio a perder una vida y tener que volver a realizar toda la fase ha regresado, porque da verdadero pánico morir y con ello ver cómo el trabajo de una buena cantidad de tiempo se va al traste. Y ahí está la clave, en las palabras usadas: nervios, pánico, <strong>miedo</strong>&#8230; Porque <strong>esa es espina dorsal de <em>Dark Souls</em></strong> y el pilar de todo su mecánico y perfecto funcionamiento: las sensaciones que provoca.</p>
+<p>Esto comienza cuando el juego establece, desde sus inicios, una comunicación orgánica con el jugador. Lo hace alejado de montones de ventanas de diálogo, flechas luminosas o personajes no jugadores puestos por el ayuntamiento. Fuera quedan los actuales métodos basados en inundar al jugador de cajas de texto o comunicaciones de radio que aturden a cualquiera, saturando al más pintado.</p>
+<p>Su primer medio de comunicación para enseñar al jugador, que aquí<strong> es como ese perro que se mea fuera de sitio y necesita ser adiestrado</strong>, son los mensajes que más adelante veremos de la mano de otros jugadores, aislados cada uno en su propio mundo.</p>
+<p>Es cierto, hay un intercambio limitado de información con otros usuarios, sí, y en ocasiones podremos invocar su ayuda o sufrir invasiones que acabarán en llanto. Pero la mayoría del tiempo estaremos solos en un mundo lleno de enemigos, <strong>Robinsones en una isla de dolor</strong> donde Viernes solo piensa en clavarnos un hacha en la frente. Esos avisos, que pueden ser tan útiles como desalmados, son la única conexión del jugador con el exterior y es la forma del título de decir que &#8220;<em>vas a morir solo</em>&#8220;. Y vas a morir, ya lo creo que sí, porque la segunda forma de relacionarse con el jugador es la propia muerte. La del jugador.</p>
+<p>La naturaleza abierta del mundo en que se desarrolla el título hace que el jugador tenga la obligación de <strong>aprender por sí mismo por dónde puede y por dónde no puede ir</strong>, en una clara reminiscencia de clásicos como <em>Bard&#8217;s Tale</em> o <em>Might &amp; Magic</em>. Basta de muros invisibles o puertas cerradas, nada de personajes que nos cierran el paso. No. Aquí, si metemos la nariz en una zona donde no debemos, moriremos en segundos. <em>Dark Souls</em> no cae en el horrible error de usar enemigos que se adaptan al nivel del personaje o <em>&#8220;autoleveling&#8221;</em>. Todo enemigo tiene una letalidad predefinida e intentar plantarle cara cuando somos demasiado débiles solo conduce a una muerte humillante.</p>
+<p><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-42509 alignleft" alt="Dark-Souls_2011_07-11-11_004_1_1" src="http://www.videoshock.es/wp-content/uploads/2013/02/Dark-Souls_2011_07-11-11_004_1_1-250x140.jpg" width="250" height="140" />Así pues, el juego habla con el jugador a base de acabar con él, una y otra vez, y este aprende que si un enemigo es muy duro quizá es que no va por buen camino. Este adoctrinamiento a base de bofetadas es tan efectivo que la exploración cobra una importancia aún mayor, pues lo que en otros juegos sería la exploración de una simple <em>dungeon</em> aquí se convierte en un viaje del que es muy posible que no se vuelva. Sí, obviamente, se reaparece tras morir, pero con la pérdida de todo lo conseguido y la reaparición de todos los enemigos –rozando así el género <em>roguelike</em> y absorbiendo parte de su espíritu–, por lo que se convierte en una <strong>aventura letal en la que el cerebro del jugador está cansado y en alerta a cada segundo</strong>.</p>
+<p>Porque, decíamos antes, <em>Dark Souls</em> es un juego de sensaciones y es en esa capacidad para aterrar, asustar y dar alegrías al jugador donde el juego destaca sobre todos. Y cualquiera que haya dedicado sus buenas horas al título de From Software puede corroborar que zonas como Dark Anor Noldo producen no menos terror que vagabundear por el edificio de apartamentos de <em>Silent Hill 2</em>, que alcanzar la hoguera de la Fortaleza de Sen es como superar <em>Super Contra</em> o que acabar con Lord Gwyn por primera vez es<strong> una inyección de euforia difícilmente comparable a algo no sexual</strong>.</p>
+<p>Ese talento para alterar el estado del jugador y que lo lleva a lo largo de un ciclo eterno de frustración y alegría, de mantenerlo agarrado al mando sudoroso calculando cada golpe al píxel, acercarlo al pánico cada vez que ve un enemigo por primera vez, es la definición de lo que es <em>Dark Souls</em>: esa abuela que te da cinco duros para la máquina pero te destroza la mejilla, el palo y la zanahoria, la mujer fatal que sabes que acabará contigo pero no puedes abandonar.</p>
+<p>No es fácil aceptar las condiciones que impone <em>Dark Souls</em> al jugador, draconianas en tiempo y paciencia, pero aquellos que se someten y agachan la cabeza cuando el juego obliga a ello se verán recompensados con <strong>una de las mejores y más redondas experiencias de los últimos años</strong> y muy lejos de las edulcoradas propuestas de la gran mayoría del catálogo de juegos disponible.</p>
+<p><img style="float: right; padding:5px; max-width:50%; height:auto;" class="alignnone  wp-image-42510" alt="dark-souls_00444285" src="http://www.videoshock.es/wp-content/uploads/2013/02/dark-souls_00444285.jpg" width="650" height="353" /></p>
+<p>Pero no puedo finalizar sin comentar la mayor de las sensaciones que deja el título una vez lo hemos vencido, y no es otra que el vacío. Terminar <em>Dark Souls</em> nos crea una ansiedad terrible al comprobar que<strong> la mayoría de juegos actuales no pueden, ni quieren, jugar en la misma liga</strong> y nos deja con un &#8220;<em>y, ¿ahora qué?</em>&#8221; que solo se soluciona volviendo a jugar, una y otra vez. Porque en la segunda y las subsiguientes visitas al mundo maldito la experiencia es aún más satisfactoria; ya no somos cachorros y esta vez sabemos morder, aunque, como es de suponer, el juego nos volverá a tumbar, constantemente. Porque <em>Dark Souls</em> trata, en el fondo, sobre la lección vital de caer y levantarse una y otra vez. Y nadie lo hace mejor.</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/opiniones/" title="Ver todas las entradas en Opiniones" rel="category tag">Opiniones</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/dark-souls/" rel="tag">Dark Souls</a>, <a href="http://www.videoshock.es/etiqueta/from-software/" rel="tag">From Software</a>.  <a target="_blank" href="http://www.videoshock.es/opiniones/2013/02/dark-souls-y-el-cerebro-reptil/#comments"><b>3 Respuestas</b></a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/criticas/2012/09/the-dark-eye-chains-of-satinav/" rel="bookmark">
+           The Dark Eye: Chains of Satinav</a>
+        </li>
+		<li><a href="http://www.videoshock.es/criticas/avances/2012/09/avance-mugen-souls/" rel="bookmark">
+           Avance: Mugen Souls</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/33UtJWC_Cz8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/opiniones/2013/02/dark-souls-y-el-cerebro-reptil/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de White Noise Online (Xbox 360)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-white-noise-online-xbox-360/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-white-noise-online-xbox-360</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-white-noise-online-xbox-360/#comments</comments>
+		<pubDate>Tue, 26 Feb 2013 11:37:35 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Milkstone Studios]]></category>
+		<category><![CDATA[Piel de toro]]></category>
+		<category><![CDATA[Xbox Live Indie Games]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42484</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/NR29P_zdkUo?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/milkstone-studios/" rel="tag">Milkstone Studios</a>, <a href="http://www.videoshock.es/etiqueta/piel-de-toro/" rel="tag">Piel de toro</a>, <a href="http://www.videoshock.es/etiqueta/xbox-live-indie-games/" rel="tag">Xbox Live Indie Games</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-white-noise-online-xbox-360/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ajare-watch-pc-xbox-360/" rel="bookmark">
+           Tráiler de Ajare &#038; Watch (PC, Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-sword-art-online-psp-infinity-moment/" rel="bookmark">
+           Tráiler de Sword Art Online: Infinity Moment (PSP)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-phantasy-star-online-2-para-ps-vita/" rel="bookmark">
+           Tráiler de Phantasy Star Online 2 para PS Vita</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/4z5w1jXj9EA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-white-noise-online-xbox-360/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de Ascent of Kings (Xbox 360)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ascent-of-kings-xbox-360/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-ascent-of-kings-xbox-360</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ascent-of-kings-xbox-360/#comments</comments>
+		<pubDate>Tue, 26 Feb 2013 10:27:54 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Nostatic Software]]></category>
+		<category><![CDATA[Videoaventura]]></category>
+		<category><![CDATA[Xbox Live Indie Games]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42480</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/gjAKMZVz44k?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/nostatic-software/" rel="tag">Nostatic Software</a>, <a href="http://www.videoshock.es/etiqueta/videoaventura/" rel="tag">Videoaventura</a>, <a href="http://www.videoshock.es/etiqueta/xbox-live-indie-games/" rel="tag">Xbox Live Indie Games</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ascent-of-kings-xbox-360/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-power-up-pc-xbox-360/" rel="bookmark">
+           Tráiler de Power Up (Pc, Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-rad-raygun-xbox-360/" rel="bookmark">
+           Tráiler de Rad Raygun (Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-fist-puncher-pc-ouya/" rel="bookmark">
+           Tráiler de Fist Puncher (Pc, Ouya, Xbox 360)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/JD6iUAaDVqg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ascent-of-kings-xbox-360/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de Procrastinating Squirrel (Xbox 360)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-procastinating-squirrel-xbox-360/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-procastinating-squirrel-xbox-360</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-procastinating-squirrel-xbox-360/#comments</comments>
+		<pubDate>Tue, 26 Feb 2013 09:45:50 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Xbox Live Indie Games]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42478</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/EHm4d0g_GsU?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/xbox-live-indie-games/" rel="tag">Xbox Live Indie Games</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-procastinating-squirrel-xbox-360/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-power-up-pc-xbox-360/" rel="bookmark">
+           Tráiler de Power Up (Pc, Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-rad-raygun-xbox-360/" rel="bookmark">
+           Tráiler de Rad Raygun (Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-ajare-watch-pc-xbox-360/" rel="bookmark">
+           Tráiler de Ajare &#038; Watch (PC, Xbox 360)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/zRiOAfH-41Y" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/02/trailer-de-procastinating-squirrel-xbox-360/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss><!-- Served from: www.videoshock.es @ 2013-02-28 16:32:11 by W3 Total Cache -->

@@ -46,6 +46,7 @@ function cURLcheckBasicFunctions(){
 		return false;
 	else return true;
 }
+
 function cURLdownload($url, $file){
 	if( !cURLcheckBasicFunctions() ) return "UNAVAILABLE: cURL Basic Functions";
 	$ch = curl_init();
@@ -59,7 +60,7 @@ function cURLdownload($url, $file){
 
 			curl_close($ch);
 			fclose($fp);
-			return "SUCCESS: $file [$url]";
+			return "SUCCESS: $url";
 		}else return "FAIL: fopen()";
 	}else return "FAIL: curl_init()";
 }
@@ -70,7 +71,7 @@ function getAndUpdate($site) {
 
 	echo "<ul>";
 	foreach($array as $page => $rss){
-		echo '<li><a href="#'..$page'">'.$page.'</a></li>';
+		echo '<li><a href="#'.$page.'">'.$page.'</a></li>';
 	}
 	echo "</ul>";
 
@@ -79,7 +80,7 @@ function getAndUpdate($site) {
 		echo cURLdownload($rss, "./latestLogs/".$page.".xml")."<br><br>";
 
 		$xml = new DOMDocument();
-		$xml->load('./latestLogs/'.$page.'.xml');
+		$xml->load("./latestLogs/".$page.".xml");
 		$raiz = $xml->documentElement;
 		$entradas = $raiz->getElementsByTagName('item');
 		$count = $entradas->length;

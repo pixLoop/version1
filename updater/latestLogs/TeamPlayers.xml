@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+		xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</title>
+	<atom:link href="http://www.teamplayers.es/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.teamplayers.es</link>
+	<description>Apasionados de los FPS y shooter en PC y consola. Aquí encontrarás información contrastada, análisis y las noticias más interesantes. Siempre con cercanía e independencia, Gamer2Gamer.</description>
+	<lastBuildDate>Thu, 28 Feb 2013 14:52:53 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5</generator>
+	<copyright>Copyright © Teamplayers: Gamer2Gamer - 2013 </copyright>
+	<managingEditor>team@teamplayers.es (Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos)</managingEditor>
+	<webMaster>team@teamplayers.es (Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos)</webMaster>
+	<ttl>1440</ttl>
+	<image>
+		<url>http://www.teamplayers.es/wp-content/plugins/podpress/images/powered_by_podpress.jpg</url>
+		<title>Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</title>
+		<link>http://www.teamplayers.es</link>
+		<width>144</width>
+		<height>144</height>
+	</image>
+	<itunes:subtitle></itunes:subtitle>
+	<itunes:summary>Apasionados de los FPS y shooter en PC y consola. Aquí encontrarás información contrastada, análisis y las noticias más interesantes. Siempre con cercanía e independencia, Gamer2Gamer.</itunes:summary>
+	<itunes:keywords></itunes:keywords>
+	<itunes:category text="Society &#38; Culture" />
+	<itunes:author>Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</itunes:author>
+	<itunes:owner>
+		<itunes:name>Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</itunes:name>
+		<itunes:email>team@teamplayers.es</itunes:email>
+	</itunes:owner>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://www.teamplayers.es/wp-content/plugins/podpress/images/powered_by_podpress_large.jpg" />
+		<item>
+		<title>Problemas con la seguridad en Planetside 2</title>
+		<link>http://www.teamplayers.es/2013/02/28/problemas-con-la-seguridad-en-planetside-2/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/problemas-con-la-seguridad-en-planetside-2/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 14:52:53 +0000</pubDate>
+		<dc:creator>José María "PdQSi" Fernández</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Planetside 2]]></category>
+		<category><![CDATA[Contraseñas]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[seguridad]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=15020</guid>
+		<description><![CDATA[<p>Malas noticias para los usuarios Europeos de Planeside 2, ya que Sony Online Entertaiment ha descubierto una vulnerabilidad en uno de sus sistemas. Según SOE &#8220;la posibilidad de que tus datos (email y contraseñas) hayan sido accesibles para un tercero existe, y no podemos pasarla por alto&#8220;.  Para evitar problemas recomiendan encarecidamente que un cambio de </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/problemas-con-la-seguridad-en-planetside-2/">Problemas con la seguridad en Planetside 2</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>Malas noticias para los usuarios <strong>Europeos </strong>de Planeside 2, ya que Sony Online Entertaiment ha descubierto una vulnerabilidad en uno de sus sistemas. Según SOE &#8220;<em>la posibilidad de que tus datos (email y contraseñas) hayan sido accesibles para un tercero existe, y no podemos pasarla por alto</em>&#8220;.  Para evitar problemas recomiendan encarecidamente que un cambio de contraseña para todo los jugares de los servidores Europeos, con el fin de evitar problemas mayores.</p>
+<blockquote><p> Hemos podido detectar el problema a tiempo y tomar las medidas necesarias para resolver el problema. La información de vuestras cuentas está encriptada en nuestro sistema de seguridad. De todas formas, hemos decidido tomar medidas preventivas, en pos de asegurar los máximos estándares de seguridad</p></blockquote>
+<p>Todos aquellos que se hayan visto afectados por este problema recibirán un email y se le pedirá que<strong> cambien su contraseña</strong>. Algunas cuentas han sido bloqueadas como resultado de las medidas tomadas por SOE, si es vuestro caso, podéis volver a recuperarlas en este <a href="http://www.planetside2.eu/en/forgot_password">enlace</a>.</p>
+<blockquote><p> La seguridad de vuestras cuentas es de vital importancia para nosotros y estamos continuamente trabajando para asegurar que nuestro sistema siempre cumple con estándares de seguridad más altos. Pedimos perdón por cualquier problema que hayamos causado y agradecemos vuestra paciencia y compresión</p></blockquote>
+<p>No es la primera vez que estos ataques suceden y tampoco la primera vez que SOE es atacada. ¿Piensas que los sistemas de seguridad no están a la altura? ¿Se puede hacer algo para evitar estas situaciones o por el contrario los esfuerzos son inútiles?</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/problemas-con-la-seguridad-en-planetside-2/">Problemas con la seguridad en Planetside 2</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/problemas-con-la-seguridad-en-planetside-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Battlefield 3 &#8211; Lanzamiento del Video Premium 9 con footage de los 4 mapas de End Game</title>
+		<link>http://www.teamplayers.es/2013/02/28/battlefield-3-lanzamiento-del-video-premium-9-con-footage-de-los-4-mapas-de-end-game/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/battlefield-3-lanzamiento-del-video-premium-9-con-footage-de-los-4-mapas-de-end-game/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 12:53:20 +0000</pubDate>
+		<dc:creator>Rubén "Antal120" Santana</dc:creator>
+				<category><![CDATA[Battlefield 3]]></category>
+		<category><![CDATA[Battlefield Premium]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[battlefield 3]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[End Game]]></category>
+		<category><![CDATA[mapas]]></category>
+		<category><![CDATA[Premium]]></category>
+		<category><![CDATA[video]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=15008</guid>
+		<description><![CDATA[<p>El lanzamiento de BF3 End Game está próximo y con ello, cuatro mapas nuevos que ofrecen una perspectiva de las cuatro estaciones del año con un tamaño equiparable a Caspian Border y Operación Firestorm. La temática de End Game se basa en los enfrentamientos a gran velocidad con el retorno del clásico &#8220;capturar la bandera </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/battlefield-3-lanzamiento-del-video-premium-9-con-footage-de-los-4-mapas-de-end-game/">Battlefield 3 &#8211; Lanzamiento del Video Premium 9 con footage de los 4 mapas de End Game</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>El lanzamiento de <strong>BF3 End Game</strong> está próximo y con ello, cuatro mapas nuevos que ofrecen una perspectiva de las cuatro estaciones del año con un tamaño equiparable a Caspian Border y Operación Firestorm. La temática de End Game se basa en los enfrentamientos a gran velocidad con el retorno del clásico &#8220;capturar la bandera y superioridad aérea&#8221;</p>
+<p style="text-align: center;">
+<div class="video-shortcode"><iframe title="YouTube video player" width="600" height="350" src="http://www.youtube.com/embed/f_uIbB0OX6o" frameborder="0" allowfullscreen></iframe></div>
+</p>
+<p>Hemos preparado un <strong>resumen</strong> de los blogs más importantes relacionados con la expansión para que no te pierdas detalle acerca del contenido que guarda End Game.</p>
+<p><a title="Descripción de los mapas." href="http://www.teamplayers.es/2013/02/15/battlefield-3-end-game-descripcion-de-los-mapas-multijugador-y-entrevista/">Descripción de los mapas.</a></p>
+<p><a title="La función de la velocidad en capturar la bandera." href="http://www.teamplayers.es/2013/02/15/battlefield-3-end-game-la-funcion-de-la-velocidad-en-capturar-la-bandera/">La función de la velocidad en capturar la bandera.</a></p>
+<p><a title="Creando el terreno perfecto para la nueva motocicleta." href="http://www.teamplayers.es/2013/02/08/battlefield-3-end-game-creando-el-terreno-perfecto-para-la-nueva-motocicleta/">Creando el terreno perfecto para la nueva motocicleta.</a></p>
+<p><a title="Presentación de End Game + 2 trailers gameplay." href="http://www.teamplayers.es/2013/01/31/battlefield-3-presentacion-de-end-game-y-dos-nuevos-trailers-gameplay/">Presentación de End Game + 2 trailers gameplay.</p>
+<p></a></p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/battlefield-3-lanzamiento-del-video-premium-9-con-footage-de-los-4-mapas-de-end-game/">Battlefield 3 &#8211; Lanzamiento del Video Premium 9 con footage de los 4 mapas de End Game</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/battlefield-3-lanzamiento-del-video-premium-9-con-footage-de-los-4-mapas-de-end-game/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PlayStation &#8211; Potencia AMD y diseño conjunto</title>
+		<link>http://www.teamplayers.es/2013/02/28/playstation-potencia-amd-y-diseno-conjunto/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/playstation-potencia-amd-y-diseno-conjunto/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 12:42:14 +0000</pubDate>
+		<dc:creator>Pablo "Venom" Romanski</dc:creator>
+				<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[PlayStation 3]]></category>
+		<category><![CDATA[PlayStation 4]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14955</guid>
+		<description><![CDATA[<p>PlayStation 4 sigue dando que hablar, después de que grandes distribuidoras como Electronics Arts le hayan dado el visto bueno es la propia AMD la que añade su grano de silicio. AMD ha dado a conocer que el corazón de PlayStation 4 es lo más potente que han fabricado hasta el momento. No hemos fabricado una APU(procesador/gráfica) tan </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/playstation-potencia-amd-y-diseno-conjunto/">PlayStation &#8211; Potencia AMD y diseño conjunto</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>PlayStation 4 sigue dando que hablar, después de que grandes distribuidoras como <a title="EA: “PlayStation 4 es un gran avance para la industria”" href="http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/" target="_blank">Electronics Arts le hayan dado el visto bueno</a> es la propia <strong>AMD</strong> la que añade su grano de silicio.</p>
+<p>AMD ha dado a conocer que el corazón de PlayStation 4 es lo <strong>más potente</strong> que han fabricado hasta el momento.</p>
+<blockquote><p>No hemos fabricado una APU(procesador/gráfica) tan potente nunca antes. Desde lejos es la APU más potente que hemos diseñado hasta la fecha.</p>
+<p style="text-align: right;">Director, Global Business Units Marketing de AMD</p>
+</blockquote>
+<p>Lo que es más, John Taylor añadió que muchas de las <strong>nuevas tecnologías</strong> incluidas en este nuevo chip no han visto a luz ni siquiera en el mundo de los PCs y que con el tiempo llegarán a estar presentes en el ámbito de las computadoras.</p>
+<h3>PS4 Desarrollada en conjunto</h3>
+<p>También se ha desvelado en un reciente artículo del portal <a href="http://www.guardian.co.uk/technology/gamesblog/2013/feb/27/playstation-4-developers-console" target="_blank">The Guardian</a> que Sony ha <strong>colaborado con varios desarrolladores </strong>de videojuegos para el diseño de la consola.</p>
+<div id="attachment_14992" class="wp-caption aligncenter" style="width: 410px"><a href="http://www.teamplayers.es/wp-content/uploads/2013/02/hermen-hulst-guerilla-games-playstation-4-teamplayers.jpg"><img class="size-full wp-image-14992" alt="Hermen Hulst (Confundador de Guerilla Games)" src="http://www.teamplayers.es/wp-content/uploads/2013/02/hermen-hulst-guerilla-games-playstation-4-teamplayers.jpg" width="400" height="300" /></a>
+<p class="wp-caption-text">Hermen Hulst</p>
+</div>
+<p><strong>Hermen Hulst</strong> cofundador de Guerilla Games ha comentado:</p>
+<blockquote><p>Mark Cerny el arquitecto del sistema de PlayStation 4 nos visitó en repetidas ocasiones mientras se desarrollaba la consola.</p>
+<p>Tuvimos a un gran grupo de diseñadores con nosotros y les hicimos todas las sugerencias posibles relacionadas con la next-gen. PS4 no ha sido diseñada solo por Sony, muchos estudios hemos colaborado con ese desarrollo. Aparte de nosotros: Naughty Dog, Sony San Diego entre otros hemos ayudado en el diseño.</p></blockquote>
+<p>Ademas de esto señalo que el parecido de PS4 a la <strong>arquitectura de los PCs</strong> actuales facilitara mucho las cosas.</p>
+<blockquote><p>Si miramos la transición de Ps2 a Ps3 podemos ver que los títulos de la segunda son superados por los de lanzamiento de PS4, así que cabe preguntarse lo que veremos cuando el hardware se exprima totalmente.</p></blockquote>
+<p>Parecen ser todo <a title="EA defiende las características de PS4 con el nuevo Battlefield y material relacionado con la consola E3" href="http://www.teamplayers.es/2013/02/27/ea-defiende-las-caracteristicas-de-ps4-con-el-nuevo-battlefield-y-material-relacionado-con-la-consola-de-sony-en-el-e3/" target="_blank">bondades para PS4</a> y que Sony se ha metido al mercado en el bolsillo.</p>
+<p>¿<em>Cual será la respuesta de Microsoft?</em></p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/playstation-potencia-amd-y-diseno-conjunto/">PlayStation &#8211; Potencia AMD y diseño conjunto</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/playstation-potencia-amd-y-diseno-conjunto/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>The Last of Us: trailer-gameplay de los infectados</title>
+		<link>http://www.teamplayers.es/2013/02/28/the-last-of-us-trailer-gameplay-de-los-infectados/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/the-last-of-us-trailer-gameplay-de-los-infectados/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 11:04:59 +0000</pubDate>
+		<dc:creator>Juan "Vbx" Nuñez</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[The Last of Us]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[aventura]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[infectados]]></category>
+		<category><![CDATA[naughty dog]]></category>
+		<category><![CDATA[Zombies]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14959</guid>
+		<description><![CDATA[<p>The Last of Us, el shooter-aventura para PlayStation 3, recibe un nuevo trailer (diário de desarrollo) donde podremos ver a los infectados en acción y donde se nos explica el motivo de haberlos diseñado y dado vida de esa forma. Durante el vídeo se nos recalca que los infectados no son zombies, y que su diseño viene </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/the-last-of-us-trailer-gameplay-de-los-infectados/">The Last of Us: trailer-gameplay de los infectados</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>The Last of Us, el shooter-aventura para PlayStation 3, recibe un nuevo trailer (diário de desarrollo) donde podremos ver a los infectados en acción y donde se nos explica el motivo de haberlos diseñado y dado <em>vida</em> de esa forma.</p>
+<div class="video-shortcode"><iframe title="YouTube video player" width="600" height="350" src="http://www.youtube.com/embed/LEgC-uj387I" frameborder="0" allowfullscreen></iframe></div>
+<p>Durante el vídeo se nos recalca que los infectados <strong>no son zombies</strong>, y que su diseño viene inspirado por un documental de la BBC llamado &#8220;Planeta Tierra&#8221;, que habla de los peligros de los hongos y las posibles infecciones producidas por ellos en los seres humanos. A partir de esa premisa, los hongos, comenzaron a realizar bocetos y conceptos de criaturas unas veces más parecidas a formas de vida alien mientras que en otras ocasiones con aspecto más humano. Independientemente, Naughty Dog deja claro que <strong>el verdadero enemigo es el hongo</strong>, la infección, no los infectados ni los saqueadores, ya que en el universo de The Last of Us, &#8220;<em>todo el mundo ha perdido al menos un ser querido por la infección</em>&#8220;.</p>
+<div id="attachment_14970" class="wp-caption aligncenter" style="width: 568px"><img class=" wp-image-14970 " alt="Estragos de la infección en The Last of Us." src="http://www.teamplayers.es/wp-content/uploads/2013/02/last-of-us-infected-feature.png" width="558" height="315" />
+<p class="wp-caption-text">Estragos de la infección en The Last of Us.</p>
+</div>
+<p>En cuanto a los infectados en si, aparte del grotesco aspecto resultante de la infección, dispondrán de un sentido estilo sonar para detectar a los jugadores, por lo que <strong>el silencio, el sigilo y la oscuridad serán vitales</strong> para sobrevivir.</p>
+<p>The Last of Us es uno de los juegos más esperados en consola y viene abalado por los creadores de la magnífica saga Uncharted. Combinará acción shooter con un altísimo componente de survival-horror a la vez que narra la historia de un hombre llamado Joel y una chica llamada Ellie mientras tratan de cruzar EEUU. Su fecha de salida es el <strong>7 de Mayo</strong> en EEUU y Europa.</p>
+<p>¿Sigues con interés el desarrollo de The Last of Us?. Deja tu comentario abajo.</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/the-last-of-us-trailer-gameplay-de-los-infectados/">The Last of Us: trailer-gameplay de los infectados</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/the-last-of-us-trailer-gameplay-de-los-infectados/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Arma 3 &#8211; Muy pronto podrás probarlo en STEAM</title>
+		<link>http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 01:17:21 +0000</pubDate>
+		<dc:creator>Juan "Vbx" Nuñez</dc:creator>
+				<category><![CDATA[Arma 3]]></category>
+		<category><![CDATA[Imágenes]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[alpha]]></category>
+		<category><![CDATA[arma]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[lite]]></category>
+		<category><![CDATA[simulación]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14926</guid>
+		<description><![CDATA[<p>¿Recordáis que hace poco os comentábamos que Arma 3 se hacía exclusivo de STEAM/PC para poder salir este año 2013 y que desde Bohemia decían que muy pronto comentarían sus planes de futuro?. Pues bien, ya lo han hecho. Arma 3 llegará a STEAM el próximo 5 de Marzo en forma de versión alpha, eso </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/">Arma 3 &#8211; Muy pronto podrás probarlo en STEAM</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>¿Recordáis que hace poco os comentábamos que <a title="Arma 3 – Exclusivo de STEAM para poder salir este año" href="http://www.teamplayers.es/2013/02/26/arma-3-exclusivo-de-steam-para-poder-salir-este-ano/">Arma 3 se hacía exclusivo de STEAM/PC</a> para poder salir este año 2013 y que desde Bohemia decían que muy pronto comentarían sus planes de futuro?. Pues bien, ya lo han hecho. <strong>Arma 3 llegará a STEAM el próximo 5 de Marzo</strong> en forma de versión alpha, eso si, para los que hayan pre-comprado el juego. Aún así, si no lo tienes claro no pasa nada ya al igual que con Arma 2, Arma 3 <strong>dispondrá de una versión &#8220;free&#8221; para probar sin compromiso</strong>.</p>
+<p>En cuanto al contenido que traerá, no será algo escandaloso pero aseguran que las <strong>4 misiones</strong> que pondrán a nuestra disposición serán suficientes para probar diferentes aspectos de Arma 3. Nos encontraremos con campos de tiro, infantería, manejo de vehículos y hasta una misión de submarinismo:</p>
+<div class="video-shortcode"><iframe title="YouTube video player" width="600" height="350" src="http://www.youtube.com/embed/Pcjd6bU98y4" frameborder="0" allowfullscreen></iframe></div>
+<p>La única restricción que tendrá la versión free de Arma 3 será que no se podrán instalar mods ni jugar multijugador.</p>
+<p>La intención de Bohemia es llegar a versión beta para verano y <strong>lanzar el juego durante el otoño</strong>.</p>
+<p>Para finalizar os dejo con unas imágenes realmente espectaculares de Arma 3, el <strong>verdadero simulador militar para civiles</strong>.</p>
+<p><a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/2e6378d840d239f218dbb85c2820d31fa2579444/' title='2e6378d840d239f218dbb85c2820d31fa2579444'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/2e6378d840d239f218dbb85c2820d31fa2579444-150x150.jpg" class="attachment-thumbnail" alt="2e6378d840d239f218dbb85c2820d31fa2579444" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/4c85f62956ddb8c38be613e00d99cc0f6f247e64/' title='4c85f62956ddb8c38be613e00d99cc0f6f247e64'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/4c85f62956ddb8c38be613e00d99cc0f6f247e64-150x150.jpg" class="attachment-thumbnail" alt="4c85f62956ddb8c38be613e00d99cc0f6f247e64" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/6f71495eedf170861429965105ad4623f40575df/' title='6f71495eedf170861429965105ad4623f40575df'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/6f71495eedf170861429965105ad4623f40575df-150x150.jpg" class="attachment-thumbnail" alt="6f71495eedf170861429965105ad4623f40575df" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/9ca8a2b3f2c361d1a4bed8a3e4c925f80bb8775c/' title='9ca8a2b3f2c361d1a4bed8a3e4c925f80bb8775c'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/9ca8a2b3f2c361d1a4bed8a3e4c925f80bb8775c-150x150.jpg" class="attachment-thumbnail" alt="9ca8a2b3f2c361d1a4bed8a3e4c925f80bb8775c" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/13f34e175c4d83c6a3c8861e800c4a9a82b730e6-1/' title='13f34e175c4d83c6a3c8861e800c4a9a82b730e6 (1)'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/13f34e175c4d83c6a3c8861e800c4a9a82b730e6-1-150x150.jpg" class="attachment-thumbnail" alt="13f34e175c4d83c6a3c8861e800c4a9a82b730e6 (1)" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/28f614f9d966f4e26061f184eab3ef94d27d2d37/' title='28f614f9d966f4e26061f184eab3ef94d27d2d37'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/28f614f9d966f4e26061f184eab3ef94d27d2d37-150x150.jpg" class="attachment-thumbnail" alt="28f614f9d966f4e26061f184eab3ef94d27d2d37" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/50c0a93d16119b7ceb0094b79af0fab0ed9af788/' title='50c0a93d16119b7ceb0094b79af0fab0ed9af788'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/50c0a93d16119b7ceb0094b79af0fab0ed9af788-150x150.jpg" class="attachment-thumbnail" alt="50c0a93d16119b7ceb0094b79af0fab0ed9af788" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/74e3dffc630dfd85fcd03f31f320f6793a42e71e/' title='74e3dffc630dfd85fcd03f31f320f6793a42e71e'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/74e3dffc630dfd85fcd03f31f320f6793a42e71e-150x150.jpg" class="attachment-thumbnail" alt="74e3dffc630dfd85fcd03f31f320f6793a42e71e" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/566e5f7bac9dae4291aeb04ad1a849cb96d1339f/' title='566e5f7bac9dae4291aeb04ad1a849cb96d1339f'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/566e5f7bac9dae4291aeb04ad1a849cb96d1339f-150x150.jpg" class="attachment-thumbnail" alt="566e5f7bac9dae4291aeb04ad1a849cb96d1339f" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/b3e59543e77e826aab9ee6c94278de7a0520f20a/' title='b3e59543e77e826aab9ee6c94278de7a0520f20a'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/b3e59543e77e826aab9ee6c94278de7a0520f20a-150x150.jpg" class="attachment-thumbnail" alt="b3e59543e77e826aab9ee6c94278de7a0520f20a" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/ccc723b57b5b80a8d5c5cad77980168710f0ae46/' title='ccc723b57b5b80a8d5c5cad77980168710f0ae46'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/ccc723b57b5b80a8d5c5cad77980168710f0ae46-150x150.jpg" class="attachment-thumbnail" alt="ccc723b57b5b80a8d5c5cad77980168710f0ae46" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/cd80febecd8708ed945cffbbe493da8c086b44f1/' title='cd80febecd8708ed945cffbbe493da8c086b44f1'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/cd80febecd8708ed945cffbbe493da8c086b44f1-150x150.jpg" class="attachment-thumbnail" alt="cd80febecd8708ed945cffbbe493da8c086b44f1" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/dd126b0fc42e3699af779a765899404d9e8e3861/' title='dd126b0fc42e3699af779a765899404d9e8e3861'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/dd126b0fc42e3699af779a765899404d9e8e3861-150x150.jpg" class="attachment-thumbnail" alt="dd126b0fc42e3699af779a765899404d9e8e3861" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/fc8673bee745a623e708b7c5e0791a2f254c9e80/' title='fc8673bee745a623e708b7c5e0791a2f254c9e80'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/fc8673bee745a623e708b7c5e0791a2f254c9e80-150x150.jpg" class="attachment-thumbnail" alt="fc8673bee745a623e708b7c5e0791a2f254c9e80" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/2dbbe23b9c88f6abe39187057a39dad270a5b1fd/' title='2dbbe23b9c88f6abe39187057a39dad270a5b1fd'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/2dbbe23b9c88f6abe39187057a39dad270a5b1fd-150x150.jpg" class="attachment-thumbnail" alt="2dbbe23b9c88f6abe39187057a39dad270a5b1fd" /></a></p>
+<p>La pregunta obligada ahora es ¿os imagináis DayZ con este motor gráfico?. Deja tu comentario abajo.</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/">Arma 3 &#8211; Muy pronto podrás probarlo en STEAM</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/arma-3-muy-pronto-podras-probarlo-en-steam/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Blacklight: Retribution &#8211; Expansión Onslaught ya disponible</title>
+		<link>http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/#comments</comments>
+		<pubDate>Thu, 28 Feb 2013 00:39:43 +0000</pubDate>
+		<dc:creator>Juan "Vbx" Nuñez</dc:creator>
+				<category><![CDATA[Blacklight Retribution]]></category>
+		<category><![CDATA[Imágenes]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[coop]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[Onslaught]]></category>
+		<category><![CDATA[PVE]]></category>
+		<category><![CDATA[Update]]></category>
+		<category><![CDATA[zombie]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14868</guid>
+		<description><![CDATA[<p>Como venía anunciando desde hace tiempo, Perfect World ha puesto a disposición de todos los fans de su FPS free2play, Blacklight: Retribution, la &#8220;actualización más grande&#8220; que ha tenido lugar en su corta vida. Detalles de la actualización Onslaught: 3 nuevos mapas: Centre, Safehold y Metro. Nuevas armas. 4 nuevos modos de juego: Buscar y destruir, </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/">Blacklight: Retribution &#8211; Expansión Onslaught ya disponible</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>Como venía anunciando desde hace tiempo, Perfect World ha puesto a disposición de todos los fans de su FPS free2play, Blacklight: Retribution, la <em>&#8220;<a title="Onslaught Release Notes" href="http://blacklight.perfectworld.com/news/?p=824961" target="_blank">actualización más grande</a>&#8220;</em> que ha tenido lugar en su corta vida.</p>
+<h5>Detalles de la actualización Onslaught:</h5>
+<ul>
+<li>3 nuevos mapas: Centre, Safehold y Metro.</li>
+<li>Nuevas armas.</li>
+<li>4 nuevos modos de juego: Buscar y destruir, Último hombre en pié y Último hombre en pié por equipos, además, claro está,  del que da nombre a la expansión en si.</li>
+<li>Modo Onslaught, donde <strong>4 jugadores cooperarán para capturar objetivos mientras sobreviven a oleadas de zombies</strong>.</li>
+</ul>
+<p>Os dejamos el trailer de esta expansión:</p>
+<div class="video-shortcode"><iframe title="YouTube video player" width="600" height="350" src="http://www.youtube.com/embed/G_sBSSLtWNg" frameborder="0" allowfullscreen></iframe></div>
+<p>Y una galería de imágenes cortesía de <a title="Blacklight: Retribution Onslaught expansion is now live" href="http://www.vg247.com/2013/02/27/blacklight-retribution-onslaught-expansion-is-now-live/" target="_blank">VG247</a>.</p>
+<p><a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_onslaught_screen_01/' title='blacklight_onslaught_screen_01'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_onslaught_screen_01-150x150.jpg" class="attachment-thumbnail" alt="blacklight_onslaught_screen_01" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_onslaught_screen_02/' title='blacklight_onslaught_screen_02'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_onslaught_screen_02-150x150.jpg" class="attachment-thumbnail" alt="blacklight_onslaught_screen_02" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_onslaught_screen_03/' title='blacklight_onslaught_screen_03'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_onslaught_screen_03-150x150.jpg" class="attachment-thumbnail" alt="blacklight_onslaught_screen_03" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_onslaught_screen_04/' title='blacklight_onslaught_screen_04'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_onslaught_screen_04-150x150.jpg" class="attachment-thumbnail" alt="blacklight_onslaught_screen_04" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_onslaught_screen_05/' title='blacklight_onslaught_screen_05'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_onslaught_screen_05-150x150.jpg" class="attachment-thumbnail" alt="blacklight_onslaught_screen_05" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_steamitem_silvercrowbar_screen01/' title='blacklight_steamitem_silvercrowbar_screen01'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_steamitem_silvercrowbar_screen01-150x150.jpg" class="attachment-thumbnail" alt="blacklight_steamitem_silvercrowbar_screen01" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blacklight_steamitem_silvercrowbar_screen02/' title='blacklight_steamitem_silvercrowbar_screen02'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blacklight_steamitem_silvercrowbar_screen02-150x150.jpg" class="attachment-thumbnail" alt="blacklight_steamitem_silvercrowbar_screen02" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_1/' title='blr_onslaught_screenshot_1'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_1-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_1" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_2/' title='blr_onslaught_screenshot_2'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_2-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_2" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_3/' title='blr_onslaught_screenshot_3'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_3-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_3" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_4/' title='blr_onslaught_screenshot_4'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_4-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_4" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_5/' title='blr_onslaught_screenshot_5'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_5-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_5" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_6/' title='blr_onslaught_screenshot_6'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_6-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_6" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_7/' title='blr_onslaught_screenshot_7'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_7-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_7" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_08/' title='blr_onslaught_screenshot_08'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_08-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_08" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_09/' title='blr_onslaught_screenshot_09'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_09-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_09" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_10/' title='blr_onslaught_screenshot_10'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_10-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_10" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_11/' title='blr_onslaught_screenshot_11'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_11-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_11" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_12/' title='blr_onslaught_screenshot_12'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_12-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_12" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_13/' title='blr_onslaught_screenshot_13'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_13-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_13" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_14/' title='blr_onslaught_screenshot_14'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_14-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_14" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_15/' title='blr_onslaught_screenshot_15'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_15-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_15" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_16/' title='blr_onslaught_screenshot_16'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_16-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_16" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_17/' title='blr_onslaught_screenshot_17'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_17-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_17" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_18/' title='blr_onslaught_screenshot_18'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_18-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_18" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_19/' title='blr_onslaught_screenshot_19'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_19-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_19" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_20/' title='blr_onslaught_screenshot_20'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_20-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_20" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_21/' title='blr_onslaught_screenshot_21'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_21-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_21" /></a><br />
+<a href='http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/blr_onslaught_screenshot_22/' title='blr_onslaught_screenshot_22'><img width="150" height="150" src="http://www.teamplayers.es/wp-content/uploads/2013/02/blr_onslaught_screenshot_22-150x150.jpg" class="attachment-thumbnail" alt="blr_onslaught_screenshot_22" /></a></p>
+<p>Personalmente he podido probar Blacklight: Retribution y me ha gustado bastante el ritmo frenético de sus partidas, pero quiero saber vuestra opinión al respecto ¿qué os ha parecido el modo Onslaught?. Deja tu comentario abajo.</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/">Blacklight: Retribution &#8211; Expansión Onslaught ya disponible</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/blacklight-retribution-expansion-onslaught-ya-disponible/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Black Ops 2 Revolution &#8211; Lanzamiento inminente en PlayStation 3 y PC (Actualización)</title>
+		<link>http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/</link>
+		<comments>http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 23:47:32 +0000</pubDate>
+		<dc:creator>Rubén "Antal120" Santana</dc:creator>
+				<category><![CDATA[Black Ops 2]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Black ops 2]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[dlc]]></category>
+		<category><![CDATA[PC]]></category>
+		<category><![CDATA[ps3]]></category>
+		<category><![CDATA[Revolution]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14869</guid>
+		<description><![CDATA[<p>A la espera del lanzamiento de Black Ops 2 Revolution en PS3 y PC, Activision ha pensado que es un buen momento para echar otro vistazo a los nuevos entornos de los mapas multijugador Downhill, Mirage, Grind e Hydro. Este pack ofrece una gran variedad de lugares exóticos que presentan algunos desafíos muy interesantes para </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/">Black Ops 2 Revolution &#8211; Lanzamiento inminente en PlayStation 3 y PC (Actualización)</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>A la espera del lanzamiento de Black Ops 2 Revolution en <strong>PS3 y PC</strong>, Activision ha pensado que es un buen momento para echar <a title="otro vistazo" href="https://elite.callofduty.com/news/xbox/335">otro vistazo</a> a los nuevos entornos de los mapas multijugador Downhill, Mirage, Grind e Hydro. Este pack ofrece una gran variedad de lugares exóticos que presentan algunos desafíos muy interesantes para los encuentros venideros.</p>
+<p>De momento, sabemos que el DLC estará disponible en Steam el día 28 de febrero en torno a las <strong>19:00 PM CET</strong> y que los problemas de conectividad que ha experimentado WiiU han sido resueltos en la mayor parte de los territorios europeos (incluida España).</p>
+<p>La hora de lanzamiento del DLC en PS3<strong> no ha sido concretada</strong>, ya que depende de la zona donde vives y las actualizaciones de la tienda que Treyarch no controla.</p>
+<h3>Actualización</h3>
+<p style="text-align: center;"><a href="http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/blackops2-2-revolution-ps3-teamplayers-jpj/" rel="attachment wp-att-14951"><img class="alignnone size-full wp-image-14951" alt="BlackOps2-2-Revolution-PS3-teamplayers.jpj" src="http://www.teamplayers.es/wp-content/uploads/2013/02/BlackOps2-2-Revolution-PS3-teamplayers.jpj_.png" width="466" height="128" /></a></p>
+<p>Revolution ya está disponible desde la tienda in-game de PS3 en varios territorios y regiones del mundo.</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/">Black Ops 2 Revolution &#8211; Lanzamiento inminente en PlayStation 3 y PC (Actualización)</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/28/black-ops-2-revolution-lanzamiento-inminente-en-ps3-y-pc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Xbox 720: Se rumorea que EA y Microsoft anuncian un contrato de exclusividad en Abril</title>
+		<link>http://www.teamplayers.es/2013/02/27/xbox-720-se-rumorea-que-ea-y-microsoft-anuncian-un-trato-de-exclusividad-en-abril/</link>
+		<comments>http://www.teamplayers.es/2013/02/27/xbox-720-se-rumorea-que-ea-y-microsoft-anuncian-un-trato-de-exclusividad-en-abril/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 19:19:56 +0000</pubDate>
+		<dc:creator>José Diego "Yuhg" Moreno</dc:creator>
+				<category><![CDATA[Consola]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[EA]]></category>
+		<category><![CDATA[Exclusividad]]></category>
+		<category><![CDATA[Rumor]]></category>
+		<category><![CDATA[titulos]]></category>
+		<category><![CDATA[Xbox 720]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14841</guid>
+		<description><![CDATA[<p>Algunas fuentes apuntan a que Microsoft podría disponer de un contrato de exclusividad temporal con los títulos y DLCs de EA en Xbox 720. Se espera que el acuerdo entre ambas compañías tenga lugar durante el próximo evento de Microsoft que podría tener lugar el día 26 de abril. Los términos de dicho acuerdo aún no se han concretado. Ahora </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/27/xbox-720-se-rumorea-que-ea-y-microsoft-anuncian-un-trato-de-exclusividad-en-abril/">Xbox 720: Se rumorea que EA y Microsoft anuncian un contrato de exclusividad en Abril</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>Algunas fuentes apuntan a que Microsoft podría disponer de un contrato de <strong>exclusividad temporal </strong>con los títulos y DLCs de EA en Xbox 720. Se espera que el acuerdo entre ambas compañías tenga lugar durante el próximo evento de Microsoft que podría tener lugar el día 26 de abril. Los términos de dicho acuerdo aún no se han concretado.</p>
+<p>Ahora que sabemos que <a title="Battlefield 4" href="http://www.teamplayers.es/2013/02/27/ea-defiende-las-caracteristicas-de-ps4-con-el-nuevo-battlefield-y-material-relacionado-con-la-consola-de-sony-en-el-e3/">Battlefield 4</a> será lanzado para las consolas de la próxima generación y que Respawn Entertainment va a presentar su nuevo título en el E3, ¿podría existir dicha exclusividad para ambos títulos con Xbox 720?. ¿Qué opináis al respecto?</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/27/xbox-720-se-rumorea-que-ea-y-microsoft-anuncian-un-trato-de-exclusividad-en-abril/">Xbox 720: Se rumorea que EA y Microsoft anuncian un contrato de exclusividad en Abril</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/27/xbox-720-se-rumorea-que-ea-y-microsoft-anuncian-un-trato-de-exclusividad-en-abril/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>EA: &#8220;PlayStation 4 es un gran avance para la industria&#8221;</title>
+		<link>http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/</link>
+		<comments>http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 18:24:38 +0000</pubDate>
+		<dc:creator>Pablo "Venom" Romanski</dc:creator>
+				<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[PlayStation 4]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[EA]]></category>
+		<category><![CDATA[Nueva generación]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14823</guid>
+		<description><![CDATA[<p>Electronics Arts sigue mostrando su apoyo con la próxima generación de consolas. En esta ocasión, ha sido Rajat Taneja (jefe de la división tecnológica de EA) el que ha lanzado piropos a PlayStation 4. Playstation 4 es un gran avance para la industria.  Multiplica la potencia de las consolas actuales de 8 a 10 veces. En EA parece que se </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/">EA: &#8220;PlayStation 4 es un gran avance para la industria&#8221;</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p><strong>Electronics Arts</strong> sigue mostrando su <a title="EA defiende las características de PS4 con el nuevo Battlefield y material relacionado con la consola en el E3" href="http://www.teamplayers.es/2013/02/27/ea-defiende-las-caracteristicas-de-ps4-con-el-nuevo-battlefield-y-material-relacionado-con-la-consola-de-sony-en-el-e3/">apoyo con la próxima generación de consolas.</a> En esta ocasión, ha sido Rajat Taneja (jefe de la división tecnológica de EA) el que ha lanzado piropos a PlayStation 4.</p>
+<blockquote><p>Playstation 4 es un gran avance para la industria.  Multiplica la potencia de las consolas actuales de 8 a 10 veces.</p></blockquote>
+<p>En EA parece que se respira un<strong> gran optimismo</strong> con la llegada de la next-gen.</p>
+<blockquote><p>Ya no tendremos que limitar nuestros juegos por problemas gráficos, memoria o ancho de banda. En estas nuevas consolas podremos hacer que los juegos corran a 1080p y 60 imágenes por segundo. Así podremos ofrecer una jugablidad como nunca antes se ha visto.</p></blockquote>
+<p>Además, Rajat ha comentado que la semejanza a nivel de <strong>arquitectura con los PCs</strong> es positiva para el desarrollo. También que las nuevas funciones sociales de PlayStation 4, abren nuevos horizontes para sus grandes títulos.</p>
+<blockquote><p>Las librerías y herramientas de nuestro motor estrella Frostbite, funcionan de una forma muy fluida. Las nuevas características en cuanto a las redes sociales de PS4, nos abren las puertas para aprovechar lo que ya hemos aprendido de nuestras grandes sagas como FIFA o Battlefield, y las seguiremos explotando con nuestras futuras IPs.</p></blockquote>
+<p>En resumidas cuentas, Electronics Arts está <strong>más que contenta</strong> con PlayStation 4. Parece ser que los quejas sobre el hardware y algunas características de la consola han sido despejadas, al menos para la compañia.</p>
+<p><em>¿Que juego/saga quieres ver con más ganas en las nuevas consolas?</em></p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/">EA: &#8220;PlayStation 4 es un gran avance para la industria&#8221;</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/27/ea-playstation-4-es-un-gran-avance-para-la-industria/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WarZ: Vuelve a STEAM tras la polémica</title>
+		<link>http://www.teamplayers.es/2013/02/27/warz-vuelve-a-steam-tras-la-polemica/</link>
+		<comments>http://www.teamplayers.es/2013/02/27/warz-vuelve-a-steam-tras-la-polemica/#comments</comments>
+		<pubDate>Wed, 27 Feb 2013 16:21:18 +0000</pubDate>
+		<dc:creator>Juan "Vbx" Nuñez</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[The War Z]]></category>
+		<category><![CDATA[destacado]]></category>
+		<category><![CDATA[fpsmmo]]></category>
+		<category><![CDATA[polemica]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[zombie]]></category>
+
+		<guid isPermaLink="false">http://www.teamplayers.es/?p=14807</guid>
+		<description><![CDATA[<p>Tras ser eliminado de la tienda por Valve a causa de un montón de problemas, quejas y polémicas varias, WarZ retorna a STEAM y está disponible de nuevo. Por resumir todo lo que dio de si este ZOMBIE-FPS-MMO en su anterior etapa en STEAM, principalmente la quejas de la comunidad se centraron el que el tamaño de </p><p>La entrada <a href="http://www.teamplayers.es/2013/02/27/warz-vuelve-a-steam-tras-la-polemica/">WarZ: Vuelve a STEAM tras la polémica</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></description>
+				<content:encoded><![CDATA[<p>Tras ser eliminado de la tienda por Valve a causa de un montón de problemas, quejas y polémicas varias, <strong>WarZ retorna a STEAM y está disponible</strong> de nuevo.</p>
+<p>Por resumir todo lo que dio de si este ZOMBIE-FPS-MMO en su anterior etapa en STEAM, principalmente la quejas de la comunidad se centraron el que el tamaño de los mapas no correspondía con el prometido (400 KM2), la cantidad de jugadores simultáneos nunca llegó a ser 100 (como mucho 50+), el oportunismo moralmente criticable cuando pensamos en <a title="DayZ - Teamplayers" href="http://www.teamplayers.es/category/otros-fps/dayz/" target="_blank">DayZ</a> e incluso que las imágenes del arte del juego eran <a title="Retiran The WarZ de Steam y más problemas; lo acusan de copiar imágenes de The walking dead" href="http://www.teamplayers.es/2012/12/20/retiran-the-warz-de-steam-y-mas-problemas-lo-acusan-de-copiar-imagenes-de-the-walking-dead/" target="_blank">&#8220;demasiado parecidas&#8221;</a> a las de la serie The Walking Dead.</p>
+<p>Todo ese torrente de quejas afectó por supuesto a la calificación <a title="Metacritic - The War Z PC" href="http://www.metacritic.com/game/pc/the-war-z" target="_blank">Metascore</a> del título, dejándola muy por debajo de lo que probablemente el juego se merezca.</p>
+<div id="attachment_14811" class="wp-caption aligncenter" style="width: 340px"><img class="size-full wp-image-14811" alt="La puntuación Metascore lo dice todo..." src="http://www.teamplayers.es/wp-content/uploads/2013/02/metascore-warz-teamplayers.jpg" width="330" height="326" />
+<p class="wp-caption-text">La puntuación Metascore lo dice todo&#8230;</p>
+</div>
+<p>Esta <a title="WarZ - STEAM" href="http://store.steampowered.com/app/226700/" target="_blank">segunda venida a STEAM</a> ha influido en el precio, <strong>12,99€</strong>, que ha sido sensiblemente rebajado si lo comparamos con los $24 USD que costaba el paquete más económico si se adquiría directamente en la tienda de WarZ.</p>
+<p>Volviendo a los errores y quejas que comentábamos al principio de este artículo, no encontramos referencia alguna al tamaño de los mapas o número de jugadores en su página de STEAM. Viendo las notas de parche del juego tampoco encontramos información relacionada, por lo que <strong>no está claro si esas cuestiones han sido solucionadas</strong>, o sencillamente no se habla de ellas.</p>
+<p>¿Alguno de vosotros es jugador de WarZ?. Si es así, me gustaría saber vuestra opinión al respecto. Dejad vuestro comentario abajo.</p>
+<p>La entrada <a href="http://www.teamplayers.es/2013/02/27/warz-vuelve-a-steam-tras-la-polemica/">WarZ: Vuelve a STEAM tras la polémica</a> aparece primero en <a href="http://www.teamplayers.es">Teamplayers: Gamer2Gamer - Todas las noticias e información de juegos FPS y shooter en PC y consola, análisis, avances, comentarios, tácticas y consejos</a>.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.teamplayers.es/2013/02/27/warz-vuelve-a-steam-tras-la-polemica/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+	</channel>
+</rss>
