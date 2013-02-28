@@ -13,7 +13,7 @@
 					window.location.reload(true);
 				}
 
-				$( ".tabs" ).tabs();
+				$( "#tabs" ).tabs();
 				$("#last").html("Last updated: " + new Date().toLocaleString());
 
 				var time = (1000 * 60 * 10);
