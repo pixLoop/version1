@@ -11,7 +11,6 @@ $array = [
 	"VicioJuegos" => "http://www.viciojuegos.com/noticiasRSS.jsp?division=Todo",
 	"TeamPlayers" => "http://www.teamplayers.es/feed/",
 	"ElReino" => "http://elreino.net/rss_noticias.php",
-	"VideoShock" => "http://www.videoshock.es/feed/",
+	"VideoShock" => "http://www.videoshock.es/feed/"
 ];
-
 ?>
