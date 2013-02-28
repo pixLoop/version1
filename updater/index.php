@@ -25,18 +25,16 @@
 <h1>pixLoop DataBase Updater</h1>
 <p id="last"></p>
 <?php
-require("./dbcon/connection.php");
-function updateNews($site, $url, $image, $title, $resume, $time) {
+require("../dbcon/connection.php");
+function updateNews($site, $font, $link, $image, $title, $resume, $time) {
 	$con = getConnection();
 
-	$query = "INSERT INTO News (site, url, image, title, resume, time) VALUES ('".$site."', '".$url."', '".$image."', '".mysqli_real_escape_string($con, $title)."', '".mysqli_real_escape_string($con, $resume)."', '".$time."')";
-
-	echo "<br>".$query."<br><b>";
+	$query = "INSERT INTO News (site, font, link, image, title, resume, time) VALUES ('".$site."', '".$font."', '".$link."', '".$image."', '".mysqli_real_escape_string($con, $title)."', '".mysqli_real_escape_string($con, $resume)."', '".$time."')";
 
 	mysqli_query($con, $query);
 	if (mysqli_errno($con) != 0) {
-		echo "ERROR: ".mysqli_error($con);
-	} else echo "Noticia actualizada satisfactoriamente.";
+		echo "<b>ERROR: ".mysqli_error($con);
+	} else echo "<b>Noticia actualizada satisfactoriamente.";
 
 	echo "</b><br><br>";
 
@@ -64,22 +62,26 @@ function cURLdownload($url, $file){
 		}else return "FAIL: fopen()";
 	}else return "FAIL: curl_init()";
 }
+
 function getAndUpdate($site, $pipe) {
-	echo cURLdownload("http://pipes.yahoo.com/pipes/pipe.run?_id=87a576fa7f04cade1b722de4041b164c&_render=rss", "./latestLogs/".$site.".xml")."<br><br>";
+	echo cURLdownload($pipe, "../latestLogs/".$site.".xml")."<br><br>";
 
 	date_default_timezone_set('Europe/Madrid');
 	$xml = new DOMDocument(); 
-	$xml->load('./latestLogs/'.$site.'.xml');
+	$xml->load('../latestLogs/'.$site.'.xml');
 	$raiz = $xml->documentElement;
 	$entradas = $raiz->getElementsByTagName('item'); 
 	$count = $entradas->length; 
 
 	for ($i=0; $i<$count; $i++) { 
 		$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue; 
-		$link = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue; 
+		$url = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue;
+		echo $url.'<br>';
+		$font = substr($url, 0, stripos($url, "/", 8));
+		$link = substr($url, stripos($url, "/", 8) + 1);
 		$pubDate = $entradas->item($i)->getElementsByTagName('pubDate')->item(0)->nodeValue;
 		$pubDate = date('Y-m-d H:i:s', strtotime($pubDate));
-		echo $pubDate;
+		echo $pubDate.'<br>';
 		$description = $entradas->item($i)->getElementsByTagName('description')->item(0)->nodeValue;
 
 		$image = "";
@@ -99,15 +101,20 @@ function getAndUpdate($site, $pipe) {
 
 		$description = trim(preg_replace("'<.*?>'si", "", $description));
 
-		updateNews($site, $link, $image, $titulo, $description, $pubDate);
+		updateNews($site, $font, $link, $image, $titulo, $description, $pubDate);
 	}
 }
 ?>
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1">Videojuegos</a></li>
+		<li><a href="#videojuegos">Videojuegos</a></li>
 	</ul>
-	<div id="tabs-1"><?php getAndUpdate("videojuegos", "http://pipes.yahoo.com/pipes/pipe.run?_id=87a576fa7f04cade1b722de4041b164c&_render=rss"); ?></div>
+	<div id="videojuegos">
+		
+<?php
+	getAndUpdate("videojuegos", "http://pipes.yahoo.com/pipes/pipe.run?_id=87a576fa7f04cade1b722de4041b164c&_render=rss");
+?>
+	</div>
 </div>
 </body>
 </html>

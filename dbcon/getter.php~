@@ -14,7 +14,7 @@ function getPages($site) {
 function getNews($site, $order, $page) {
 	$con = getConnection();
 
-	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."' GROUP BY n.id ";
+	$query = "SELECT n.*, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."' GROUP BY n.id ";
 	switch ($order) {
 		case "portada":
 			$query .= "ORDER BY pop DESC";

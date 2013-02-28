@@ -41,10 +41,19 @@
 	margin-left: 10px;
 	float: left;
 }
-#header-top .social img {
+#header-top .follow {
 	vertical-align: middle;
 	height: 16px;
 	width: 16px;
+}
+#header-top #follow-facebook:hover {
+	background-color: #3B5998;
+}
+#header-top #follow-twitter:hover {
+	background-color: #00ACED;
+}
+#header-top #follow-google:hover {
+	background-color: #DD4D38;
 }
 #header-top #userinfo {
 	list-style: none;
@@ -115,50 +124,13 @@
 	border-bottom: 5px solid #DDD;
 }
 #header-time #time-snap li a {
-	color: #3B3;
 	text-decoration: none;
 }
 #header-time #time-snap li a:hover {
 	color: #444;
 }
-
-#newswrap {
-	margin-left: 50px;
-}
-#newswrap .list {
-	list-style: none;
-	overflow: hidden;
-}
-#newswrap .list li {
-	float: left;
-	position: relative;
-}
-#newswrap #pagination {
-	margin-top: 5px;
-	margin-left: 10px;
-}
-#newswrap #pagination a {
-	border: 2px solid #3B3;
-	padding: 5px 10px;
-	background-color: #FFF;
-	color: #3B3;
-	font-size: 14pt;
-	font-weight: bolder;
-	text-decoration: none;
-}
-#newswrap #pagination a.selected {
-	border: 2px solid #FFF;
-	background-color: #3B3;
-	color: #FFF;
-}
-#newswrap #pagination a:hover {
-	border: 2px solid #444;
-	color: #444;
-}
-
 #footer {
 	margin-top: 20px;
-	background-color: #3B3;
 	width: 100%;
 	text-align: center;
 }

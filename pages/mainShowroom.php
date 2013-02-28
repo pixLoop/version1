@@ -18,7 +18,7 @@ function displayNews($newsArray) {
 	<li id="news-<?php echo $row['id']; ?>">
 		<div class="news-body">
 			<div class="news-resume">
-				<a href="<?php echo $row['url']; ?>" target="_blank">
+				<a href="<?php echo $row['url']; ?>" onclick="newsViews(<?php echo $row['id']; ?>)" target="_blank">
 					<img class="news-image" src="<?php echo $row['image']; ?>"/>
 				</a>
 				<div class="news-stats">
@@ -29,20 +29,21 @@ function displayNews($newsArray) {
 					<div><span class="news-views"><?php echo $row['views']; ?></span> visitas</div>
 				</div>
 				<div class="news-static">
-					<div class="news-title"><a href="<?php echo $row['url']; ?>" target="_blank"><h2>
+					<div class="news-title"><a href="<?php echo $row['url']; ?>" onclick="newsViews(<?php echo $row['id']; ?>)" target="_blank"><h2>
 <?php 
 	if (strlen($row['title']) >= 80)
 		echo substr($row['title'], 0, 77)."...";
 	else echo $row['title'];
 ?>
 </h2></a></div>
-					<div class="news-text"><?php echo substr($row['resume'], 0, 140); ?>...(<a href="<?php echo $row['url']; ?>" target="_blank">leer+</a>)</div>
+					<div class="news-text"><?php echo substr($row['resume'], 0, 140); ?>...(<a href="<?php echo $row['url']; ?>" onclick="newsViews(<?php echo $row['id']; ?>)" target="_blank">leer+</a>)</div>
 				</div>
 			</div>
 			<div class="news-info">	
 				<div class="comments-counter"><a href="" class="counter"><?php echo $row['comments']; ?></a></div>
 				<span class="tool">hace 
 <?php 
+	date_default_timezone_set('Europe/Madrid');
 	$since = time() - strtotime($row['time']);
 	if ($since < 60) echo $since." segundos";
 	else {
@@ -76,16 +77,16 @@ function displayNews($newsArray) {
 }
 
 function displayPages($current, $max) {
-	echo '<div id="pagination"><span'.isPageSelected($current, 1).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page=1">1</a></span> ';
+	echo '<div id="pagination"><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page=1"'.isPageSelected($current, 1).'><span>1</span></a> ';
 	if (($current - 3) > 1) echo '... ';
 
 	for ($i = -2; $i <= 2; $i++) {
 		if ((($current + $i) > 1) && (($current + $i) < $max)) {
-			echo '<span'.isPageSelected($current, ($current + $i)).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.($current + $i).'">'.($current + $i).'</a></span> ';
+			echo '<a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.($current + $i).'"'.isPageSelected($current, ($current + $i)).'><span>'.($current + $i).'</span></a> ';
 		}
 	}
 
 	if (($current + 3) < $max) echo '... ';
-	echo '<span'.isPageSelected($current, $max).'><a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.$max.'">'.$max.'</a></span></div>';
+	echo '<a href="./?site='.$_GET['site'].'&section='.$_GET['section'].'&page='.$max.'"'.isPageSelected($current, $max).'><span>'.$max.'</span></a></div>';
 }
 ?>

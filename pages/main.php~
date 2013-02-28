@@ -40,19 +40,19 @@
 			<a href="">
 				<span id="login-facebook" class="social-login">
 					<span class="logo"></span>
-					Conecta con <b>Facebook</b>
+					Conecta con Facebook
 				</span>
 			</a>
 			<a href="">
 				<span id="login-twitter" class="social-login">
 					<span class="logo"></span>
-					Conecta con <b>Twitter</b>
+					Conecta con Twitter
 				</span>
 			</a>
 			<a href="">
 				<span id="login-google" class="social-login">
 					<span class="logo"></span>
-					Conecta con <b>Google</b>
+					Conecta con Google
 				</span>
 			</a>
 		</div>

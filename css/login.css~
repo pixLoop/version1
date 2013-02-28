@@ -1,0 +1,93 @@
+#login-background {
+	z-index:200;
+	background-color:rgba(0,0,0,0.4);
+	position:fixed;
+	height:100%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	display:none;
+}
+#login-dialog {
+	z-index:250;
+	position:fixed;
+	background-color:#FFF;
+	width:300px;
+	height:210px;
+	top:50%;
+	left:50%;
+	margin-top:-105px;
+	margin-left:-150px;
+	border:5px solid #444;
+	border-radius:15px;
+	box-shadow:0 0 50px #DDD;
+}
+#login-close {
+	position:absolute;
+	padding:2px 8px;
+	border:5px solid #444;
+	border-radius:25px;
+	top:-20px;
+	right:-20px;
+	color:#444;
+	text-decoration:none;
+	font-weight:bolder;
+	font-size:16pt;
+	background-color:#FFF;
+}
+#login-dialog h2 {
+	width:280px;
+	height: 34px;
+	padding-left:20px;
+	border-top-left-radius:10px;
+	background-color:#DDD;
+	color:#444;
+}
+#login-dialog a {
+	text-decoration:none;
+}
+.social-login {
+	width:260px;
+	height:32px;
+	margin-left:20px;
+	margin-top:20px;
+	display:block;
+	color:#FFF;
+	border-radius:5px;
+	font-weight:bolder;
+}
+#login-facebook {
+	background-color:#3B5998;
+}
+#login-facebook:hover {
+	background-color:#4F6EB3;
+}
+#login-twitter {
+	background-color:#00ACED;
+}
+#login-twitter:hover {
+	background-color:#19BEFA;
+}
+#login-google {
+	background-color:#DD4D38;
+}
+#login-google:hover {
+	background-color:#F7614A;
+}
+.logo {
+	width:32px;
+	height:32px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+}
+#login-facebook .logo {
+	background:url('./img/social/facebook.png') no-repeat center;
+}
+#login-twitter .logo {
+	background:url('./img/social/twitter.png') no-repeat center;
+}
+#login-google .logo {
+	background:url('./img/social/google.png') no-repeat center;
+}

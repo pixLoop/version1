@@ -1,0 +1,49 @@
+body {
+	background-color: #FEE;
+}
+#header-top {
+	background-color: #44D;
+}
+#header-menu .pagetitle {
+	color: #44D;
+}
+#header-menu #sections li.selected {
+	border-bottom: 5px solid #44D;
+}
+#header-menu #sections li a:hover {
+	color: #44D;
+}
+#header-time #time-snap li a {
+	color: #44D;
+}
+.news-body, .news-banner {
+	border: 2px solid #44D;
+}
+.news-stats div {
+	color: #F36;
+}
+.loopit {
+	color: #F36;
+}
+.loopit:hover {
+	background-color: #F36;
+}
+.news-title a {
+	color: #F36;
+}
+.news-text {
+	background-color: #F36;
+}
+.comments-counter {
+	background-color: #44D;
+}
+#newswrap #pagination a {
+	border: 2px solid #44D;
+	color: #44D;
+}
+#newswrap #pagination a.selected {
+	background-color: #44D;
+}
+#footer {
+	background-color: #44D;
+}
