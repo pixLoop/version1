@@ -76,16 +76,16 @@ function getAndUpdate($site) {
 
 	foreach($array as $page => $rss){
 		echo '<div id="'.$page.'">';
-		echo cURLdownload($rss, "../latestLogs/".$page.".xml")."<br><br>";
+		echo cURLdownload($rss, "./latestLogs/".$page.".xml")."<br><br>";
 
-		$xml = new DOMDocument(); 
-		$xml->load('../latestLogs/'.$page.'.xml');
+		$xml = new DOMDocument();
+		$xml->load('./latestLogs/'.$page.'.xml');
 		$raiz = $xml->documentElement;
-		$entradas = $raiz->getElementsByTagName('item'); 
-		$count = $entradas->length; 
+		$entradas = $raiz->getElementsByTagName('item');
+		$count = $entradas->length;
 
-		for ($i=0; $i<$count; $i++) { 
-			$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue; 
+		for ($i=0; $i<$count; $i++) {
+			$titulo = $entradas->item($i)->getElementsByTagName('title')->item(0)->nodeValue;
 			$url = $entradas->item($i)->getElementsByTagName('link')->item(0)->nodeValue;
 			echo $url.'<br>';
 			$font = substr($url, 0, stripos($url, "/", 8));
