@@ -1,6 +1,6 @@
 <?php
 //session_start();
-if (isset($_GET['go'])) {
+if (isset($_GET['goto'])) {
 	require("./dbcon/go.php");
 } else if (!isset($_GET['site'])) {
 	include("portada.html");

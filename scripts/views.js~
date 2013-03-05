@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$('.outerlink').click(function() {
-//		$(this).attr('href', 'http://www.google.es');
-		$(this).attr('href', ("./?go=" + $(this).attr('href')));
+		$(this).attr('href', ("./?go=" + $(this).attr('news_id')));
 	});
 });

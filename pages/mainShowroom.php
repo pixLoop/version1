@@ -18,7 +18,7 @@ function displayNews($newsArray) {
 	<li id="news-<?php echo $row['id']; ?>">
 		<div class="news-body">
 			<div class="news-resume">
-				<a href="<?php echo $row['url']; ?>" class="outerlink" target="_blank">
+				<a href="<?php echo $row['url']; ?>" class="outerlink" news_id="<?php echo $row['id']; ?>" target="_blank">
 <?php if ($row['image'] !== "") echo '<img class="news-image" src="'.$row['image'].'"/>'; ?>
 				</a>
 				<div class="news-stats">
@@ -29,7 +29,7 @@ function displayNews($newsArray) {
 					<div><span class="news-views"><?php echo $row['views']; ?></span> visitas</div>
 				</div>
 				<div class="news-static">
-					<div class="news-title"><a href="<?php echo $row['url']; ?>" class="outerlink" target="_blank"><h2>
+					<div class="news-title"><a href="<?php echo $row['url']; ?>" class="outerlink" news_id="<?php echo $row['id']; ?>" target="_blank"><h2>
 <?php 
 	if (strlen($row['title']) >= 80)
 		echo substr($row['title'], 0, 77)."...";

@@ -1,6 +1,8 @@
 <?php
 //session_start();
-if (!isset($_GET['site'])) {
+if (isset($_GET['go'])) {
+	require("./dbcon/go.php");
+} else if (!isset($_GET['site'])) {
 	include("portada.html");
 } else if ($_GET['site'] !== "videojuegos") {
 	header("Location: ./");
@@ -34,7 +36,5 @@ if (!isset($_GET['site'])) {
 		default:
 			header("Location: ./?site=".$_GET['site']."&section=portada&page=1");
 	}
-} else if (isset($_GET['go'])) {
-	require("./dbcon/go.php");
 } else header("Location: ./?site=".$_GET['site']."&section=portada&page=1");
 ?>

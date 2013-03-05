@@ -1,17 +1,19 @@
 <?php
-$url = $_GET['go'];
+$news_id = $_GET['goto'];
 $ip = $_SERVER['REMOTE_ADDR'];
-echo $ip;
+echo $news_id, $ip;
 
 require("./dbcon/connection.php");
 $con = getConnection();
-$idQuery = "SELECT id FROM News WHERE CONCAT_WS('/', font, link) = '".$url."'";
-$id = mysqli_fetch_array(mysqli_query($con, $idQuery))['id'];
+$query = "SELECT id, CONCAT_WS('/', font, link) url FROM News WHERE id = '".$news_id."'";
+$result = mysqli_query($con, $query);
+$result = mysqli_fetch_array($result);
+$id = $result['id'];
 if ($id != null) {
 	$query = "INSERT INTO News_views (news, ip) VALUES ('".$id."', '".$ip."')";
 	mysqli_query($con, $query);
 }
 closeConnection($con);
 
-header("Location: ".$url);
+header("Location: ".$result['url']);
 ?>
