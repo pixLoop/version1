@@ -63,7 +63,7 @@
 		<div id="header-top">
 			<ul id="links">
 				<li<?php isSelected($_GET['site'], "videojuegos");?>>
-					<a href="./?site=videojuegos" title="Videojuegos">Viedojuegos</a>
+					<a href="./?site=videojuegos" title="Videojuegos">Videojuegos</a>
 				</li>
 				<li<?php isSelected($_GET['site'], "software");?>>
 					<a href="./?site=software" title="Software">Software</a>

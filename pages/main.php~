@@ -1,5 +1,5 @@
 <?php
-	require("./pages/newsShowroom.php");
+	require("./pages/mainShowroom.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -8,7 +8,7 @@
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
 	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
-	<link rel="stylesheet" type="text/css" media="all" href="./css/news.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/page.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/login.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
@@ -63,7 +63,7 @@
 		<div id="header-top">
 			<ul id="links">
 				<li<?php isSelected($_GET['site'], "videojuegos");?>>
-					<a href="./?site=videojuegos" title="Videojuegos">Videojuegos</a>
+					<a href="./?site=videojuegos" title="Videojuegos">Viedojuegos</a>
 				</li>
 				<li<?php isSelected($_GET['site'], "software");?>>
 					<a href="./?site=software" title="Software">Software</a>
@@ -155,13 +155,13 @@
 	</div>
 	<!--header--> 
 
-	<div id="wrapper">
+	<div id="newswrap">
 <?php
-	displayStory(mysqli_fetch_array($story));
+	displayNews($news);
+	displayPages($_GET['page'], $totalPages);
 ?>
 	</div>
 
-	<div style="clear:both;"></div>
 	<div id="footer">
 		<p>pixLoop.es ©2013 pixLoop Iniciativas, S.L.</p>
 	</div>

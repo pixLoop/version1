@@ -99,10 +99,10 @@
 	width: 0;
 	height: 0;
 	opacity: 0;
-	cursor: pointer;
 }
 .loopit:hover {
 	color: #000;
+	cursor: pointer;
 }
 
 .news-static {

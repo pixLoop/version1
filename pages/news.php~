@@ -157,10 +157,11 @@
 
 	<div id="wrapper">
 <?php
-	displayStory($story);
+	displayStory(mysqli_fetch_array($story));
 ?>
 	</div>
 
+	<div style="clear:both;"></div>
 	<div id="footer">
 		<p>pixLoop.es ©2013 pixLoop Iniciativas, S.L.</p>
 	</div>
