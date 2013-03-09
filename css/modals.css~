@@ -1,4 +1,4 @@
-#login-background {
+.modal-background {
 	z-index:200;
 	background-color:rgba(0,0,0,0.6);
 	position:fixed;
@@ -9,21 +9,17 @@
 	right:0;
 	display:none;
 }
-#login-dialog {
+.modal-window {
 	z-index:250;
 	position:fixed;
 	background-color:#FFF;
-	width:300px;
-	height:210px;
 	top:50%;
 	left:50%;
-	margin-top:-105px;
-	margin-left:-150px;
 	border:5px solid #444;
 	border-radius:15px;
 	box-shadow:0 0 50px #DDD;
 }
-#login-close {
+.modal-close {
 	position:absolute;
 	padding:2px 8px;
 	border:5px solid #444;
@@ -36,13 +32,22 @@
 	font-size:16pt;
 	background-color:#FFF;
 }
-#login-dialog h2 {
-	width:280px;
+#modal-window h2 {
 	height: 34px;
 	padding-left:20px;
 	border-top-left-radius:10px;
 	background-color:#DDD;
 	color:#444;
+}
+
+#login-dialog {
+	width:300px;
+	height:210px;
+	margin-top:-105px;
+	margin-left:-150px;
+}
+#login-dialog h2 {
+	width:280px;
 }
 #login-dialog a {
 	text-decoration:none;
@@ -89,4 +94,14 @@
 }
 #login-google .logo {
 	background:url('./img/social/google.png') no-repeat center;
+}
+
+#accept-vote-dialog {
+	width:300px;
+	height:210px;
+	margin-top:-105px;
+	margin-left:-150px;
+}
+#accept-vote-dialog h2 {
+	width:280px;
 }

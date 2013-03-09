@@ -6,372 +6,398 @@
 	
 	<link>http://www.videoshock.es</link>
 	<description>La web sobre videojuegos que busca entenderlos.</description>
-	<lastBuildDate>Mon, 04 Mar 2013 17:10:50 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 08 Mar 2013 12:25:23 +0000</lastBuildDate>
 	<language>es-ES</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.5.1</generator>
 		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/videoshock" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="videoshock" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>39.500862</geo:lat><geo:long>-0.376968</geo:long><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://add.my.yahoo.com/content?lg=es&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://eur.i1.yimg.com/eur.yimg.com/i/es/my/addto1.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.feedness.com/alta/http://feeds.feedburner.com/videoshock" src="http://www.feedness.com/ayuda/wp-content/square_b_sh_feed.gif">Subscribe with Feedness</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/videoshock" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.newsalloy.com/?rss=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.newsalloy.com/subrss3.gif">Subscribe with NewsAlloy</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://download.attensa.com/app/get_attensa.html?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.attensa.com/blogs/attensa/WindowsLiveWriter/BadgeredintoBadges_10C02/attensa_feed_button5.gif">Subscribe with Attensa for Outlook</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.flurry.com/pushRssFeed.do?r=fb&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.flurry.com/images/flurry_rss_logo2.gif">Subscribe with Flurry</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2Fvideoshock" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
-		<title>Puzzle Agent</title>
-		<link>http://www.videoshock.es/criticas/2013/03/puzzle-agent/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=puzzle-agent</link>
-		<comments>http://www.videoshock.es/criticas/2013/03/puzzle-agent/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 16:20:01 +0000</pubDate>
+		<title>Cancelado Matter, el juego de Gore Verbinsky</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/cancelado-matter-el-juego-de-gore-verbinsky/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cancelado-matter-el-juego-de-gore-verbinsky</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/cancelado-matter-el-juego-de-gore-verbinsky/#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 12:25:23 +0000</pubDate>
 		<dc:creator>Xabier Pou</dc:creator>
-				<category><![CDATA[Críticas]]></category>
-		<category><![CDATA[Graham Annable]]></category>
-		<category><![CDATA[Puzles]]></category>
-		<category><![CDATA[Puzzle Agent]]></category>
-		<category><![CDATA[Puzzle Agent 2]]></category>
-		<category><![CDATA[Telltale Games]]></category>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Blind Wink Games]]></category>
+		<category><![CDATA[Gore Verbinsky]]></category>
+		<category><![CDATA[Matter]]></category>
+		<category><![CDATA[Microsoft]]></category>
 
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42413</guid>
-		<description><![CDATA[Es frecuente que la aparición de un nuevo medio se entienda como una nueva forma de recrear lo ya existente. El cine, en sus inicios, elaboró el espacio fílmico a imagen del teatral y, aún ahora, persisten trazas que dejan claro con un simple vistazo<b>...</b>]]></description>
-				<content:encoded><![CDATA[<p><img width="920" height="520" src="http://www.videoshock.es/wp-content/uploads/2013/02/Puzzle-Agent.jpg" class="attachment-post-thumbnail wp-post-image" alt="Puzzle Agent" /></p><p>Es frecuente que la aparición de un nuevo medio se entienda como una nueva forma de recrear lo ya existente. El cine, en sus inicios, elaboró el espacio fílmico a imagen del teatral y, aún ahora, persisten trazas que dejan claro con un simple vistazo que todavía podemos considerarlo &#8220;<em>muy teatral</em>&#8220;. Y aún con esta idea en mente me sorprende que apareciera un juego como <em>Puzzle Agent</em> con el PC como objetivo principal, ya que es una nueva <strong>transposición al medio digital de los pasatiempos</strong>. Otra propuesta de puzles, diferente de los títulos del <em>Profesor Layton</em>.<!--more--></p>
-<p>Por suerte, <em>Puzzle Agent</em> es uno de esos juegos que apartan su lado educativo para no convertirse en un título de <a title="Página de Pipoclub" href="http://www.pipoclub.com/">Pipo</a>. Esta aventura se centra en el entretenimiento en base a los puzles y en ofrecer una historia de misterio, de forma que no reduce su público y sus posibilidades forzando un mensaje. Aunque t<span style="line-height: 1.5;">eniendo en cuenta que <em>Puzzle Agent 2</em> no es más que la continuación de la historia (a</span>l estilo <em>Kill Bill</em>, una extensión directa y necesaria) se hace complicado no valorarlo como un todo. La historia, presentada con cierto gancho, muestra al agente Nelson Tethers, un miembro de la división de puzles de la CIA, al que se le asigna una misión aparentemente sencilla.</p>
-<p><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Puzzle-Agent-4.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="alignright size-medium wp-image-42742" alt="Puzzle Agent (4)" src="http://www.videoshock.es/wp-content/uploads/2013/03/Puzzle-Agent-4-250x139.jpg" width="250" height="139" /></a>En el título, con el estilo característico de los cómics <em>Grickle</em> de <a title="Página oficial de Graham Annable" href="http://www.grickle.com/ ">Graham Annable</a>, se presenta a los personajes como trazos de lápices de mina blanda sobre el papel. Y es este peculiar estilo, junto con expresiones de personajes, gritos y otras locuras, el que dota de cierto encanto al pasatiempo. Pero lamentablemente ambos, universo y estética, se desmontan al poco de jugar. Los sorprendentes trazos de los personajes se vuelven muy borrosos en los planos cercanos y la mezcla de modelados 3D y ambientes 2D no está todo lo bien trabajada que sería deseable.</p>
-<p>La historia, que pretende tener algunos <strong>toques <em>Lynchianos</em></strong>, no consigue hilvanar todos los misterios y personajes que se plantean de un modo suficientemente coherente como para la importancia que se le da. Su segunda parte, de hecho, tiene por guion una vuelta a los sucesos y lugares ya vistos, y disponía de la oportunidad para reordenar la historia o rellenar los numerosos agujeros argumentales. Sin embargo, en lugar de subsanar errores, la continuación presenta la historia de un modo tan complicado y repleto de subramas que casi roza el absurdo. Una complejidad que contrasta demasiado con sus puzles, los cuales por lo general resultan sencillos. Los enigmas planteados no se resuelven, y no adquieren un valor más trascendental o psicológico. Por su planteamiento e integración no consiguen tampoco mantener una línea coherente, ya sea por una dificultad bastante variable o por su planteamiento, también por momentos en los que se supondrán pistas como dadas o que sencillamente estarán ahí por estar. En general, acaban siendo más un problema para el propio juego que otra cosa. Y tampoco ayuda que durante su escasa duración se repitan algunos esquemas en los retos.</p>
-<p>Con el tipo de puzles que gasta <em>Puzzle Agent</em> parece una compra más apropiada para tabletas, tal vez como <strong>sustitutivo de la clásica página de pasatiempos</strong> del periódico que uno rellena en el viaje de metro hacia el trabajo. Y, sin duda, su mayor atractivo son los puzles de ese libro de pasatiempos ficticio, por encima de todos los demás aspectos, aunque desafortunadamente no consiga brillar en ninguno.</p>
-<p><iframe width="650" height="366" src="http://www.youtube.com/embed/XtbMF5pHOEs?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/criticas/" title="Ver todas las entradas en Críticas" rel="category tag">Críticas</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/graham-annable/" rel="tag">Graham Annable</a>, <a href="http://www.videoshock.es/etiqueta/puzles/" rel="tag">Puzles</a>, <a href="http://www.videoshock.es/etiqueta/puzzle-agent/" rel="tag">Puzzle Agent</a>, <a href="http://www.videoshock.es/etiqueta/puzzle-agent-2/" rel="tag">Puzzle Agent 2</a>, <a href="http://www.videoshock.es/etiqueta/telltale-games/" rel="tag">Telltale Games</a>.  <a target="_blank" href="http://www.videoshock.es/criticas/2013/03/puzzle-agent/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42965</guid>
+		<description><![CDATA[Últimamente los videojuegos y los directores de cine no se llevan demasiado bien. Ya fue cancelado el proyecto de Guillermo del Toro, InSane, sin que llegáramos a ver nada más que un vídeo de presentación con sólo el título del juego. En este caso, tampoco<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>Últimamente los videojuegos y los directores de cine no se llevan demasiado bien. Ya fue cancelado el proyecto de Guillermo del Toro, <em>InSane</em>, sin que llegáramos a ver nada más que un<a href="http://www.youtube.com/watch?v=nZ9DF7l19a8"> vídeo de presentación</a> con sólo el título del juego.</p>
+<p>En este caso, tampoco hemos llegado a ver mucho del juego. Apenas se sabía de <em>Matter</em> que era un juego para Kinect y que iba a aparecer en el Xbox Live Arcade en 2013. Según hemos podido ver en <a title="Microsoft cancels Gore Verbinski's 'Matter' for Kinect" href="http://www.joystiq.com/2013/03/06/microsoft-cancels-gore-verbinskis-matter-for-kinect/">Joystiq</a>, <strong>Microsoft no tiene intención de lanzar el juego</strong>. Blind Wink Games aún no ha hecho comentarios al respecto.</p>
+<p><iframe src="http://www.youtube.com/embed/TbCaWLKDD7Q?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/blind-wink-games/" rel="tag">Blind Wink Games</a>, <a href="http://www.videoshock.es/etiqueta/gore-verbinsky/" rel="tag">Gore Verbinsky</a>, <a href="http://www.videoshock.es/etiqueta/matter/" rel="tag">Matter</a>, <a href="http://www.videoshock.es/etiqueta/microsoft/" rel="tag">Microsoft</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/cancelado-matter-el-juego-de-gore-verbinsky/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
 
 
   <div class="relacionados">
   <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/criticas/2012/11/secret-agent/" rel="bookmark">
-           Secret Agent</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-killzone-shadow-fall-ps4/" rel="bookmark">
+           Tráiler de Killzone: Shadow Fall (PS4)</a>
         </li>
-		<li><a href="http://www.videoshock.es/criticas/2010/12/regreso-al-futuro-its-about-time/" rel="bookmark">
-           Regreso al futuro: &#8220;It&#8217;s about time&#8221;</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-dead-or-alive-5-plus-ps-vita/" rel="bookmark">
+           Tráiler de Dead or Alive 5 Plus (PS Vita)</a>
         </li>
-		<li><a href="http://www.videoshock.es/resenyas/2011/02/railroad-constructor/" rel="bookmark">
-           Railroad Constructor</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-real-world-racing-pc/" rel="bookmark">
+           Demo de Real World Racing disponible</a>
         </li>
 		</ul>
   </div>
 <img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
 </div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/gVwwbBhMYRg" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/criticas/2013/03/puzzle-agent/feed/</wfw:commentRss>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/nBtwrqU5q1I" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/cancelado-matter-el-juego-de-gore-verbinsky/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>Tráiler de Link of Hearts (Android)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-link-of-hearts-android/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-link-of-hearts-android</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-link-of-hearts-android/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 12:32:49 +0000</pubDate>
+		<title>Un vistazo a la versión alfa de Darkwood y su tráiler (PC)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/un-vistazo-a-la-version-alfa-de-darkwood-y-su-trailer-pc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=un-vistazo-a-la-version-alfa-de-darkwood-y-su-trailer-pc</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/un-vistazo-a-la-version-alfa-de-darkwood-y-su-trailer-pc/#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 12:05:28 +0000</pubDate>
+		<dc:creator>Raúl García Luna</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Acid Wizard]]></category>
+		<category><![CDATA[Independientes]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=43003</guid>
+		<description><![CDATA[El estudio independiente Acid Wizard ha lanzado un tráiler de su juego Darkwood, un título encuadrado en el survival horror con una vista cenital y varias características interesantes, como permadeth, habilidades a mejorar, un sistema de crafting para crear nuestros propios útiles y, la joya<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/uQOPb9p3HTQ?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<p>El estudio independiente <a title="Página de Acid Wizard" href="http://www.acidwizardstudio.com/">Acid Wizard</a> ha lanzado un tráiler de su juego <a title="Página del proyecto Darkwood " href="http://www.darkwoodgame.com/"><em>Darkwood</em></a>, un título encuadrado en el <em>survival horror</em> con una vista cenital y varias características interesantes, como <em>permadeth</em>, habilidades a mejorar, un sistema de crafting para crear nuestros propios útiles y, la joya de la corona, un mundo a explorar generado proceduralmente en tiempo real.</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/acid-wizard/" rel="tag">Acid Wizard</a>, <a href="http://www.videoshock.es/etiqueta/independientes/" rel="tag">Independientes</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/un-vistazo-a-la-version-alfa-de-darkwood-y-su-trailer-pc/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/anunciados-los-ganadores-de-la-create-game-jam-ouya/" rel="bookmark">
+           Anunciados los ganadores de la &#8220;Create Game Jam&#8221; (Ouya)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/aliens-vs-romans-aparecera-en-breve-en-xbox-360/" rel="bookmark">
+           Aliens vs Romans, aparecerá en breve en Xbox 360</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2012/08/nuevo-humble-bundle-for-android-3/" rel="bookmark">
+           Nuevo Humble Bundle for Android 3</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/MtNf7_O0Cd4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/un-vistazo-a-la-version-alfa-de-darkwood-y-su-trailer-pc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hydrophobia Prophecy</title>
+		<link>http://www.videoshock.es/criticas/2013/03/hydrophobia-prophecy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hydrophobia-prophecy</link>
+		<comments>http://www.videoshock.es/criticas/2013/03/hydrophobia-prophecy/#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 10:22:45 +0000</pubDate>
+		<dc:creator>Julián Escrich Fajardo</dc:creator>
+				<category><![CDATA[Críticas]]></category>
+		<category><![CDATA[Dark Energy Digital]]></category>
+		<category><![CDATA[Hydrophobia Prophecy]]></category>
+		<category><![CDATA[PS3]]></category>
+		<category><![CDATA[PSN]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42160</guid>
+		<description><![CDATA[Tarde de domingo, acabáis de comer y, saciados, os dirigís al sofá para reposar el gran festín del que habéis disfrutado. Cogéis el mando de la TV, y decidís hacer un poco de zapeo, ¿Algún programa decente en la tele? No, no hay suficiente capacidad<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p><img width="650" height="180" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy.jpg" class="attachment-post-thumbnail wp-post-image" alt="Hydrophobia-Prophecy" /></p><p>Tarde de domingo, acabáis de comer y, saciados, os dirigís al sofá para reposar el gran festín del que habéis disfrutado. Cogéis el mando de la TV, y decidís hacer un poco de zapeo, ¿Algún programa decente en la tele? No, no hay suficiente capacidad de atención, pero&#8230; ¿Qué es esto? Una película de nombre sacado de un generador automático de títulos de intriga, con una nitidez de imagen extraña, directa a TV, de calidad moderada y medianamente interesante. Ahí se queda para acompañarnos en nuestro estado de duermevela, para ser olvidada una vez haya finalizado, como si nunca hubiera ocurrido.</p>
+<p>No concibo a persona alguna que no haya pasado por la experiencia descrita anteriormente, es uno de esos pequeños placeres culpables que todos tenemos y nos avergüenza reconocer. Sí, efectivamente, todos hemos visto alguna de esas películas cutres, de bajo presupuesto y previsible guión directas a TV, y en los videojuegos también tienen un equivalente, como por ejemplo este <em>Hydrophobia Prophecy</em>.<!--more--></p>
+<h4>Sociedad acuática y terroristas de baratillo</h4>
+<p>Kate Wilson dormita en su apartamento de una ciudad situada sobre el mar. Tiene una pesadilla, mucha agua, un ser maligno, un ataque&#8230; y recibe una llamada. Es un día festivo, y hay un problema en las instalaciones. Pese a ser su día libre decide ir a ver qué ocurre. Craso error.</p>
+<p><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-1.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-42987 alignright" alt="Hydrophobia Prophecy (1)" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-1-250x140.jpg" width="250" height="140" /></a>Durante su investigación tiene lugar el ataque de un grupo terrorista llamado los Malthusianos, que no están de acuerdo con las ventajas que reciben los habitantes de esa ciudad marítima mientras que el resto de la población mundial malvive, y Kate está en medio de todo este embrollo. Heroína por accidente. El inicio de la historia invita a pensar en un futuro desarrollo de los personajes ya que nos han planteado una especie de fobia de la protagonista hacia el agua, o tal vez un cierto carisma de cara a los enemigos, ya que sobre el papel, sus motivos dan pie a la polémica. Por desgracia los chicos de Dark Energy consideraron que los sucesos ya eran suficiente trasfondo, el trauma mostrado en el personaje principal no es importante, y que la trama no tenía por qué tomar ningún camino que no fuera el una heroína por accidente que se enfrenta a malos muy malos. Un desarrollo simple y mil veces visto.</p>
+<h4>El agua será tu aliada aunque la temas</h4>
+<p>Es curioso que se nos presente a Kate con una pesadilla con el líquido elemento como protagonista porque al final acabará siendo un aliado más para acabar con nuestros enemigos. En prácticamente todo momento podremos afrontar la acción de una forma menos directa a lo habitual, aprovechando la conductividad del agua para electrocutar a los soldados al acecho, o tratando de ahogarlos porque no van equipados con un equipo de buceo. De todas formas, no es necesario, ya que llega incluso a cortar el ritmo del juego, así que conforme avancemos en la historia comenzaremos a obviar las posibilidades de cada enfrentamiento para recurrir al juego de coberturas, disparos y barriles explosivos al que estamos habituados.</p>
+<p><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-6.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="alignleft size-medium wp-image-42992" alt="Hydrophobia Prophecy (6)" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-6-250x140.jpg" width="250" height="140" /></a>Fuera de la acción, y como el título indica, se intenta que el agua sea parte fundamental en el desarrollo de la historia, y por ello no será difícil encontrarnos inmersos bajo ella en tramos de buceo, o ver cómo ofrece resistencia a nuestra huida dado el nivel que alcanza en ciertas estancias, o directamente manipulándola para resolver acertijos simples que tratan de romper la monotonía. Si bien técnicamente está resuelta de una forma muy competente, los acertijos no presentan ningún reto al jugador, y las fases de buceo cuentan con un control bastante ortopédico que no llega a desesperar, pero sí que deseemos que acaben lo más rápido posible.</p>
+<h4>De abrupto fin y olvido fácil</h4>
+<p>Hasta el momento en que parece el punto que debía ser culminante para el juego, y el giro de tuerca que esperamos los jugadores, <em>Hydrophobia Prophecy</em> no nos ofrece nada que no hayamos podido disfrutar más y mejor en otros títulos. No deja de ser un juego de acción en tercera persona, técnicamente justito, que trata de ponernos un abanico de posibilidades que no utilizaremos por lo incómodas que acaban siendo.</p>
+<p>Pero entonces recibimos una habilidad que estamos esperando toda la aventura, que puede darle un nuevo enfoque a los enfrentamientos y al avance hasta el fin si los desarrolladores hubieran pensado en unos escenarios con los que aprovecharlos. Pero como en el argumento, o con las posibilidades del combate, y como en en las películas de sobremesa de domingo, recibimos lo justito para no sentirnos ofendidos. A partir de ese momento los escenarios pasan a ser pasillos, los enfrentamientos no requieren del uso de nuestra nueva habilidad y sólo hay un acertijo que la precisa, para, de forma inesperada, dejarnos ante un enfrentamiento final sencillo, tedioso y aburrido que nos deja ante un desenlace global muy descafeinado.</p>
+<p>Y así llegan las líneas de crédito, y un nuevo modo de juego, mientras seguimos sumidos en esa especie de duermevela con la que hemos jugado a este breve juego y olvidamos todo lo que nos ha ofrecido, que viene a ser muy poco, pero que <strong>al menos ha sido entretenido</strong>.</p>
+<div class="fancy-gallery gallery" style="max-width: 640px; float: left; max-height: 164px; margin-bottom:5px; overflow:hidden; clear: both;" id="gallery_42983"><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-1.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-1-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-2.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-2-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-3.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-3-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-4.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-4-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-5.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-5-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-6.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-6-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-7.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-7-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-8.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-8-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-9.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-9-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-10.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-10-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-11.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-11-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-12.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-12-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-0.jpg" title=""><img style="float: right; padding:5px; max-width:50%; height:auto;" src="http://www.videoshock.es/wp-content/uploads/2013/03/Hydrophobia-Prophecy-0-150x150.jpg" width="150" height="150" class="attachment-thumbnail" alt="" title="" /></a><div class="clear"></div></div>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/criticas/" title="Ver todas las entradas en Críticas" rel="category tag">Críticas</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/dark-energy-digital/" rel="tag">Dark Energy Digital</a>, <a href="http://www.videoshock.es/etiqueta/hydrophobia-prophecy/" rel="tag">Hydrophobia Prophecy</a>, <a href="http://www.videoshock.es/etiqueta/ps3/" rel="tag">PS3</a>, <a href="http://www.videoshock.es/etiqueta/psn/" rel="tag">PSN</a>.  <a target="_blank" href="http://www.videoshock.es/criticas/2013/03/hydrophobia-prophecy/#comments">Comentar</a></span><br /><hr /><div class="ficha-min">Plataformas: <a href="http://www.videoshock.es/plataformas/xbox-live-arcade/" rel="tag">Xbox Live Arcade</a>, <a href="http://www.videoshock.es/plataformas/xbox-360/" rel="tag">Xbox 360</a>.  Generos: <a href="http://www.videoshock.es/genero/supervivencia/" rel="tag">Supervivencia</a>, <a href="http://www.videoshock.es/genero/aventura/" rel="tag">Aventura</a>.  Desarrolladores: <a href="http://www.videoshock.es/desarrollador/dark-energy-digital/" rel="tag">Dark Energy Digital</a>.  <a title="Visitar la Ficha Completa de Hydrophobia Prophecy" href="http://www.videoshock.es/juego/hydrophobia-prophecy/">Ficha Completa</a><span class="blocka"></span></div><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/criticas/2012/11/metal-warriors/" rel="bookmark">
+           Metal Warriors</a>
+        </li>
+		<li><a href="http://www.videoshock.es/criticas/2012/10/final-fantasy-xiii/" rel="bookmark">
+           Final Fantasy XIII</a>
+        </li>
+		<li><a href="http://www.videoshock.es/criticas/2012/09/las-cien-habitaciones/" rel="bookmark">
+           Las cien habitaciones</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/IDJz2KQLKys" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/criticas/2013/03/hydrophobia-prophecy/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de The Other Brothers (iOS, Android, PC)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-the-other-brothers-ios-android-pc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-the-other-brothers-ios-android-pc</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-the-other-brothers-ios-android-pc/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 22:41:12 +0000</pubDate>
 		<dc:creator>Ramón Nafria Nagore</dc:creator>
 				<category><![CDATA[Breves]]></category>
 		<category><![CDATA[Android]]></category>
-		<category><![CDATA[JRPG]]></category>
-		<category><![CDATA[Kemco]]></category>
-
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42774</guid>
-		<description />
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/MfRLA8S9G7s?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/android/" rel="tag">Android</a>, <a href="http://www.videoshock.es/etiqueta/jrpg/" rel="tag">JRPG</a>, <a href="http://www.videoshock.es/etiqueta/kemco/" rel="tag">Kemco</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-link-of-hearts-android/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
-
-
-  <div class="relacionados">
-  <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-evoland-pc-ios-android/" rel="bookmark">
-           Tráiler de Evoland (PC, iOs, Android)</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-die-for-metal-ios-android/" rel="bookmark">
-           Tráiler de Die For Metal (iOs, Android)</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-cordy-2-ios-android/" rel="bookmark">
-           Tráiler de Cordy 2 (iOs, Android)</a>
-        </li>
-		</ul>
-  </div>
-<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
-</div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/Jen2ceaST34" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-link-of-hearts-android/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Tráiler de HomeTown Story (Nintendo 3DS)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-hometown-story-nintendo-3ds/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-hometown-story-nintendo-3ds</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-hometown-story-nintendo-3ds/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 11:00:27 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
-				<category><![CDATA[Breves]]></category>
-		<category><![CDATA[Estrategia]]></category>
-		<category><![CDATA[Natsume]]></category>
-		<category><![CDATA[Nintendo 3DS]]></category>
-		<category><![CDATA[Rising Star]]></category>
-
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42766</guid>
-		<description />
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/cJPwHSoOmnk?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/estrategia/" rel="tag">Estrategia</a>, <a href="http://www.videoshock.es/etiqueta/natsume/" rel="tag">Natsume</a>, <a href="http://www.videoshock.es/etiqueta/nintendo-3ds/" rel="tag">Nintendo 3DS</a>, <a href="http://www.videoshock.es/etiqueta/rising-star/" rel="tag">Rising Star</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-hometown-story-nintendo-3ds/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
-
-
-  <div class="relacionados">
-  <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-shin-megami-tensei-iv-nintendo-3ds/" rel="bookmark">
-           Tráiler de Shin Megami Tensei IV (Nintendo 3DS)</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-dragon-ball-heroes-ultimate-mission-nintendo-3ds/" rel="bookmark">
-           Tráiler de Dragon Ball Heroes: Ultimate Mission (Nintendo 3DS)</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-wonderful-101-nintendo-wii-u/" rel="bookmark">
-           Tráiler de The Wonderful 101 (Nintendo Wii U)</a>
-        </li>
-		</ul>
-  </div>
-<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
-</div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/CgOGW1bNY64" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-hometown-story-nintendo-3ds/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Tráiler y enlace de descarga de Infinos (PC)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-y-enlace-de-descarga-de-infinos-pc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-y-enlace-de-descarga-de-infinos-pc</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-y-enlace-de-descarga-de-infinos-pc/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 10:30:25 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
-				<category><![CDATA[Breves]]></category>
-		<category><![CDATA[Matamarcianos]]></category>
+		<category><![CDATA[iOs]]></category>
+		<category><![CDATA[Ouya]]></category>
 		<category><![CDATA[PC]]></category>
-		<category><![CDATA[Vector]]></category>
+		<category><![CDATA[Simian Squared]]></category>
 
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42758</guid>
-		<description><![CDATA[Descarga gratuita desde aquí.]]></description>
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/PdQrY93WXEc?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<p>Descarga gratuita desde <a href="http://www.vector.co.jp/soft/winnt/game/se501153.html">aquí.</a></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/matamarcianos/" rel="tag">Matamarcianos</a>, <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/vector/" rel="tag">Vector</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-y-enlace-de-descarga-de-infinos-pc/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42979</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/DC46iuHN18o?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/android/" rel="tag">Android</a>, <a href="http://www.videoshock.es/etiqueta/ios/" rel="tag">iOs</a>, <a href="http://www.videoshock.es/etiqueta/ouya/" rel="tag">Ouya</a>, <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/simian-squared/" rel="tag">Simian Squared</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-the-other-brothers-ios-android-pc/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
 
 
   <div class="relacionados">
   <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-traffic-slam-3-pc/" rel="bookmark">
-           Tráiler de Traffic Slam 3 (PC)</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-under-the-sea-ios-android-pc/" rel="bookmark">
+           Tráiler de Under The Sea (iOS, Android, PC)</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-power-up-pc-xbox-360/" rel="bookmark">
-           Tráiler de Power Up (Pc, Xbox 360)</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-the-other-brothers-pc-ouya-ios-android-mac/" rel="bookmark">
+           Tráiler The Other Brothers (PC, OUYA, iOS, Android, Mac)</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-cazafantasmas-ios/" rel="bookmark">
-           Tráiler Cazafantasmas (iOS)</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-leviathan-warships/" rel="bookmark">
+           Tráiler de Leviathan Warships (Pc, Android, iOs, Mac)</a>
         </li>
 		</ul>
   </div>
 <img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
 </div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/CuBZUdMMsGA" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-y-enlace-de-descarga-de-infinos-pc/feed/</wfw:commentRss>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/-EuREXa2b08" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-the-other-brothers-ios-android-pc/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>Lauren Faust se une al equipo de desarrollo de Fighting is Magic</title>
-		<link>http://www.videoshock.es/noticias/2013/03/lauren-faust-se-une-al-equipo-de-desarrollo-de-fighting-is-magic/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=lauren-faust-se-une-al-equipo-de-desarrollo-de-fighting-is-magic</link>
-		<comments>http://www.videoshock.es/noticias/2013/03/lauren-faust-se-une-al-equipo-de-desarrollo-de-fighting-is-magic/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 10:00:00 +0000</pubDate>
+		<title>Alien Spidy saldrá a la venta el 20 de Marzo</title>
+		<link>http://www.videoshock.es/noticias/2013/03/alien-spidy-saldra-a-la-venta-este-verano/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=alien-spidy-saldra-a-la-venta-este-verano</link>
+		<comments>http://www.videoshock.es/noticias/2013/03/alien-spidy-saldra-a-la-venta-este-verano/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 17:23:55 +0000</pubDate>
 		<dc:creator>Ramón Nafria Nagore</dc:creator>
 				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[Industria]]></category>
-		<category><![CDATA[My Little Pony]]></category>
-
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42762</guid>
-		<description><![CDATA[El culebrón del ex-juego de lucha de My Little Pony parece no acabar nunca. Tras recibir una carta de Cease &#38; Dessist por parte de Hasbro, parecía que sus desarrolladores originales iban a retirarse del desarrollo de este juego, pero en un increíble giro de<b>...</b>]]></description>
-				<content:encoded><![CDATA[<p>El culebrón del ex-juego de lucha de My Little Pony parece no acabar nunca. Tras recibir una carta de <em>Cease &amp; Dessist</em> por parte de Hasbro, parecía que sus desarrolladores originales iban a retirarse del desarrollo de este juego, pero en un increíble giro de acontecimientos, la animadora (ahora productora) Lauren Faust, una de las cabezas pensantes de My Little Pony, ha querido evitar que se tire todo el trabajo realizado a la basura, así que se ha comprometido en echarles una mano.<a href="http://www.videoshock.es/wp-content/uploads/2012/08/My-Little-Pony-Fighting-is-Magic.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-medium wp-image-34952 alignright" alt="My Little Pony Fighting is Magic" src="http://www.videoshock.es/wp-content/uploads/2012/08/My-Little-Pony-Fighting-is-Magic-250x250.jpg" width="207" height="207" /></a></p>
-<p>Según podemos ver en el <a href="http://www.mane6.com/2013/03/m6v2.html">blog </a>de desarrollo del juego, Lauren diseñará unos personajes propios para el título, teniendo en mente cómo aprovechar con el mínimo trabajo posible todas las animaciones y ataques realizados anteriormente. De esta manera, y aunque evidentemente ya no es un juego de <em>My Little Pony</em>, tiene su espíritu, y se puede distribuir de manera independiente y libre.</p>
-<p>Una estupenda noticia, que esperamos que sirva de ejemplo para otros proyectos cancelados por similares motivos.</p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/industria/" rel="tag">Industria</a>, <a href="http://www.videoshock.es/etiqueta/my-little-pony/" rel="tag">My Little Pony</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/03/lauren-faust-se-une-al-equipo-de-desarrollo-de-fighting-is-magic/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
-
-
-  <div class="relacionados">
-  <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/2012/08/my-little-pony-fighting-is-magic-el-juego-de-lucha-que-ningun-fan-puede-perderse/" rel="bookmark">
-           &#8216;My Little Pony: Fighting is Magic&#8217;, el juego de lucha que ningún fan puede perderse</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/2013/02/cancelado-my-little-pony-fighting-is-magic-por-motivos-legales/" rel="bookmark">
-           Cancelado &#8220;My Little Pony: Fighting is Magic&#8221; por motivos legales</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/2012/01/ponykart-el-juego-de-karts-de-my-little-pony-friendship-is-magic/" rel="bookmark">
-           PonyKart, el juego de Karts de My Little Pony: Friendship is Magic</a>
-        </li>
-		</ul>
-  </div>
-<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
-</div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/7y0t7KENvxs" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/2013/03/lauren-faust-se-une-al-equipo-de-desarrollo-de-fighting-is-magic/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Tráiler de Vanguard Princess (PC)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-vanguard-princess-pc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-vanguard-princess-pc</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-vanguard-princess-pc/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 09:30:58 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
-				<category><![CDATA[Breves]]></category>
-
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42754</guid>
-		<description />
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/ZI_B4lDvJrk?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: .  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-vanguard-princess-pc/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
-
-
-  <div class="relacionados">
-  <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/criticas/2009/08/the-legend-of-zelda-twilight-princess/" rel="bookmark">
-           The Legend of Zelda: Twilight Princess</a>
-        </li>
-		</ul>
-  </div>
-<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
-</div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/IE4q43p3hI0" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-vanguard-princess-pc/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Tráiler de Dreamfall Chapters (PC)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-dreamfall-chapters-pc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-dreamfall-chapters-pc</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-dreamfall-chapters-pc/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 09:00:03 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
-				<category><![CDATA[Breves]]></category>
-		<category><![CDATA[PC]]></category>
-		<category><![CDATA[Red Thread]]></category>
-
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42752</guid>
-		<description />
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/q_SAYD82LMw?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/red-thread/" rel="tag">Red Thread</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-dreamfall-chapters-pc/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
-
-
-  <div class="relacionados">
-  <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/2013/02/dreamfall-chapters-consigue-la-financiacion-necesaria-para-desarrollarse/" rel="bookmark">
-           Dreamfall Chapters consigue la financiación necesaria para desarrollarse</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-y-posibilidad-de-pre-comprarlo-de-luminesca-pc/" rel="bookmark">
-           Tráiler (y posibilidad de pre-comprarlo) de Luminesca (Pc)</a>
-        </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-terraria-xbox-360-playstation-3-pc/" rel="bookmark">
-           Tráiler Terraria (Xbox 360, Playstation 3, Pc)</a>
-        </li>
-		</ul>
-  </div>
-<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
-</div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/CLsm-5o7PEI" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-dreamfall-chapters-pc/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Teaser y fecha de Assassins Creed IV:Black Flag (PC, Xbox 360, Ps3)</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/teaser-y-fecha-de-assassins-creed-ivblack-flag-pc-xbox-360-ps3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=teaser-y-fecha-de-assassins-creed-ivblack-flag-pc-xbox-360-ps3</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/teaser-y-fecha-de-assassins-creed-ivblack-flag-pc-xbox-360-ps3/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 08:30:38 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
-				<category><![CDATA[Breves]]></category>
-		<category><![CDATA[PC]]></category>
-		<category><![CDATA[PS3]]></category>
-		<category><![CDATA[Ubisoft]]></category>
+		<category><![CDATA[Enigma Sp]]></category>
+		<category><![CDATA[Kalypso]]></category>
+		<category><![CDATA[Piel de toro]]></category>
+		<category><![CDATA[Playstation 3]]></category>
 		<category><![CDATA[Xbox 360]]></category>
 
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42750</guid>
-		<description />
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/WFxjmpsNzJc?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/pc/" rel="tag">PC</a>, <a href="http://www.videoshock.es/etiqueta/ps3/" rel="tag">PS3</a>, <a href="http://www.videoshock.es/etiqueta/ubisoft/" rel="tag">Ubisoft</a>, <a href="http://www.videoshock.es/etiqueta/xbox-360/" rel="tag">Xbox 360</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/teaser-y-fecha-de-assassins-creed-ivblack-flag-pc-xbox-360-ps3/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+		<guid isPermaLink="false">http://www.videoshock.es/?p=20334</guid>
+		<description><![CDATA[De Alien Spidy ya os hemos hablado en alguna ocasión. Ahora, gracias a Kalypso Media (sus editores) nos enteramos que a punto de empezar la primavera tendremos el honor de poder disfrutar en la consola de Microsoft, Pc y Playstation 3 de los saltos y<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>De Alien Spidy ya os hemos hablado <a href="http://www.videoshock.es/criticas/avances/2012/08/avance-alien-spidy/">en alguna ocasión</a>. Ahora, gracias a <strong>Kalypso Media</strong> (sus editores) nos enteramos que a punto de empezar la primavera tendremos el honor de poder disfrutar en la consola de Microsoft, Pc y Playstation 3 de los saltos y habilidades de esta araña alienígena a lo largo de mas de 70 variados niveles, en tres entornos distintos.</p>
+<p>Mientras esperamos el próximo juego de la veterana <a href="http://enigmasp.com">Enigma Software Productions</a>, os dejo con el último vídeo del juego.<br />
+<!--more--><br />
+<iframe src="http://www.youtube.com/embed/xooTeottvio?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/enigma-sp/" rel="tag">Enigma Sp</a>, <a href="http://www.videoshock.es/etiqueta/kalypso/" rel="tag">Kalypso</a>, <a href="http://www.videoshock.es/etiqueta/piel-de-toro/" rel="tag">Piel de toro</a>, <a href="http://www.videoshock.es/etiqueta/playstation-3/" rel="tag">Playstation 3</a>, <a href="http://www.videoshock.es/etiqueta/xbox-360/" rel="tag">Xbox 360</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/03/alien-spidy-saldra-a-la-venta-este-verano/#comments"><b>1 Respuesta</b></a></span><br /><hr /><div class='yarpp-related-rss'>
 
 
   <div class="relacionados">
   <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/2011/12/nintendo-nuevo-zelda-multiplataforma-xbox-360/" rel="bookmark">
-           Nintendo lanzará un nuevo Zelda multiplataforma, desvelada la fecha de lanzamiento y la carátula para la versión de Xbox 360</a>
+		<li><a href="http://www.videoshock.es/noticias/2013/02/michel-ancel-y-el-equipo-de-rayman-legends-tambien-se-quejan-por-su-retraso/" rel="bookmark">
+           Michel Ancel y el equipo de Rayman Legends también se quejan por su retraso</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/01/trailer-de-dead-space-3-ps3-xbox-360-pc/" rel="bookmark">
-           Tráiler de Dead Space 3 (Ps3, Xbox 360, Pc)</a>
+		<li><a href="http://www.videoshock.es/criticas/2012/09/jet-set-radio-hd/" rel="bookmark">
+           Jet Set Radio HD</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-obscure-xbox-360-ps3-pc/" rel="bookmark">
-           Tráiler de Obscure (Xbox 360, Ps3, Pc)</a>
+		<li><a href="http://www.videoshock.es/noticias/2012/06/se-acerca-una-nueva-version-de-quasar-wars/" rel="bookmark">
+           Se acerca una nueva versión de Quasar Wars</a>
         </li>
 		</ul>
   </div>
 <img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
 </div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/jluqqrx9GaI" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/teaser-y-fecha-de-assassins-creed-ivblack-flag-pc-xbox-360-ps3/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/ADOB8BQ3YVw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/2013/03/alien-spidy-saldra-a-la-venta-este-verano/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
 		</item>
 		<item>
-		<title>Ex desarrolladores de thatsgamecompany forman nuevo estudio</title>
-		<link>http://www.videoshock.es/noticias/2013/03/ex-desarrolladores-de-thatsgamecompany-forman-nuevo-estudio/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ex-desarrolladores-de-thatsgamecompany-forman-nuevo-estudio</link>
-		<comments>http://www.videoshock.es/noticias/2013/03/ex-desarrolladores-de-thatsgamecompany-forman-nuevo-estudio/#comments</comments>
-		<pubDate>Mon, 04 Mar 2013 08:00:52 +0000</pubDate>
-		<dc:creator>Ramón Nafria Nagore</dc:creator>
+		<title>Todos los juegos para móviles de EA tendrán implementados los micropagos</title>
+		<link>http://www.videoshock.es/noticias/2013/03/todos-los-juegos-para-moviles-de-ea-tendran-implementados-los-micropagos/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=todos-los-juegos-para-moviles-de-ea-tendran-implementados-los-micropagos</link>
+		<comments>http://www.videoshock.es/noticias/2013/03/todos-los-juegos-para-moviles-de-ea-tendran-implementados-los-micropagos/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 16:11:59 +0000</pubDate>
+		<dc:creator>Jaime Parada Vila</dc:creator>
 				<category><![CDATA[Noticias]]></category>
-		<category><![CDATA[Industria]]></category>
+		<category><![CDATA[Electronic Arts]]></category>
 
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42746</guid>
-		<description><![CDATA[Es curioso que, a pesar de los éxitos, y lo bien que se llevan todos (siguen recogiendo los premios de manera conjunta), cada vez son más los individuos que dejan thatsgamecompany para acabar teniendo otras aventuras dentro del desarrollo de videojuego. Si primero fueron Robin<b>...</b>]]></description>
-				<content:encoded><![CDATA[<p>Es curioso que, a pesar de los éxitos, y lo bien que se llevan todos (siguen recogiendo los premios de manera conjunta), cada vez son más los individuos que dejan thatsgamecompany para acabar teniendo otras aventuras dentro del desarrollo de videojuego.</p>
-<p>Si primero fueron <em>Robin Hunicke</em> y <a href="http://www.videoshock.es/noticias/2013/03/kelle-santiago-se-una-al-equipo-de-ouya/">Kellee Santiago</a> las que hicieron las maletas en busca de nuevas experiencias, ahora han sido <em>Matt Nava</em> (artista), <em>Nicholas Clark </em>(diseñador) y<em> Austin Winstory</em> (músico) los que han montado una empresa, con un estilo que recuerda mucho al visto anteriormente en la empresa de Jenova Chen, y de nombre <a href="http://www.giantsquidstudios.com">Giant Squid.<br />
-</a><br />
-En la actualidad acaban de empezar, y están buscando profesionales para puestos clave, lo que presupone que aún quedará tiempo hasta que veamos ninguna obra de este nuevo estudio (salvo que realicen un trabajo pequeño). Estaremos, como es de suponer, atentos a cualquier noticia relacionada con este talentoso equipo.</p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/industria/" rel="tag">Industria</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/03/ex-desarrolladores-de-thatsgamecompany-forman-nuevo-estudio/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42927</guid>
+		<description><![CDATA[A raíz de las declaraciones que hace una semana realizó Blake Jorgensen, vicepresidente de Electronic Arts, parte de la prensa asumió que los futuros videojuegos de la compañía vendrían con sistemas de micropago implementados. Estamos implementando en todos nuestros juegos de la posibilidad de realizar<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>A raíz de las declaraciones que hace una semana realizó Blake Jorgensen, vicepresidente de Electronic Arts, parte de la prensa asumió que <strong>los futuros videojuegos de la compañía vendrían con sistemas de micropago implementados</strong>.</p>
+<blockquote><p>Estamos implementando en todos nuestros juegos de la posibilidad de realizar pagos durante la partida, ya sea para aumentar su nivel, para comprar un nuevo personaje, adquirir un camión, un arma&#8230;</p></blockquote>
+<p>Como era de esperar, estas declaraciones crearon una verdadera polémica a su alrededor, por lo que el propio Jorgensen se ha apresurado en aclarar sus palabras de la semana anterior y hoy ha dicho que esto <strong>no significa que todos los títulos vayan a hacer uso de esta funcionalidad</strong>, sino que se limitarán a los videojuegos para móviles.</p>
+<div id="attachment_42930" class="wp-caption alignright" style="width: auto"><a href="http://www.videoshock.es/wp-content/uploads/2013/03/Blake-Jorg_EA.jpg"><img style="float: right; padding:5px; max-width:50%; height:auto;" class=" wp-image-42930 " alt="Blake Jorgensen, vicepresidente de EA" src="http://www.videoshock.es/wp-content/uploads/2013/03/Blake-Jorg_EA.jpg" width="300" height="237" /></a><p class="wp-caption-text" style="display:none" >Blake Jorgensen, vicepresidente de EA</p></div>
+<blockquote><p>He hecho una declaración en la conferencia en la línea de: &#8220;Vamos a tener micro-transacciones en nuestros juegos&#8221; y la comunidad lo ha leído como si me refiriera a todos nuestros juegos, y eso no es realmente cierto. Todos nuestros juegos para móviles tendrán micropagos porque todos ellos estarán destinados al juego gratuito [...] Podrás jugar a un juego durante los próximos tres años y no pagar nunca ni un penique, o jugar y mejorarlo directamente. [...] A los consumidores les encanta.</p></blockquote>
+<p>Estas aclaraciones, según informa <a title="Polygon: EA won't have microtransactions in all future games, exec clarifies" href="http://www.polygon.com/2013/3/6/4070584/ea-wont-have-micro-transactions-in-all-future-games-exec-clarifies" target="_blank">Polygon</a>, fueron realizadas durante el <a href="http://www.google.es/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;ved=0CDoQFjAB&amp;url=http%3A%2F%2Fwww.wedbush.com%2Fservices%2Fcmg%2Fequities-division%2Fmgmt-access-events&amp;ei=32g4UYrwNoWMO9_pgNAN&amp;usg=AFQjCNEbNuvBjFBt6la8mvjQCQOGRJE-AQ&amp;sig2=be5Dew08p96Sv7rgIC3gEQ&amp;bvm=bv.43287494,d.ZWU" target="_blank"><strong>Wedbush Technology</strong> Conference</a> celebrado en Nueva York. Sin embargo, aunque haya aclarado que solo se refiere a los móviles, es de suponer que esta noticia no será acogida con entusiasmo por muchos consumidores.</p>
+<p>&nbsp;</p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/electronic-arts/" rel="tag">Electronic Arts</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/03/todos-los-juegos-para-moviles-de-ea-tendran-implementados-los-micropagos/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
 
 
   <div class="relacionados">
   <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/2011/06/sega-nuevo-estudio-uk-reino-unido-desarrollo-ps-vita/" rel="bookmark">
-           Sega abre un nuevo estudio en Reino Unido centrado en el desarrollo de PS Vita</a>
+		<li><a href="http://www.videoshock.es/noticias/2012/08/ea-pretende-crear-un-nuevo-universo-sobre-command-conquer-como-free-to-play/" rel="bookmark">
+           EA pretende crear un nuevo universo sobre Command &#038; Conquer como Free to play</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/2012/07/king-com-abre-un-nuevo-estudio-en-barcelona/" rel="bookmark">
-           King.com abre un nuevo estudio en Barcelona</a>
+		<li><a href="http://www.videoshock.es/noticias/2012/07/en-origin-saben-que-aun-no-han-conquistado-al-publico-hardcore/" rel="bookmark">
+           En Origin saben que aun no han conquistado al público &#8216;hardcore&#8217;</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/2011/05/ngmoco-compra-el-estudio-holandes-rough-cookie/" rel="bookmark">
-           Ngmoco compra el estudio holandés Rough Cookie</a>
+		<li><a href="http://www.videoshock.es/noticias/2012/03/peter-molyneux-abandona-a-microsoft-y-lionhead-studios/" rel="bookmark">
+           Peter Molyneux abandona a Microsoft y Lionhead Studios</a>
         </li>
 		</ul>
   </div>
 <img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
 </div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/Ney3xg1Dg-c" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/2013/03/ex-desarrolladores-de-thatsgamecompany-forman-nuevo-estudio/feed/</wfw:commentRss>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/keRiAmkgGbQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/2013/03/todos-los-juegos-para-moviles-de-ea-tendran-implementados-los-micropagos/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>Ya disponible Graviton Blocks para Android e iOS</title>
-		<link>http://www.videoshock.es/noticias/breves/2013/03/ya-disponible-graviton-blocks-para-android-e-ios/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ya-disponible-graviton-blocks-para-android-e-ios</link>
-		<comments>http://www.videoshock.es/noticias/breves/2013/03/ya-disponible-graviton-blocks-para-android-e-ios/#comments</comments>
-		<pubDate>Fri, 01 Mar 2013 11:22:59 +0000</pubDate>
-		<dc:creator>Raúl García Luna</dc:creator>
+		<title>Tráiler de Liberation Maiden (iOS)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-liberation-maiden-ios/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-liberation-maiden-ios</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-liberation-maiden-ios/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 14:39:40 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
 				<category><![CDATA[Breves]]></category>
-		<category><![CDATA[Cookie Bit]]></category>
-		<category><![CDATA[Neotko Studios]]></category>
+		<category><![CDATA[iOs]]></category>
+		<category><![CDATA[Level 5]]></category>
+		<category><![CDATA[Matamarcianos]]></category>
 
-		<guid isPermaLink="false">http://www.videoshock.es/?p=42706</guid>
-		<description><![CDATA[Disponible para Android e iOS.]]></description>
-				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/rgpV83dYQ-I?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
-<p>Disponible para <a title="Graviton Block en Google play" href="https://play.google.com/store/apps/details?id=com.cookiebit.gravitonblock">Android</a> e <a title="Graviton Block en iTunes" href="http://itunes.apple.com/app/graviton-block/id584137563">iOS.</a></p>
-<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/cookie-bit/" rel="tag">Cookie Bit</a>, <a href="http://www.videoshock.es/etiqueta/neotko-studios/" rel="tag">Neotko Studios</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/ya-disponible-graviton-blocks-para-android-e-ios/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42976</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/Hnr-gfwHRWU?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/ios/" rel="tag">iOs</a>, <a href="http://www.videoshock.es/etiqueta/level-5/" rel="tag">Level 5</a>, <a href="http://www.videoshock.es/etiqueta/matamarcianos/" rel="tag">Matamarcianos</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-liberation-maiden-ios/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
 
 
   <div class="relacionados">
   <b>Artículos relacionados:</b> <ul>
-		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/origin-disponible-para-mac/" rel="bookmark">
-           Origin disponible para Mac</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-mikey-hooks-ios/" rel="bookmark">
+           Tráiler de Mikey Hooks (iOS)</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/2012/01/ya-disponible-el-nuevo-humble-bundle-for-android/" rel="bookmark">
-           Ya disponible el nuevo Humble Bundle for Android</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-your-are-a-bank-ios-android/" rel="bookmark">
+           Tráiler de You Are a Bank (iOS, Android)</a>
         </li>
-		<li><a href="http://www.videoshock.es/noticias/2012/08/la-tienda-de-apliaciones-de-amazon-para-android-llega-a-europa/" rel="bookmark">
-           La tienda de aplicaciones de Amazon para Android llega a Europa</a>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-rotolla-ios/" rel="bookmark">
+           Tráiler de Rotolla (iOS)</a>
         </li>
 		</ul>
   </div>
 <img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
 </div>
-<img src="http://feeds.feedburner.com/~r/videoshock/~4/t-83yHxsVIE" height="1" width="1"/>]]></content:encoded>
-			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/ya-disponible-graviton-blocks-para-android-e-ios/feed/</wfw:commentRss>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/SE1JvsS2ghc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-liberation-maiden-ios/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de Galactic Conflight (iPad)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-galactic-conflight-ipad/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-galactic-conflight-ipad</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-galactic-conflight-ipad/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 12:30:34 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Bitmen Studios]]></category>
+		<category><![CDATA[Estrategia]]></category>
+		<category><![CDATA[ipad]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42955</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/X1GMzq8zrX8?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/bitmen-studios/" rel="tag">Bitmen Studios</a>, <a href="http://www.videoshock.es/etiqueta/estrategia/" rel="tag">Estrategia</a>, <a href="http://www.videoshock.es/etiqueta/ipad/" rel="tag">ipad</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-galactic-conflight-ipad/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-monster-meltdown-ipad/" rel="bookmark">
+           Tráiler de Monster Meltdown (iPad)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/video-de-desarrollo-de-democracy-3-pc/" rel="bookmark">
+           Vídeo de desarrollo de Democracy 3 (PC)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-march-of-the-eagles-pc/" rel="bookmark">
+           Tráiler de March of the Eagles (PC)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/w1wPhw5Qkz0" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-galactic-conflight-ipad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tráiler de Monster Meltdown (iPad)</title>
+		<link>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-monster-meltdown-ipad/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trailer-de-monster-meltdown-ipad</link>
+		<comments>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-monster-meltdown-ipad/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 12:00:49 +0000</pubDate>
+		<dc:creator>Ramón Nafria Nagore</dc:creator>
+				<category><![CDATA[Breves]]></category>
+		<category><![CDATA[Ambient Studios]]></category>
+		<category><![CDATA[ipad]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42951</guid>
+		<description />
+				<content:encoded><![CDATA[<p><iframe src="http://www.youtube.com/embed/K5LszF4u5KM?theme=light&amp;wmode=transparent&amp;modestbranding=1&amp;hl=es_ES&amp;hd=1&amp;color=white;&amp;showinfo=0" height="383" width="650" allowfullscreen="" frameborder="0"></iframe></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/breves/" title="Ver todas las entradas en Breves" rel="category tag">Breves</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/ambient-studios/" rel="tag">Ambient Studios</a>, <a href="http://www.videoshock.es/etiqueta/ipad/" rel="tag">ipad</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-monster-meltdown-ipad/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/03/trailer-de-under-the-sea-ios-android-pc/" rel="bookmark">
+           Tráiler de Under The Sea (iOS, Android, PC)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-procastinating-squirrel-xbox-360/" rel="bookmark">
+           Tráiler de Procrastinating Squirrel (Xbox 360)</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/breves/2013/02/trailer-de-march-of-the-eagles-pc/" rel="bookmark">
+           Tráiler de March of the Eagles (PC)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/WoDGwjaRpBM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/breves/2013/03/trailer-de-monster-meltdown-ipad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Crystal Dynamics no seguirá con Guardian of Light</title>
+		<link>http://www.videoshock.es/noticias/2013/03/crystal-dynamics-no-seguira-con-guardian-of-light/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=crystal-dynamics-no-seguira-con-guardian-of-light</link>
+		<comments>http://www.videoshock.es/noticias/2013/03/crystal-dynamics-no-seguira-con-guardian-of-light/#comments</comments>
+		<pubDate>Thu, 07 Mar 2013 11:25:51 +0000</pubDate>
+		<dc:creator>Xabier Pou</dc:creator>
+				<category><![CDATA[Noticias]]></category>
+		<category><![CDATA[Crystal Dynamics]]></category>
+		<category><![CDATA[Lara Croft and The Guardian of Light]]></category>
+		<category><![CDATA[Tomb Raider]]></category>
+
+		<guid isPermaLink="false">http://www.videoshock.es/?p=42920</guid>
+		<description><![CDATA[No es que sea una gran sorpresa. Tras toda la promoción que han dado al reboot de la saga Tomb Raider (que también se extenderá a películas), parecía que el experimento de Lara Croft and The Guardian of Light se iba a quedar solamente en<b>...</b>]]></description>
+				<content:encoded><![CDATA[<p>No es que sea una gran sorpresa. Tras toda la promoción que han dado al reboot de la saga <em>Tomb Raider</em> (que también <a title="La película de Tomb Raider también será un reinicio" href="http://www.videoshock.es/noticias/2013/03/la-pelicula-de-tomb-raider-tambien-sera-un-reboot/">se extenderá a películas</a>), parecía que el experimento de<em> Lara Croft and The Guardian of Light</em> se iba a quedar solamente en eso: un simple experimento. Y así será, puesto que en Crystal Dynamics han afirmado que no hay planes para hacer una saga de ello.</p>
+<p>Aún así (tal como vemos en<a href="http://www.eurogamer.net/articles/2013-03-06-crystal-dynamics-wont-continue-the-guardian-of-light-series"> Eurogamer</a>) afirman que para ellos el título fue un experimento que les permitió practicar con el multijugador, algo que no podían hacer con los títulos <em>retail</em>. También añaden que el estudio sigue pensando en qué puede hacer con las experiencias multijugador.<!--more--></p>
+<p style="text-align: center;"><img style="float: right; padding:5px; max-width:50%; height:auto;" class="size-large wp-image-42936 aligncenter" alt="Lara-Croft-and-the-Guardian-of-Light" src="http://www.videoshock.es/wp-content/uploads/2013/03/Lara-Croft-and-the-Guardian-of-Light-620x348.jpg" width="620" height="348" /></p>
+<span style="clear:both; padding-top:10px"><hr/>Publicado en: <a href="http://www.videoshock.es/seccion/noticias/" title="Ver todas las entradas en Noticias" rel="category tag">Noticias</a>. Etiquetado como: <a href="http://www.videoshock.es/etiqueta/crystal-dynamics/" rel="tag">Crystal Dynamics</a>, <a href="http://www.videoshock.es/etiqueta/lara-croft-and-the-guardian-of-light/" rel="tag">Lara Croft and The Guardian of Light</a>, <a href="http://www.videoshock.es/etiqueta/tomb-raider/" rel="tag">Tomb Raider</a>.  <a target="_blank" href="http://www.videoshock.es/noticias/2013/03/crystal-dynamics-no-seguira-con-guardian-of-light/#comments">Comentar</a></span><br /><hr /><div class='yarpp-related-rss'>
+
+
+  <div class="relacionados">
+  <b>Artículos relacionados:</b> <ul>
+		<li><a href="http://www.videoshock.es/noticias/2013/03/la-pelicula-de-tomb-raider-tambien-sera-un-reboot/" rel="bookmark">
+           La película de Tomb Raider también será un reinicio</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/01/maximillian-and-the-rise-of-the-mutant-mudds-cancelado-por-falta-de-fans/" rel="bookmark">
+           Maximillian and the Rise of the Mutant Mudds cancelado por &#8230; falta de fans</a>
+        </li>
+		<li><a href="http://www.videoshock.es/noticias/2011/01/resumen-de-la-semana-3-al-7-de-enero-de-2011/" rel="bookmark">
+           Resumen de la semana (3 al 7 de Enero de 2011)</a>
+        </li>
+		</ul>
+  </div>
+<img src='http://yarpp.org/pixels/2863f5b9ac485786171e4c92a133ac8d'/>
+</div>
+<img src="http://feeds.feedburner.com/~r/videoshock/~4/9fIgG7HdD0w" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.videoshock.es/noticias/2013/03/crystal-dynamics-no-seguira-con-guardian-of-light/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
-</rss><!-- Served from: www.videoshock.es @ 2013-03-04 18:21:55 by W3 Total Cache -->
+</rss><!-- Served from: www.videoshock.es @ 2013-03-08 13:28:07 by W3 Total Cache -->

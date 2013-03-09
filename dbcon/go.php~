@@ -6,7 +6,7 @@ echo $news_id, $ip;
 require("./dbcon/connection.php");
 $con = getConnection();
 $query = "SELECT id, CONCAT_WS('/', font, link) url FROM News WHERE id = '".$news_id."'";
-$result = mysqli_query($con, $idQuery);
+$result = mysqli_query($con, $query);
 $result = mysqli_fetch_array($result);
 $id = $result['id'];
 if ($id != null) {

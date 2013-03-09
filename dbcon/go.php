@@ -1,7 +1,6 @@
 <?php
 $news_id = $_GET['goto'];
 $ip = $_SERVER['REMOTE_ADDR'];
-echo $news_id, $ip;
 
 require("./dbcon/connection.php");
 $con = getConnection();
