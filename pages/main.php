@@ -115,7 +115,7 @@
 		</div>
 
 		<div id="header-menu">
-			<a href="<?php echo './?site='.$_GET['site'].'&section=portada&page=1'?>" class="pagetitle" title="pixLoop">pix<b>Loop</b></a>
+			<a href="./" class="pagetitle" title="pixLoop">pix<b>Loop</b></a>
 			<ul id="sections">    
 				<li<?php isSelected($_GET['section'], "portada");?>>
 					<a href="<?php echo './?site='.$_GET['site'].'&section=portada&page=1'?>" title="Página principal">Portada</a>

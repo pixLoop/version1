@@ -7,8 +7,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
+	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
-	<link rel="stylesheet" type="text/css" media="all" href="./css/page.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
