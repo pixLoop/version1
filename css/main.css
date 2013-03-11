@@ -3,7 +3,6 @@
 }
 #newswrap .list {
 	list-style: none;
-	overflow: hidden;
 }
 #newswrap .list li {
 	float: left;

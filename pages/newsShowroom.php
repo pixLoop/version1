@@ -16,6 +16,7 @@ function displayStory($story) {
 	</div>
 	<img id="image" src="<?php echo $story['image']; ?>"/>
 	<a id="title" class="outerlink" href="<?php echo $story['url']; ?>" news_id="<?php echo $story['id']; ?>"><h2><?php echo $story['title']; ?></h2></a>
+	<hr />
 	<p id="font">Fuente: <a href="<?php echo $story['font']; ?>"><?php echo $story['font']; ?></a></p>
 	<p id="resume"><?php echo $story['resume']; ?></p>
 	<!-- AddThis Button BEGIN -->

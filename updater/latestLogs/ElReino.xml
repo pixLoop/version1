@@ -14,6 +14,38 @@
 <atom:link href="http://elreino.net/rss_noticias.php" rel="self" type="application/rss+xml" />
 
 <item>
+	<title>Comunicado de los problemas con los servidores de Sim City</title>
+	<link>http://elreino.net/noticia/10423/comunicado-de-los-problemas-con-los-servidores-de-sim-city</link>
+	<guid>http://elreino.net/noticia/10423/comunicado-de-los-problemas-con-los-servidores-de-sim-city</guid>
+	<pubDate>Sun, 10 Mar 2013 00:04:53 +0100</pubDate>
+	<description>Lucy Bradshaw ha tratado de aclarar el tema</description>
+</item>
+	
+<item>
+	<title>Nuevo DLC para Angry Birds Trilogy</title>
+	<link>http://elreino.net/noticia/10422/nuevo-dlc-para-angry-birds-trilogy</link>
+	<guid>http://elreino.net/noticia/10422/nuevo-dlc-para-angry-birds-trilogy</guid>
+	<pubDate>Sun, 10 Mar 2013 00:00:19 +0100</pubDate>
+	<description>Más niveles y un nuevo personaje</description>
+</item>
+	
+<item>
+	<title>Esta semana no hay programa de El Reino Champiñón</title>
+	<link>http://elreino.net/noticia/10421/esta-semana-no-hay-programa-de-el-reino-champinon</link>
+	<guid>http://elreino.net/noticia/10421/esta-semana-no-hay-programa-de-el-reino-champinon</guid>
+	<pubDate>Fri, 08 Mar 2013 17:56:10 +0100</pubDate>
+	<description>Pero volveremos la semana que viene</description>
+</item>
+	
+<item>
+	<title>Disponible el nuevo capítulo del documental de Tomb Raider</title>
+	<link>http://elreino.net/noticia/10420/disponible-el-nuevo-capitulo-del-documental-de-tomb-raider</link>
+	<guid>http://elreino.net/noticia/10420/disponible-el-nuevo-capitulo-del-documental-de-tomb-raider</guid>
+	<pubDate>Fri, 08 Mar 2013 17:32:46 +0100</pubDate>
+	<description>Estará disponible en PC, iPad y a través de Amazon para Kindle</description>
+</item>
+	
+<item>
 	<title>El videojuego de The Walking Dead llega en formato físico</title>
 	<link>http://elreino.net/noticia/10419/el-videojuego-de-the-walking-dead-llega-en-formato-fisico</link>
 	<guid>http://elreino.net/noticia/10419/el-videojuego-de-the-walking-dead-llega-en-formato-fisico</guid>
@@ -779,38 +811,6 @@
 	<guid>http://elreino.net/noticia/10324/playstation-3-recibe-una-nueva-aplicacion-de-youtube</guid>
 	<pubDate>Mon, 11 Feb 2013 22:25:53 +0100</pubDate>
 	<description>Incluye el uso del smartphone a modo de control remoto</description>
-</item>
-	
-<item>
-	<title>Disponible el programa del 9 de febrero de 2013 [8x13]</title>
-	<link>http://elreino.net/noticia/10323/disponible-el-programa-del-9-de-febrero-de-2013-8x13</link>
-	<guid>http://elreino.net/noticia/10323/disponible-el-programa-del-9-de-febrero-de-2013-8x13</guid>
-	<pubDate>Sun, 10 Feb 2013 21:03:22 +0100</pubDate>
-	<description>Sonic &amp; All-Stars Racing Transformed y Curiosidades</description>
-</item>
-	
-<item>
-	<title>Origin ya disponible para MAC</title>
-	<link>http://elreino.net/noticia/10322/origin-ya-disponible-para-mac</link>
-	<guid>http://elreino.net/noticia/10322/origin-ya-disponible-para-mac</guid>
-	<pubDate>Sat, 09 Feb 2013 14:45:30 +0100</pubDate>
-	<description>Descarga y juega a títulos de EA en MAC</description>
-</item>
-	
-<item>
-	<title>Programa del 9 de febrero de 2013 [8x13]</title>
-	<link>http://elreino.net/noticia/10321/programa-del-9-de-febrero-de-2013-8x13</link>
-	<guid>http://elreino.net/noticia/10321/programa-del-9-de-febrero-de-2013-8x13</guid>
-	<pubDate>Sat, 09 Feb 2013 14:10:19 +0100</pubDate>
-	<description>Sonic &amp; All-Stars Racing Transformed y Curiosidades</description>
-</item>
-	
-<item>
-	<title>Impresiones de Monster Hunter 3 Ultimate</title>
-	<link>http://elreino.net/noticia/10320/impresiones-de-monster-hunter-3-ultimate</link>
-	<guid>http://elreino.net/noticia/10320/impresiones-de-monster-hunter-3-ultimate</guid>
-	<pubDate>Sat, 09 Feb 2013 12:30:01 +0100</pubDate>
-	<description>Este mes de marzo habrá demo en la eShop</description>
 </item>
 	
 </channel>

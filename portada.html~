@@ -51,14 +51,14 @@
 				<td class="motor">
 					<a href=".?site=motor" title="Motor">Motor</a>
 				</td>
-				<td class="motor">
-					<a href=".?site=motor" title="Motor">Motor</a>
+				<td class="cinema">
+					<a href=".?site=cine" title="Cine">Cine</a>
 				</td>
-				<td class="motor">
-					<a href=".?site=motor" title="Motor">Motor</a>
+				<td class="music">
+					<a href=".?site=musica" title="Música">Música</a>
 				</td>
-				<td class="motor">
-					<a href=".?site=motor" title="Motor">Motor</a>
+				<td class="tv">
+					<a href=".?site=tv" title="Televisión">Televisión</a>
 				</td>
 			</tr>
 		</table>

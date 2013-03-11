@@ -50,9 +50,14 @@
 }
 #title h2 {
 	color: #33BB33;
-	border-bottom: 3px solid #DDD;
 	padding-bottom: 1px;
 	text-decoration: none;
+}
+hr {
+	margin: 0.1em 0;
+	height: 3px;
+	border: none;
+	background-color: #DDD;
 }
 #font {
 	font-size: 0.7em;	

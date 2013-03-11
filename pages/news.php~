@@ -23,6 +23,16 @@
 	<script src="./scripts/general.js"></script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 <!-- MODAL DIALOGS -->
 	<div id="login-form" class="modal-background">
 		<div id="login-dialog" class="modal-window">
@@ -115,7 +125,7 @@
 		</div>
 
 		<div id="header-menu">
-			<span class="pagetitle" title="pixLoop">pix<b>Loop</b></span>
+			<a href="./" class="pagetitle" title="pixLoop">pix<b>Loop</b></a>
 			<ul id="sections">    
 				<li<?php isSelected($_GET['section'], "portada");?>>
 					<a href="<?php echo './?site='.$_GET['site'].'&section=portada&page=1'?>" title="Página principal">Portada</a>
@@ -145,7 +155,11 @@
 		</div>
 	</div>
 	<!--header--> 
-
+<div id="container">
+	<!-- sidebar-->
+	<div id="sidebar">
+		<div class="fb-like-box" data-href="http://www.facebook.com/pixLoop" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div>
+	</div>
 	<div id="wrapper">
 <?php
 	displayStory(mysqli_fetch_array($story));
@@ -153,6 +167,7 @@
 	</div>
 
 	<div style="clear:both;"></div>
+</div>
 	<div id="footer">
 		<p>pixLoop.es ©2013 pixLoop Iniciativas, S.L.</p>
 	</div>

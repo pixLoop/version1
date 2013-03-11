@@ -17,7 +17,7 @@
 #news-stats div span {
 	font-size: 12pt;
 }
-.loopit {
+#news-stats .loopit {
 	color: #444;
 	border: 1px solid;
 	padding: 2px 4px;
@@ -27,7 +27,7 @@
 	white-space: nowrap; 
 	cursor: pointer;
 }
-.loopit:hover {
+#news-stats .loopit:hover {
 	background-color: #6F3;	
 }
 #image {
@@ -50,9 +50,13 @@
 }
 #title h2 {
 	color: #33BB33;
-	border-bottom: 3px solid #DDD;
 	padding-bottom: 1px;
 	text-decoration: none;
+}
+hr {
+	height: 3px;
+	border: none;
+	background-color: #DDD;
 }
 #font {
 	font-size: 0.7em;	
