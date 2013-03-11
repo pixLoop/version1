@@ -17,7 +17,7 @@ body {
 	top: 50%;
 	left: 50%;
 	margin-top: -330px;
-	margin-left: -620px;
+	margin-left: -470px;
 	background-color: #DDD;
 	border: 10px double #666;
 	border-radius: 50px;

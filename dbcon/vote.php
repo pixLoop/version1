@@ -1,7 +1,6 @@
 <?php
 $lines = 0;
 $output = "";
-$reload = false;
 
 $news_id = $_GET['news'];
 $user = $_SERVER['REMOTE_ADDR'];
@@ -18,6 +17,6 @@ if ($id != null) {
 }
 closeConnection($con);
 
-if ($lines === 1) echo '{"result": "Voto recibido con éxito. ¡Gracias por participar!", "reload": true}';
-else echo '{"result": "Voto no recibido.", "reload": false}';
+if ($lines == 1) echo '{"result": "Voto recibido con éxito. ¡Gracias por participar!"}';
+else echo '{"result": "Voto no recibido."}';
 ?>

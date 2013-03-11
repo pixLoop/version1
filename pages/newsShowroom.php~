@@ -7,26 +7,27 @@ function isPageSelected($target, $current) {
 }
 
 function displayStory($story) {
-	echo '<div class="story">';
-	echo '<div id="news-stats">
-			<button id="loopit">Loop it!</button>
-			<div id="story-loops"><span class="news-loops">'.$story['votes'].'</span> loops</div>
-			<div id="story-views"><span class="news-views">'.$story['views'].'</span> visitas</div>
-		</div>';
-	echo '<img id="image" src="'.$story['image'].'"/>';
-	echo '<a id="title" href="'.$story['url'].'"><h2>'.$story['title'].'</h2></a>';
-	echo '<p id="font">Fuente: <a href="'.$story['font'].'">'.$story['font'].'</a></p>';
-	echo '<p id="resume">'.$story['resume'].'</p>';
-	echo '<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style ">
-<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-<a class="addthis_button_tweet"></a>
-<a class="addthis_button_pinterest_pinit"></a>
-<a class="addthis_counter addthis_pill_style"></a>
+?>
+<div class="story">
+	<div id="news-stats">
+		<button class="loopit" news_id="<?php echo $story['id']; ?>">Loop it!</button>
+		<div id="story-loops"><span class="news-loops"><?php echo $story['votes']; ?></span> loops</div>
+		<div id="story-views"><span class="news-views"><?php echo $story['views']; ?></span> visitas</div>
+	</div>
+	<img id="image" src="<?php echo $story['image']; ?>"/>
+	<a id="title" class="outerlink" href="<?php echo $story['url']; ?>"><h2><?php echo $story['title']; ?></h2></a>
+	<p id="font">Fuente: <a href="<?php echo $story['font']; ?>"><?php echo $story['font']; ?></a></p>
+	<p id="resume"><?php echo $story['resume']; ?></p>
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style ">
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		<a class="addthis_button_tweet"></a>
+		<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ca22c1311ce025"></script>
+	<!-- AddThis Button END -->
 </div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ca22c1311ce025"></script>
-<!-- AddThis Button END -->';
-	echo '</div>';
+<?php
 }
 
 function displayPages($current, $max) {

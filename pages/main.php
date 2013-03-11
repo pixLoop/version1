@@ -7,8 +7,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
+	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
-	<link rel="stylesheet" type="text/css" media="all" href="./css/page.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
@@ -72,11 +72,29 @@
 				<li<?php isSelected($_GET['site'], "movil");?>>
 					<a href="./?site=movil" title="Movil">Movil</a>
 				</li>
+				<li<?php isSelected($_GET['site'], "mediatech");?>>
+					<a href="./?site=mediatech" title="MediaTech">MediaTech</a>
+				</li>
 				<li<?php isSelected($_GET['site'], "deportes");?>>
 					<a href="./?site=deportes" title="Deportes">Deportes</a>
 				</li>
+				<li<?php isSelected($_GET['site'], "futbol");?>>
+					<a href="./?site=futbol" title="Fútbol">Fútbol</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "motorsport");?>>
+					<a href="./?site=motorsport" title="Motorsport">Motorsport</a>
+				</li>
 				<li<?php isSelected($_GET['site'], "motor");?>>
 					<a href="./?site=motor" title="Motor">Motor</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "cine");?>>
+					<a href="./?site=cine" title="Cine">Cine</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "musica");?>>
+					<a href="./?site=musica" title="Música">Música</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "tv");?>>
+					<a href="./?site=tv" title="Televisión">Televisión</a>
 				</li>
 			</ul>
 			<div class="social">
@@ -97,7 +115,7 @@
 		</div>
 
 		<div id="header-menu">
-			<span class="pagetitle" title="pixLoop">pix<b>Loop</b></span>
+			<a href="<?php echo './?site='.$_GET['site'].'&section=portada&page=1'?>" class="pagetitle" title="pixLoop">pix<b>Loop</b></a>
 			<ul id="sections">    
 				<li<?php isSelected($_GET['section'], "portada");?>>
 					<a href="<?php echo './?site='.$_GET['site'].'&section=portada&page=1'?>" title="Página principal">Portada</a>

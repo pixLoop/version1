@@ -16,15 +16,9 @@ $(document).ready(function() {
 			 function(data) {
 				$("#vote-result").html(data.result);
 				$("#accept-vote-form").show();
-				if (data.reload == true) {
-					var hide = setTimeout(function() {
-						location.reload(true);
-					}, 3000);
-				} else {
-					var hide = setTimeout(function() {
-						$("#accept-vote-form").hide();
-					}, 3000);
-				}
+				var hide = setTimeout(function() {
+					$("#accept-vote-form").hide();
+				}, 3000);
 			}
 		);
 	});

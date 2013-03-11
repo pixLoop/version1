@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
-	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/news.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
@@ -72,11 +72,29 @@
 				<li<?php isSelected($_GET['site'], "movil");?>>
 					<a href="./?site=movil" title="Movil">Movil</a>
 				</li>
+				<li<?php isSelected($_GET['site'], "mediatech");?>>
+					<a href="./?site=mediatech" title="MediaTech">MediaTech</a>
+				</li>
 				<li<?php isSelected($_GET['site'], "deportes");?>>
 					<a href="./?site=deportes" title="Deportes">Deportes</a>
 				</li>
+				<li<?php isSelected($_GET['site'], "futbol");?>>
+					<a href="./?site=futbol" title="Fútbol">Fútbol</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "motorsport");?>>
+					<a href="./?site=motorsport" title="Motorsport">Motorsport</a>
+				</li>
 				<li<?php isSelected($_GET['site'], "motor");?>>
 					<a href="./?site=motor" title="Motor">Motor</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "cine");?>>
+					<a href="./?site=cine" title="Cine">Cine</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "musica");?>>
+					<a href="./?site=musica" title="Música">Música</a>
+				</li>
+				<li<?php isSelected($_GET['site'], "tv");?>>
+					<a href="./?site=tv" title="Televisión">Televisión</a>
 				</li>
 			</ul>
 			<div class="social">
@@ -124,31 +142,6 @@
 					<input id="searchbox" name="q" type="text" /> 
 				</form> 
 			</div> -->
-		</div>
-		<div id="header-time">
-			<ul id="time-snap">    
-				<li class="selected">
-					<a href="/" title="Últimas 24 horas">24 horas</a>
-				</li>
-				<li>
-					<a href="/" title="Últimas 48 horas">48 horas</a>
-				</li>
-				<li>
-					<a href="/" title="Última semana">Semana</a>
-				</li>
-				<li>
-					<a href="/" title="Último mes">Mes</a>
-				</li>
-				<li>
-					<a href="/" title="Últimos 6 meses">6 meses</a>
-				</li>
-				<li>
-					<a href="/" title="Último año">Año</a>
-				</li>
-				<li>
-					<a href="/" title="Todas">Todas</a>
-				</li>
-			</ul>
 		</div>
 	</div>
 	<!--header--> 
