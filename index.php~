@@ -48,6 +48,7 @@ function sectionJumper() {
 		case "destacadas":
 		case "vistas":
 		case "comentadas":
+			timeJumper();
 			pages();
 			break;
 		case "noticia":
