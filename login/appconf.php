@@ -10,8 +10,8 @@ $index = '../index.php';
 
 if ( $app == 'facebook' ) { // Facebook App
 	$facebook = new Facebook(array(
-		'appId'  => '',
-		'secret' => '',
+		'appId'  => '567833463240931',
+		'secret' => '935aa04f851926bf00c92840b8fee0fb',
 	));
 }
 elseif ( $app == 'twitter' ) { // Twitter App
@@ -23,12 +23,12 @@ elseif ( $app == 'twitter' ) { // Twitter App
 elseif ( $app == 'google' ) { // Google App
 	$GoogleApiConfig = array(
 		// The application_name is included in the User-Agent HTTP header.
-		'application_name' => '',
+		'application_name' => 'pixLoop',
 		
 		// OAuth2 Settings, you can get these keys at https://code.google.com/apis/console
-		'oauth2_client_id' => '',
-		'oauth2_client_secret' => '',
-		'oauth2_redirect_uri' => '',
+		'oauth2_client_id' => '944147294115.apps.googleusercontent.com',
+		'oauth2_client_secret' => '3h4sqv1rb3rvMckcFqmu2YP7',
+		'oauth2_redirect_uri' => 'http://www.pixloop.tk/login/login.php?app=google',
 
 	);
 }
