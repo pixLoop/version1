@@ -164,7 +164,7 @@
 	</div>
 	<div id="wrapper">
 <?php displayStory(mysqli_fetch_array($story)); ?>
-<?php displayComments($comments); ?>
+<?php //displayComments($comments); ?>
 	</div>
 
 	<div style="clear:both;"></div>

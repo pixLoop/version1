@@ -1,6 +1,14 @@
 <?php
 require("./dbcon/connection.php");
 
+function getTopFonts($site) {
+	$con = getConnection();
+	$query = "SELECT n.font, (COUNT(nv.user) / COUNT(n.link)) rating FROM News n LEFT JOIN News_votes nv ON n.id = nv.news WHERE n.site = '".$site."' GROUP BY n.font ORDER BY rating DESC LIMIT 0, 10";
+	$result = mysqli_query($con, $query);
+	closeConnection($con);
+	return $result;	
+}
+
 function getPages($site) {
 	$con = getConnection();
 	$query = "SELECT * FROM News WHERE site = '".$site."'";

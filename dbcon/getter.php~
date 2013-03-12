@@ -1,6 +1,14 @@
 <?php
 require("./dbcon/connection.php");
 
+function getTopFonts($site) {
+	$con = getConnection();
+	$query = "SELECT * FROM News WHERE site = '".$site."'";
+	$result = mysqli_query($con, $query);
+	closeConnection($con);
+	return $result;	
+}
+
 function getPages($site) {
 	$con = getConnection();
 	$query = "SELECT * FROM News WHERE site = '".$site."'";
@@ -92,14 +100,10 @@ function getComments($story) {
 
 	$query = "SELECT nc.* FROM News n LEFT JOIN Comments nc ON n.id = nc.news WHERE n.id = ".$story;
 
-	$story = mysqli_query($con, $query);
+	$comments = mysqli_query($con, $query);
 	$rows = mysqli_num_rows($story);
 
 	closeConnection($con);
-	if ($rows !== 1) {
-		return null;
-	} else {
-		return $story;
-	}
+	return $comments;
 }
 ?>

@@ -6,6 +6,12 @@ function isPageSelected($target, $current) {
 	if ($target == $current) return ' class="selected"';
 }
 
+function displayTopFonts($fonts) {
+	while ($font = mysqli_fetch_array($fonts)) {
+		echo '<li><a href="'.$font['font'].'">'.$font['font'].'</a></li>';
+	}
+}
+
 function displayNews($newsArray) {
 	echo '<ul class="list">';
 	$adcount = 0;

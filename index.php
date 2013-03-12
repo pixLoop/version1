@@ -3,6 +3,7 @@
 
 function pages() {
 	require("./dbcon/getter.php");
+	$topFonts = getTopFonts($_GET['site']);
 	$news = getNews($_GET['site'], $_GET['section'], $_GET['page']);
 	$totalPages = getPages($_GET['site']);
 	if (isset($_GET['page'])) {
@@ -15,6 +16,7 @@ function pages() {
 function noticia() {
 	if (isset($_GET['story'])) {
 		require("./dbcon/getter.php");
+		$topFonts = getTopFonts($_GET['site']);
 		$story = getStory($_GET['site'], $_GET['story']);
 		$comments = getComments($_GET['story']);
 		if ($story !== null) {

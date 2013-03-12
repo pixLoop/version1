@@ -27,9 +27,6 @@
 	white-space: nowrap; 
 	cursor: pointer;
 }
-#news-stats .loopit:hover {
-	background-color: #6F3;	
-}
 #image {
 	float: left;
 	height: 100px;
@@ -41,7 +38,6 @@
 	-webkit-background-size: 100% 100%;
 }
 #title {
-	color: #33BB33;
 	margin-top: 1em;
 	text-decoration: none;
 }
@@ -49,7 +45,6 @@
 	text-decoration: underline;
 }
 #title h2 {
-	color: #33BB33;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
@@ -64,10 +59,9 @@ hr {
 }
 #font a {
 	text-decoration: none;
-	color: black;
+	color: #000;
 }
 #font a:hover {
-	color: #33BB33;
 	text-decoration: underline;
 }
 #resume {

@@ -24,7 +24,7 @@ function displayNews($newsArray) {
 				<div class="news-stats">
 					<div>
 						<span class="news-loops"><?php echo $row['votes']; ?></span> loops
-						<button class="loopit"news_id="<?php echo $row['id']; ?>" >Loop it!</button>
+						<button class="loopit" news_id="<?php echo $row['id']; ?>">Loop it!</button>
 					</div>
 					<div><span class="news-views"><?php echo $row['views']; ?></span> visitas</div>
 				</div>

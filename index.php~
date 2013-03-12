@@ -16,6 +16,7 @@ function noticia() {
 	if (isset($_GET['story'])) {
 		require("./dbcon/getter.php");
 		$story = getStory($_GET['site'], $_GET['story']);
+		$comments = getComments($_GET['story']);
 		if ($story !== null) {
 			require("./pages/news.php");
 		} else {

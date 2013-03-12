@@ -161,7 +161,14 @@
 		<div class="fb-like-box" data-href="http://www.facebook.com/pixLoop" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div>
 	<a class="twitter-timeline" href="https://twitter.com/pixLoop" data-widget-id="311182746909278208">Tweets por @pixLoop</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<div id="top-fonts">
+			<h3>fuentes +Valoradas</h3>
+			<ul>
+<?php displayTopFonts($topFonts); ?>
+			</ul>
+		</div>
 	</div>
+	<!-- sidebar-->
 	<div id="wrapper">
 <?php displayStory(mysqli_fetch_array($story)); ?>
 <?php //displayComments($comments); ?>

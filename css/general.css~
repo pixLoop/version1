@@ -135,7 +135,7 @@
 	float: right;
 	margin-left: 5px;
 	margin-right: 50px;
-	height: 797px;
+	height: 1064px;
 }
 #sidebar > *{
 	margin: 5px 0;
@@ -143,6 +143,25 @@
 #twitter-widget-0 {
 	width: 300px;
 	display: block;
+}
+#top-fonts {
+	border: 3px solid #DDD;
+}
+#top-fonts * {
+	padding: 5px;
+}
+#top-fonts h3 {
+	color: #444;
+	background-color: #3B3;
+}
+#top-fonts ul {
+	list-style: none;
+}
+#top-fonts a {
+	color: #444;
+}
+#top-fonts a:hover {
+	color: #3B3;
 }
 #footer {
 	margin-top: 20px;
