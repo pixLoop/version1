@@ -76,4 +76,10 @@ hr {
 	margin-bottom: 1em;
 }
 
-
+.atclear {
+	display: none;
+}
+#comments {
+	margin-top: 3em;
+	clear: left;
+}

@@ -86,4 +86,16 @@ function getStory($site, $story) {
 		return $story;
 	}
 }
+
+function getComments($story) {
+	$con = getConnection();
+
+	$query = "SELECT nc.* FROM News n LEFT JOIN Comments nc ON n.id = nc.news WHERE n.id = ".$story;
+
+	$comments = mysqli_query($con, $query);
+	$rows = mysqli_num_rows($story);
+
+	closeConnection($con);
+	return $comments;
+}
 ?>

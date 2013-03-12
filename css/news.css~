@@ -54,6 +54,7 @@
 	text-decoration: none;
 }
 hr {
+	margin: 0.1em 0;
 	height: 3px;
 	border: none;
 	background-color: #DDD;
@@ -75,4 +76,10 @@ hr {
 	margin-bottom: 1em;
 }
 
-
+.atclear {
+	display: none;
+}
+#comments {
+	margin-top: 5em;
+	clear: left;
+}

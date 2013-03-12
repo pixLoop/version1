@@ -25,6 +25,13 @@ function displayStory($story) {
 		<a class="addthis_button_tweet"></a>
 		<a class="addthis_counter addthis_pill_style"></a>
 	</div>
+	<div id="comments">
+		<h3><?php echo $story['comments']; ?> comentarios</h3>
+		<ul id="order-coments">
+			<li><a>+Nuevos</a></li>
+			<li><a>+Votados</a></li>
+		</ul>
+	</div>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ca22c1311ce025"></script>
 	<!-- AddThis Button END -->
 </div>
