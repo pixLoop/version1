@@ -1,29 +1,29 @@
-#newswrap {
+#wrapper {
 	margin-left: 50px;
 }
-#newswrap .list {
+#wrapper .list {
 	list-style: none;
 }
-#newswrap .list li {
+#wrapper .list li {
 	float: left;
 	position: relative;
 }
-#newswrap #pagination {
+#wrapper #pagination {
 	margin-top: 5px;
 	margin-left: 10px;
 }
-#newswrap #pagination a {
+#wrapper #pagination a {
 	padding: 5px 10px;
 	background-color: #FFF;
 	font-size: 14pt;
 	font-weight: bolder;
 	text-decoration: none;
 }
-#newswrap #pagination a.selected {
+#wrapper #pagination a.selected {
 	border: 2px solid #FFF;
 	color: #FFF;
 }
-#newswrap #pagination a:hover {
+#wrapper #pagination a:hover {
 	border: 2px solid #444;
 	color: #444;
 }

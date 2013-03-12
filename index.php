@@ -20,7 +20,7 @@ function noticia() {
 		$story = getStory($_GET['site'], $_GET['story']);
 		$comments = getComments($_GET['story']);
 		if ($story !== null) {
-			require("./pages/news.php");
+			require("./pages/main.php");
 		} else {
 			header("Location: ./?site=".$_GET['site']."&section=portada&page=1");
 		}

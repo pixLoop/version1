@@ -1,5 +1,5 @@
 <?php
-	require("./pages/mainShowroom.php");
+	require("./pages/showroom.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -8,7 +8,22 @@
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
 	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
+<?php
+switch ($_GET['section']) {
+	case "portada":
+	case "nuevas":
+	case "destacadas":
+	case "vistas":
+	case "comentadas":
+?>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
+<?php		break;
+	case "noticia":
+?>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/news.css"/>
+<?php		break;
+}
+?>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
@@ -204,10 +219,24 @@ switch ($_GET['section']) {
 		</div>
 	</div>
 	<!-- sidebar-->
-	<div id="newswrap">
-<?php displayNews($news); ?>
-	<div style="clear:both;"></div>
-<?php displayPages($_GET['page'], $totalPages); ?>
+	<div id="wrapper">
+<?php
+switch ($_GET['section']) {
+	case "portada":
+	case "nuevas":
+	case "destacadas":
+	case "vistas":
+	case "comentadas":
+		displayNews($news);
+		echo '<div style="clear:both;"></div>';
+		displayPages($_GET['page'], $totalPages);
+		break;
+	case "noticia":
+		displayStory(mysqli_fetch_array($story));
+		//displayComments($comments);
+		break;
+}
+?>
 	</div>
 	<div style="clear:both;"></div>
 </div>
