@@ -1,8 +1,0 @@
-<?php
-$story = $_GET['go'];
-$ip = $_SERVER['REMOTE_ADDR'];
-
-require("../dbcon/counters.php");
-addVisit($story, $ip);
-header("Location: " + $story);
-?>

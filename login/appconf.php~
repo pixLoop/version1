@@ -16,8 +16,8 @@ if ( $app == 'facebook' ) { // Facebook App
 }
 elseif ( $app == 'twitter' ) { // Twitter App
 	$tmhOAuth = new tmhOAuth(array(
-	  'consumer_key'    => 'qBzrKzqMFD3SKsNK3tdY7w',
-	  'consumer_secret' => 'NzEiU4bUG4gifjdjaEjdbIvVL8kXfJMcfiOOeH7m8U',
+	  'consumer_key'    => '',
+	  'consumer_secret' => '',
 	));
 }
 elseif ( $app == 'google' ) { // Google App
