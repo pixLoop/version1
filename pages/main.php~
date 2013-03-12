@@ -8,7 +8,22 @@
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
 	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
+<?php
+switch ($_GET['section']) {
+	case "portada":
+	case "nuevas":
+	case "destacadas":
+	case "vistas":
+	case "comentadas":
+?>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/main.css"/>
+<?php		break;
+	case "noticia":
+?>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/news.css"/>
+<?php		break;
+}
+?>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
@@ -109,12 +124,12 @@
 			</ul>
 			<div class="social">
 				<span>Síguenos en: </span>
-				<a href="" title="síguenos en Facebook">
-					<img id="follow-facebook" class="follow" src="./css/img/social/facebook.png" alt="Facebook"/></a>
-				<a href="" title="síguenos en Twitter">
-					<img id="follow-twitter" class="follow" src="./css/img/social/twitter.png" alt="Twitter"/></a>
-				<a href="" title="síguenos en Google+">
-					<img id="follow-google" class="follow" src="./css/img/social/google.png" alt="Google+"/></a>
+				<a href="http://www.facebook.com/pixLoop" title="síguenos en Facebook">
+					<img id="follow-facebook" class="follow" src="./css/img/social/facebook.png" alt="Facebook" target="_blank"/></a>
+				<a href="https://twitter.com/pixLoop" title="síguenos en Twitter">
+					<img id="follow-twitter" class="follow" src="./css/img/social/twitter.png" alt="Twitter" target="_blank"/></a>
+				<a href="https://plus.google.com/u/0/115766301651355432068" title="síguenos en Google+">
+					<img id="follow-google" class="follow" src="./css/img/social/google.png" alt="Google+" target="_blank"/></a>
 			</div>
 
 			<ul id="userinfo">

@@ -124,11 +124,11 @@ switch ($_GET['section']) {
 			</ul>
 			<div class="social">
 				<span>Síguenos en: </span>
-				<a href="" title="síguenos en Facebook">
+				<a href="http://www.facebook.com/pixLoop" title="síguenos en Facebook" target="_blank">
 					<img id="follow-facebook" class="follow" src="./css/img/social/facebook.png" alt="Facebook"/></a>
-				<a href="" title="síguenos en Twitter">
+				<a href="https://twitter.com/pixLoop" title="síguenos en Twitter" target="_blank">
 					<img id="follow-twitter" class="follow" src="./css/img/social/twitter.png" alt="Twitter"/></a>
-				<a href="" title="síguenos en Google+">
+				<a href="https://plus.google.com/u/0/115766301651355432068" title="síguenos en Google+" target="_blank">
 					<img id="follow-google" class="follow" src="./css/img/social/google.png" alt="Google+"/></a>
 			</div>
 
