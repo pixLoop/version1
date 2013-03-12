@@ -11,28 +11,59 @@ function getPages($site) {
 	return $pages;
 }
 
-function getNews($site, $order, $page) {
+function getNews($site, $order, $page, $time) {
 	$con = getConnection();
-	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."' GROUP BY n.id ";
+
+	$sort = "";
+	$col = "";
 	switch ($order) {
 		case "portada":
-			$query .= "ORDER BY pop DESC";
+			$sort = "pop DESC";
+			$time = "all";
 			break;
 		case "nuevas":
-			$query .= "ORDER BY time DESC";
+			$sort = "time DESC";
+			$time = "all";
 			break;
 		case "destacadas":
-			$query .= "ORDER BY votes DESC";
+			$sort = "votes DESC";
+			$col = "nv.time";
 			break;
 		case "vistas":
-			$query .= "ORDER BY views DESC";
+			$sort = "views DESC";
+			$col = "ni.time";
 			break;
 		case "comentadas":
-			$query .= "ORDER BY comments DESC";
+			$sort = "comments DESC";
+			$col = "nc.time";
 			break;
 	}
 
-	$query .= ", time DESC LIMIT " . (20 * ($page - 1)) . ", 20";
+	$timing = " AND (TO_SECONDS(NOW()) - TO_SECONDS(".$col.")) <= ";
+	switch ($time) {
+		case "24h":
+			$timing .= (24 * 3600);
+			break;
+		case "48h":
+			$timing .= (2 * 24 * 3600);
+			break;
+		case "1s":
+			$timing .= (7 * 24 * 3600);
+			break;
+		case "1m":
+			$timing .= (30 * 24 * 3600);
+			break;
+		case "6m":
+			$timing .= (6 * 30 * 24 * 3600);
+			break;
+		case "1a":
+			$timing .= (365 * 24 * 3600);
+			break;
+		default:
+			$timing = "";
+	}
+
+	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."'".$timing." GROUP BY n.id ORDER BY ".$sort.", time DESC LIMIT " . (20 * ($page - 1)) . ", 20";
 
 	$news = mysqli_query($con, $query);
 

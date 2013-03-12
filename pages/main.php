@@ -153,31 +153,40 @@
 				</form> 
 			</div> -->
 		</div>
-		<div id="header-time">
+<?php 
+switch ($_GET['section']) {
+	case "destacadas":
+	case "vistas":
+	case "comentadas":
+?>		<div id="header-time">
 			<ul id="time-snap">    
-				<li class="selected">
-					<a href="/" title="Últimas 24 horas">24 horas</a>
+				<li<?php isSelected($_GET['time'], "24h");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=24h&page=1';?>" title="Últimas 24 horas">24 horas</a>
 				</li>
-				<li>
-					<a href="/" title="Últimas 48 horas">48 horas</a>
+				<li<?php isSelected($_GET['time'], "48h");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=48h&page=1';?>" title="Últimas 48 horas">48 horas</a>
 				</li>
-				<li>
-					<a href="/" title="Última semana">Semana</a>
+				<li<?php isSelected($_GET['time'], "1s");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=1s&page=1';?>" title="Última semana">Semana</a>
 				</li>
-				<li>
-					<a href="/" title="Último mes">Mes</a>
+				<li<?php isSelected($_GET['time'], "1m");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=1m&page=1';?>" title="Último mes">Mes</a>
 				</li>
-				<li>
-					<a href="/" title="Últimos 6 meses">6 meses</a>
+				<li<?php isSelected($_GET['time'], "6m");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=6m&page=1';?>" title="Últimos 6 meses">6 meses</a>
 				</li>
-				<li>
-					<a href="/" title="Último año">Año</a>
+				<li<?php isSelected($_GET['time'], "1a");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=1a&page=1';?>" title="Último año">Año</a>
 				</li>
-				<li>
-					<a href="/" title="Todas">Todas</a>
+				<li<?php isSelected($_GET['time'], "all");?>>
+					<a href="<?php echo './?site='.$_GET['site'].'&section='.$_GET['section'].'&time=all&page=1';?>" title="Todas">Todas</a>
 				</li>
 			</ul>
 		</div>
+<?php 
+		break;
+}
+?>
 	</div>
 	<!--header--> 
 
