@@ -4,7 +4,7 @@
 || # SONHLAB.com - SONHlab Social Auth v1 #
 || ##########################################||
 \*==========================================*/
-$index = '../index.php';
+$index = '../';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
 	echo "con ECHO";
