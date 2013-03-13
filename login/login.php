@@ -7,7 +7,14 @@
 $index = '../index.php';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
+	echo "con ECHO";
 	echo $_SESSION["userprofile"];
+
+	echo "********************************************************************";
+	echo "********************************************************************";
+
+	echo "con PRINT_R";
+	print_r($_SESSION["userprofile"]);
 //	header("Location: $index");
 }
 // Options to Log in
