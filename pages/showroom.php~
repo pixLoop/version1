@@ -13,17 +13,9 @@ function displayTopFonts($fonts) {
 }
 
 function displayNews($newsArray) {
-	if (isset($newsArray)) echo "isset"; else echo "notset";
-	echo " ";
-	if (is_null($newsArray)) echo "isnull"; else echo "notnull";
-	echo " ";
-	echo gettype($newsArray)." ".var_dump($newsArray);
-	echo $newsArray;
-	echo mysqli_num_rows($newsArray);
-
 	echo '<ul class="list">';
 	$adcount = 0;
-	/*while ($row = mysqli_fetch_array($newsArray)) {
+	while ($row = mysqli_fetch_array($newsArray)) {
 		$adcount++;
 		if (($adcount % 5) === 3) {
 			echo '<li><div class="news-banner">BANNER PUBLICITARIO</div></li>';
@@ -86,7 +78,7 @@ function displayNews($newsArray) {
 		</div>
 	</li>
 <?php
-	}*/
+	}
 	echo "</ul>";
 }
 
@@ -133,6 +125,7 @@ function displayStory($story, $comments) {
 			<p>Escribe un comentario:</p>
 			<form name="post-form" id="post-form" action="./?action=comment" method="post">
 				<input type="hidden" name="news" value="<?php echo $story['id']; ?>">
+				<input type="hidden" name="user" value="TW:249132690">
 				<p><textarea name="comment" rows="5" cols="65"></textarea></p>
 				<p><input type="submit" name="post" value="Comenta"></p>
 			</form>

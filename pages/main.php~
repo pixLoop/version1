@@ -22,7 +22,7 @@ switch ($_GET['section']) {
 <?php		break;
 }
 ?>
-	<link rel="stylesheet" type="text/css" media="all" href="./css/color/<?php echo $_GET['site']?>.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/color.css.php?site=<?php echo $_GET['site']?>"/>
 	<link rel="stylesheet" type="text/css" media="all" href="./css/modals.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>
 
@@ -34,6 +34,10 @@ switch ($_GET['section']) {
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 	<script src="./scripts/general.js"></script>
+
+<?php echo '<style type="text/css">';
+require("./css/color.css.php?site=".$_GET['site']);
+echo '</style>';?>
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -226,8 +230,8 @@ switch ($_GET['section']) {
 	case "vistas":
 	case "comentadas":
 		displayNews($news);
-		//echo '<div style="clear:both;"></div>';
-		//displayPages($_GET['page'], $totalPages);
+		echo '<div style="clear:both;"></div>';
+		displayPages($_GET['page'], $totalPages);
 		break;
 	case "noticia":
 		displayStory(mysqli_fetch_array($story), $comments);

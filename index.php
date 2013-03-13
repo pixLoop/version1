@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 
 function pages() {
 	require("./dbcon/getter.php");
@@ -77,11 +77,14 @@ function siteJumper() {
 }
 
 
-if (isset($_GET['goto'])) {
+if (isset($_GET['comment'])) {
+	require("./dbcon/comment.php");
+} else if (isset($_GET['goto'])) {
 	require("./dbcon/go.php");
 } else if (!isset($_GET['site'])) {
 	include("portada.html");
 } else {
+	$_SESSION['last_page'] = $_SERVER['QUERY_STRING'];
 	siteJumper();
 	sectionJumper();
 }

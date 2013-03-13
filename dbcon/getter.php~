@@ -105,7 +105,7 @@ function getNews($site, $order, $page, $time = "all") {
 function getStory($site, $story) {
 	$con = getConnection();
 
-	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."' AND n.id = ".$story." GROUP BY n.id LIMIT 0, 1";
+	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, IFNULL(v.votes, 0) votes, IFNULL(i.views, 0) views, IFNULL(c.comments, 0) comments, (((IFNULL(v.votes, 0) + IFNULL(c.comments, 0)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN (SELECT n.id, COUNT(*) votes FROM News n INNER JOIN News_votes nv ON n.id = nv.news  GROUP BY n.id) v ON n.id = v.id LEFT JOIN (SELECT n.id, COUNT(*) views FROM News n INNER JOIN News_views ni ON n.id = ni.news  GROUP BY n.id) i ON n.id = i.id LEFT JOIN (SELECT n.id, COUNT(*) comments FROM News n INNER JOIN Comments nc ON n.id = nc.news GROUP BY n.id) c ON n.id = c.id WHERE n.site = '".$site."' AND n.id = ".$story." GROUP BY n.id LIMIT 0, 1";
 
 	$story = mysqli_query($con, $query);
 	$rows = mysqli_num_rows($story);
@@ -121,7 +121,8 @@ function getStory($site, $story) {
 function getComments($story) {
 	$con = getConnection();
 
-	$query = "SELECT nc.*, u.*, COUNT(*) votes FROM Comments nc INNER JOIN Users u ON nc.user = CONCAT_WS(':', u.page, u.id) LEFT JOIN Comments_votes cv ON nc.id = cv.c_id AND nc.news = cv.c_news WHERE nc.news = '".$story."' AND nc.parent IS NULL GROUP BY nc.user";
+	$query = "SELECT nc.*, u.*, COUNT(*) votes FROM Comments nc INNER JOIN Users u ON nc.user = CONCAT_WS(':', u.page, u.id) LEFT JOIN Comments_votes cv ON nc.id = cv.c_id AND nc.news = cv.c_news WHERE nc.news = '".$story."' AND nc.parent IS NULL GROUP BY nc.id";
+	echo $query;
 
 	$comments = mysqli_query($con, $query);
 
