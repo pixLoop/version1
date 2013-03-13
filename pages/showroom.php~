@@ -123,8 +123,7 @@ function displayStory($story, $comments) {
 		</ul>
 		<div id="post-comment">
 			<p>Escribe un comentario:</p>
-			<form name="post-form" id="post-form" action="./?action=comment" method="post">
-				<input type="hidden" name="news" value="<?php echo $story['id']; ?>">
+			<form name="post-form" id="post-form" action="./?comment=<?php echo $story['id']; ?>" method="post">
 				<input type="hidden" name="user" value="TW:249132690">
 				<p><textarea name="comment" rows="5" cols="65"></textarea></p>
 				<p><input type="submit" name="post" value="Comenta"></p>

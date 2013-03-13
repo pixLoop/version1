@@ -7,8 +7,7 @@
 $index = '../index.php';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
-	echo $_SESSION["userprofile"];
-//	header("Location: $index");
+	header("Location: $index");
 }
 // Options to Log in
 else {

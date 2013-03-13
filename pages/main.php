@@ -51,19 +51,19 @@ switch ($_GET['section']) {
 		<div id="login-dialog" class="modal-window">
 			<a href="javascript:void(0)" class="modal-close">x</a>
 			<h2 class="modal-title">Login</h2>
-			<a href="">
+			<a href="./login/login.php?app=facebook">
 				<span id="login-facebook" class="social-login">
 					<span class="logo"></span>
 					Conecta con <b>Facebook</b>
 				</span>
 			</a>
-			<a href="">
+			<a href="./login/login.php?app=twitter">
 				<span id="login-twitter" class="social-login">
 					<span class="logo"></span>
 					Conecta con <b>Twitter</b>
 				</span>
 			</a>
-			<a href="">
+			<a href="./login/login.php?app=google">
 				<span id="login-google" class="social-login">
 					<span class="logo"></span>
 					Conecta con <b>Google</b>
