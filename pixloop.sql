@@ -3,13 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Temps de generació: 09-03-2013 a les 19:44:15
+-- Temps de generació: 13-03-2013 a les 04:50:05
 -- Versió del servidor: 5.5.29
 -- Versió de PHP : 5.3.10-1ubuntu3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT=0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -34,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `Comments` (
   `news` int(8) NOT NULL,
   `parent` int(8) DEFAULT NULL,
   `comment` text COLLATE utf8_spanish_ci NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE KEY `id` (`id`,`news`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -44,10 +43,11 @@ CREATE TABLE IF NOT EXISTS `Comments` (
 --
 
 CREATE TABLE IF NOT EXISTS `Comments_votes` (
-  `id` int(8) NOT NULL,
+  `c_id` int(8) NOT NULL,
+  `c_news` int(8) NOT NULL,
   `user` varchar(128) COLLATE utf8_spanish_ci NOT NULL,
   `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  UNIQUE KEY `id` (`id`,`user`)
+  UNIQUE KEY `id` (`c_id`,`c_news`,`user`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `News` (
   `time` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `font` (`font`,`link`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=4671 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -109,7 +109,6 @@ CREATE TABLE IF NOT EXISTS `Users` (
   `image` varchar(256) COLLATE utf8_spanish_ci DEFAULT NULL,
   PRIMARY KEY (`page`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

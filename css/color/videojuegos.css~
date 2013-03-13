@@ -50,6 +50,18 @@ body {
 #newswrap #pagination a.selected {
 	background-color: #3B3;
 }
+#news-stats .loopit:hover {
+	background-color: #6F3;	
+}
+#title {
+	color: #3B3;
+}
+#title h2 {
+	color: #3B3;
+}
+#font a:hover {
+	color: #3B3;
+}
 #footer {
 	background-color: #3B3;
 }

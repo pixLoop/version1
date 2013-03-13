@@ -19,59 +19,82 @@ function getPages($site) {
 	return $pages;
 }
 
-function getNews($site, $order, $page, $time) {
+function getNews($site, $order, $page, $time = "all") {
 	$con = getConnection();
 
-	$sort = "";
 	$col = "";
+	$sort = "";
 	switch ($order) {
 		case "portada":
 			$sort = "pop DESC";
-			$time = "all";
 			break;
 		case "nuevas":
 			$sort = "time DESC";
-			$time = "all";
 			break;
 		case "destacadas":
-			$sort = "votes DESC";
 			$col = "nv.time";
+			$sort = "votes DESC";
 			break;
 		case "vistas":
-			$sort = "views DESC";
 			$col = "ni.time";
+			$sort = "views DESC";
 			break;
 		case "comentadas":
-			$sort = "comments DESC";
 			$col = "nc.time";
+			$sort = "comments DESC";
 			break;
 	}
 
-	$timing = " AND (TO_SECONDS(NOW()) - TO_SECONDS(".$col.")) <= ";
+	$interval = "";
 	switch ($time) {
 		case "24h":
-			$timing .= (24 * 3600);
+			$interval = (24 * 3600);
 			break;
 		case "48h":
-			$timing .= (2 * 24 * 3600);
+			$interval = (2 * 24 * 3600);
 			break;
 		case "1s":
-			$timing .= (7 * 24 * 3600);
+			$interval = (7 * 24 * 3600);
 			break;
 		case "1m":
-			$timing .= (30 * 24 * 3600);
+			$interval = (30 * 24 * 3600);
 			break;
 		case "6m":
-			$timing .= (6 * 30 * 24 * 3600);
+			$interval = (6 * 30 * 24 * 3600);
 			break;
 		case "1a":
-			$timing .= (365 * 24 * 3600);
+			$interval = (365 * 24 * 3600);
+			break;
+	}
+	$timing = "WHERE (TO_SECONDS(NOW()) - TO_SECONDS(".$col.")) <= ".$interval;
+	switch ($time) {
+		case "24h":
+		case "48h":
+		case "1s":
+		case "1m":
+		case "6m":
+		case "1a":
 			break;
 		default:
 			$timing = "";
 	}
 
-	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."'".$timing." GROUP BY n.id ORDER BY ".$sort.", time DESC LIMIT " . (20 * ($page - 1)) . ", 20";
+	$nvTiming = "";
+	$niTiming = "";
+	$ncTiming = "";
+	switch ($order) {
+		case "destacadas":
+			$nvTiming = $timing;
+			break;
+		case "vistas":
+			$niTiming = $timing;
+			break;
+		case "comentadas":
+			$ncTiming = $timing;
+			break;
+	}
+
+	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, IFNULL(v.votes, 0) votes, IFNULL(i.views, 0) views, IFNULL(c.comments, 0) comments, (((IFNULL(v.votes, 0) + IFNULL(c.comments, 0)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN (SELECT n.id, COUNT(*) votes FROM News n INNER JOIN News_votes nv ON n.id = nv.news ".$nvTiming." GROUP BY n.id) v ON n.id = v.id LEFT JOIN (SELECT n.id, COUNT(*) views FROM News n INNER JOIN News_views ni ON n.id = ni.news ".$niTiming." GROUP BY n.id) i ON n.id = i.id LEFT JOIN (SELECT n.id, COUNT(*) comments FROM News n INNER JOIN Comments nc ON n.id = nc.news ".$ncTiming." GROUP BY n.id) c ON n.id = c.id WHERE n.site = '".$site."' ORDER BY ".$sort.", time DESC LIMIT ".(20 * ($page - 1)).", 20";
 
 	$news = mysqli_query($con, $query);
 
@@ -82,7 +105,7 @@ function getNews($site, $order, $page, $time) {
 function getStory($site, $story) {
 	$con = getConnection();
 
-	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, COUNT(nv.news) votes, COUNT(ni.news) views, COUNT(nc.news) comments, (((COUNT(nv.news) + COUNT(nc.news)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN News_votes nv ON n.id = nv.news LEFT JOIN News_views ni ON n.id = ni.news LEFT JOIN Comments nc ON n.id = nc.news WHERE n.site = '".$site."' AND n.id = ".$story." GROUP BY n.id LIMIT 0, 1";
+	$query = "SELECT n.*, CONCAT_WS('/', n.font, n.link) url, IFNULL(v.votes, 0) votes, IFNULL(i.views, 0) views, IFNULL(c.comments, 0) comments, (((IFNULL(v.votes, 0) + IFNULL(c.comments, 0)) / (NOW() - n.time)) * 1000000) pop FROM News n LEFT JOIN (SELECT n.id, COUNT(*) votes FROM News n INNER JOIN News_votes nv ON n.id = nv.news  GROUP BY n.id) v ON n.id = v.id LEFT JOIN (SELECT n.id, COUNT(*) views FROM News n INNER JOIN News_views ni ON n.id = ni.news  GROUP BY n.id) i ON n.id = i.id LEFT JOIN (SELECT n.id, COUNT(*) comments FROM News n INNER JOIN Comments nc ON n.id = nc.news GROUP BY n.id) c ON n.id = c.id WHERE n.site = '".$site."' AND n.id = ".$story." GROUP BY n.id LIMIT 0, 1";
 
 	$story = mysqli_query($con, $query);
 	$rows = mysqli_num_rows($story);
@@ -98,10 +121,9 @@ function getStory($site, $story) {
 function getComments($story) {
 	$con = getConnection();
 
-	$query = "SELECT nc.* FROM News n LEFT JOIN Comments nc ON n.id = nc.news WHERE n.id = ".$story;
+	$query = "SELECT nc.*, u.*, COUNT(*) votes FROM Comments nc INNER JOIN Users u ON nc.user = CONCAT_WS(':', u.page, u.id) LEFT JOIN Comments_votes cv ON nc.id = cv.c_id AND nc.news = cv.c_news WHERE nc.news = '".$story."' AND nc.parent IS NULL GROUP BY nc.user";
 
 	$comments = mysqli_query($con, $query);
-	$rows = mysqli_num_rows($story);
 
 	closeConnection($con);
 	return $comments;

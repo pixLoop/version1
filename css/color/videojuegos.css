@@ -43,11 +43,11 @@ body {
 .comments-counter {
 	background-color: #3B3;
 }
-#newswrap #pagination a {
+#wrapper #pagination a {
 	border: 2px solid #3B3;
 	color: #3B3;
 }
-#newswrap #pagination a.selected {
+#wrapper #pagination a.selected {
 	background-color: #3B3;
 }
 #news-stats .loopit:hover {

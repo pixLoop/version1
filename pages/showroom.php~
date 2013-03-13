@@ -13,9 +13,17 @@ function displayTopFonts($fonts) {
 }
 
 function displayNews($newsArray) {
+	if (isset($newsArray)) echo "isset"; else echo "notset";
+	echo " ";
+	if (is_null($newsArray)) echo "isnull"; else echo "notnull";
+	echo " ";
+	echo gettype($newsArray)." ".var_dump($newsArray);
+	echo $newsArray;
+	echo mysqli_num_rows($newsArray);
+
 	echo '<ul class="list">';
 	$adcount = 0;
-	while ($row = mysqli_fetch_array($newsArray)) {
+	/*while ($row = mysqli_fetch_array($newsArray)) {
 		$adcount++;
 		if (($adcount % 5) === 3) {
 			echo '<li><div class="news-banner">BANNER PUBLICITARIO</div></li>';
@@ -78,7 +86,7 @@ function displayNews($newsArray) {
 		</div>
 	</li>
 <?php
-	}
+	}*/
 	echo "</ul>";
 }
 

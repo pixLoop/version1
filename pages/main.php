@@ -1,6 +1,4 @@
-<?php
-	require("./pages/showroom.php");
-?>
+<?php require("./pages/showroom.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -232,8 +230,7 @@ switch ($_GET['section']) {
 		displayPages($_GET['page'], $totalPages);
 		break;
 	case "noticia":
-		displayStory(mysqli_fetch_array($story));
-		//displayComments($comments);
+		displayStory(mysqli_fetch_array($story), $comments);
 		break;
 }
 ?>

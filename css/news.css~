@@ -27,9 +27,6 @@
 	white-space: nowrap; 
 	cursor: pointer;
 }
-#news-stats .loopit:hover {
-	background-color: #6F3;	
-}
 #image {
 	float: left;
 	height: 100px;
@@ -41,7 +38,6 @@
 	-webkit-background-size: 100% 100%;
 }
 #title {
-	color: #3B3;
 	margin-top: 1em;
 	text-decoration: none;
 }
@@ -49,7 +45,6 @@
 	text-decoration: underline;
 }
 #title h2 {
-	color: #3B3;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
@@ -81,4 +76,23 @@ hr {
 #comments {
 	margin-top: 3em;
 	clear: left;
+}
+#order-comments {
+	list-style: none;
+}
+#order-comments li {
+	display: inline;
+	float: right;
+	margin-left: 0.5em;
+}
+#comments-list {
+	list-style: none;
+}
+#comments-list li div {
+	overflow: hidden;
+	margin-top: 1em;
+	padding: 5px;
+	background-color: #FFF;
+	border: 2px solid #3B3;
+	border-radius: 10px 10px 0 10px;
 }

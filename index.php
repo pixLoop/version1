@@ -4,7 +4,12 @@
 function pages() {
 	require("./dbcon/getter.php");
 	$topFonts = getTopFonts($_GET['site']);
-	$news = getNews($_GET['site'], $_GET['section'], $_GET['page']);
+	$news = null;
+	if (isset($_GET['time'])) {
+		$news = getNews($_GET['site'], $_GET['section'], $_GET['page'], $_GET['time']);
+	} else {
+		$news = getNews($_GET['site'], $_GET['section'], $_GET['page']);
+	}
 	$totalPages = getPages($_GET['site']);
 	if (isset($_GET['page'])) {
 		if ($_GET['page'] <= $totalPages) {
