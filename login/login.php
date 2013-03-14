@@ -9,6 +9,8 @@ $index = '../';
 if ( isset($_SESSION["userprofile"]) ) {
 	if (isset($_SESSION["userprofile"]["id"])) 
 		$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
+	if (isset($_SESSION["userprofile"]["id"]) && isset($_SESSION["login"]["page"])) 
+		$_SESSION["login"]["short"] = $_SESSION["login"]["page"].":".$_SESSION["userprofile"]["id"];
 	if (isset($_SESSION["userprofile"]["name"])) 
 		$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
 	if (isset($_SESSION["userprofile"]["link"])) 
