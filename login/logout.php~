@@ -6,7 +6,7 @@
 \*==========================================*/
 
 // Page will be returned after logut
-$index = '../index.php';
+$index = '../';
 
 //session_destroy();
 unset ($_SESSION['userprofile']);

@@ -9,5 +9,6 @@
 $index = '../';
 
 //session_destroy();
+unset ($_SESSION['login']);
 unset ($_SESSION['userprofile']);
 header("Location: $index");
