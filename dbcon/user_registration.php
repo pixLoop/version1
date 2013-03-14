@@ -19,5 +19,5 @@ $rows = mysqli_query($con, $query);
 
 closeConnection($con);
 
-header("Location: ./?".$_SESSION['last_page']);
+header("Location: ../?".$_SESSION['last_page']);
 ?>
