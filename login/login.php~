@@ -7,15 +7,8 @@
 $index = '../';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
-	echo "con ECHO<br/>";
-	echo $_SESSION["userprofile"];
-
-	echo "<br/><br/>********************************************************************<br/>";
-	echo "********************************************************************<br/>";
-
-	echo "con PRINT_R<br/>";
-	$_SESSION["userprofile"]["ioputa"] = "Cagoentusmuertos";
 	print_r($_SESSION["userprofile"]);
+	print_r($_SESSION["login"]);
 //	header("Location: $index");
 }
 // Options to Log in
@@ -26,12 +19,15 @@ else {
 	
 	if ( !empty($app) ) {
 		if ( $app == 'facebook' ) { // Facebook Auth
+			$_SESSION["login"]["page"] = "FB";
 			require_once('facebook.php');
 		}
 		elseif ( ($app == 'twitter') ) { // Twitter Auth
+			$_SESSION["login"]["page"] = "TW";
 			require_once('twitter.php');
 		}
 		elseif ( $app == 'google' ) {  // Google Auth
+			$_SESSION["login"]["page"] = "GO";
 			require_once('google.php');
 		}
 		else {
