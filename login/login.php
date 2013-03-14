@@ -14,6 +14,7 @@ if ( isset($_SESSION["userprofile"]) ) {
 	echo "********************************************************************<br/>";
 
 	echo "con PRINT_R<br/>";
+	$_SESSION["userprofile"]["ioputa"] = "Cagoentusmuertos";
 	print_r($_SESSION["userprofile"]);
 //	header("Location: $index");
 }
