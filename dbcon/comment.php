@@ -3,7 +3,7 @@ if (isset($_POST['post'])) {
 	require("./dbcon/connection.php");
 	$con = getConnection();
 
-	$query = "SELECT nc.*, u.*, COUNT(*) votes FROM Comments nc INNER JOIN Users u ON nc.user = CONCAT_WS(':', u.page, u.id) LEFT JOIN Comments_votes cv ON nc.id = cv.c_id AND nc.news = cv.c_news WHERE nc.news = '".$_GET['comment']."' AND nc.parent IS NULL GROUP BY nc.user";
+	$query = "SELECT * FROM Comments c WHERE c.news = '".$_GET['comment']."'";
 
 	$comments = mysqli_num_rows(mysqli_query($con, $query));
 
