@@ -3,7 +3,7 @@ session_start();
 require("./connection.php");
 $con = getConnection();
 
-$fields = "page,id,name,url,image";
+$fields = "page,id,name";
 $values = "'".$_SESSION["login"]["page"]."','".$_SESSION["login"]["id"]."','".$_SESSION["login"]["name"]."'";
 if (isset($_SESSION["login"]["url"])) {
 	$fields .= ",url";
