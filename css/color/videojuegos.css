@@ -51,7 +51,8 @@ body {
 	background-color: #3B3;
 }
 #news-stats .loopit:hover {
-	background-color: #6F3;	
+	background-color: #6F3;
+	color: #000;	
 }
 #title {
 	color: #3B3;

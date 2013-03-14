@@ -96,4 +96,43 @@ hr {
 	background-color: #FFF;
 	border: 2px solid #3B3;
 	border-radius: 10px 10px 0 10px;
+
+	margin-right: 44px;
+}
+.info{
+	margin-bottom: 5px;
+	font-size: 10pt; 
+}
+.comment-rate {
+	float: right;
+	font-size: 9pt;
+}
+.comment-votes {
+	font-size: 12pt;
+}
+.com-vote {
+	vertical-align: text-bottom;
+	font-size: 9pt;
+	width: 23px;
+    background-color: #DDDDDD;
+    border: 1px solid;
+    border-radius: 6px 6px 6px 6px;
+    color: #444444;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px 4px;
+    white-space: nowrap;
+	margin-left: 5px;
+}
+.com-vote.pos {
+	margin-left: 10px;
+}
+.com-vote:hover {
+	color: #000;
+}
+.com-vote.pos:hover {
+	background-color: #0F0;
+}
+.com-vote.neg:hover {
+	background-color: #F00;
 }

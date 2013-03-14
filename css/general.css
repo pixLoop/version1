@@ -7,24 +7,25 @@
 	-webkit-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 }
+#page {
+	min-width: 780px;
+}
 #header {
 	width: 100%;
 }
 #header-top {
 	font-size: 10pt;
-	height: 20px;
 }
 #header-top #links {
-	margin-left: 10px;
-	border-right: 2px solid #DDD;
-	padding-right: 10px;
+	margin-left: 5px;
+	padding-right: 5px;
 	float: left;
 	list-style: none;
 }
 #header-top #links li {
 	height: 20px;
 	float: left;
-	padding: 0 5px;
+	padding: 0 4px;
 }
 #header-top #links li.selected {
 	background-color: #FFF;
@@ -37,31 +38,29 @@
 	text-decoration: underline;
 	color: #000;
 }
-#header-top .social {
-	margin-left: 10px;
-	float: left;
+#sidebar .social {
+	float: right;
+	font-size: 16pt;
 }
-#header-top .follow {
-	vertical-align: middle;
-	height: 16px;
-	width: 16px;
+#sidebar .follow {
+	background-color: #444;
+	vertical-align: text-middle;
+	height: 32px;
+	width: 32px;
 }
-#header-top #follow-facebook:hover {
+#sidebar #follow-facebook:hover {
 	background-color: #3B5998;
 }
-#header-top #follow-twitter:hover {
+#sidebar #follow-twitter:hover {
 	background-color: #00ACED;
 }
-#header-top #follow-google:hover {
+#sidebar #follow-google:hover {
 	background-color: #DD4D38;
 }
 #header-top #userinfo {
+	position: absolute;
 	list-style: none;
-	float: right;
-}
-#header-top #userinfo li {
-	margin-right: 20px;
-	float: right;
+	right: 10px;
 }
 #header-top #userinfo li a {
 	color: #444;

@@ -17,7 +17,7 @@ function displayNews($newsArray) {
 	$adcount = 0;
 	while ($row = mysqli_fetch_array($newsArray)) {
 		$adcount++;
-		if (($adcount % 5) === 3) {
+		if (($adcount % 5) === 4) {
 			echo '<li><div class="news-banner">BANNER PUBLICITARIO</div></li>';
 		}
 ?>
@@ -128,7 +128,7 @@ function displayStory($story, $comments) {
 			<p>Escribe un comentario:</p>
 			<form name="post-form" id="post-form" action="./?comment=<?php echo $story['id']; ?>" method="post">
 				<input type="hidden" name="user" value="<?php echo $_SESSION['login']['short']; ?>">
-				<p><textarea name="comment" rows="5" cols="65"></textarea></p>
+				<p><textarea name="comment" rows="5" cols="71"></textarea></p>
 				<p><input type="submit" name="post" value="Comenta"></p>
 			</form>
 		</div>
@@ -148,9 +148,35 @@ function displayComments($comments) {
 			echo '<li id="'.$row['id'].'">';
 ?>
 <div>
-	<p class="info">por <a href="<?php echo $row['url'];?>" target="blank"><?php echo $row['name'];?></a> en <?php echo $row['time'];?></p>
-	<p class="comment"><?php echo $row['comment'];?></p>
-	<p class="comment-votes"><?php echo $row['votes'];?> votos</p>
+	<p class="info"><a href="<?php echo $row['url'];?>" target="blank"><?php echo $row['name'];?></a> - hace 
+<?php 
+	date_default_timezone_set('Europe/Madrid');
+	$since = time() - strtotime($row['time']);
+	if ($since < 60) echo $since." segundos";
+	else {
+		$sincei = floor($since / 60);
+		if ($sincei < 60) echo $sincei." minutos ".($since - (60 * $sincei))." segundos";
+		else {
+			$sinceh = floor($sincei / 60);
+			if ($sinceh < 24) echo $sinceh." horas ".($sincei - (60 * $sinceh))." minutos";
+			else {
+				$sinced = floor($sinceh / 24);
+				if ($sinced < 30) echo $sinced." días ".($sinceh - (24 * $sinced))." horas";
+				else {
+					$sincem = floor($sinced / 30);
+					if ($sincem < 12) echo $sincem." meses ".($sinced - (30 * $sincem))." días";
+					else {
+						$sincey = floor($sincem / 12);
+						echo $sincey." años ".($sincem - (12 * $sincey))." meses";
+					}
+				}
+			}
+		}
+	}
+?>
+	</p>
+	<p class="comment">#<?php echo $row['com_id'];?>&nbsp;&nbsp;<?php echo $row['comment'];?></p>
+	<p class="comment-rate"><span class="comment-votes"><?php echo $row['votes'];?></span> votos<button class="com-vote pos" news_id="<?php echo $row['news']; ?>" comment_id="<?php echo $row['com_id']; ?>" user_id="<?php echo $_SESSION['login']['short']; ?>">+</button></p>
 </div>
 <?php		echo '</li>';
 		}

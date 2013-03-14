@@ -6,6 +6,7 @@
 	<title>pixLoop - Descubre qué se cuece entre videojuegos</title>
 
 	<link rel="stylesheet" type="text/css" media="all" href="./css/general.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/querie.css"/>
 <?php
 switch ($_GET['section']) {
 	case "portada":
@@ -120,22 +121,11 @@ switch ($_GET['section']) {
 					<a href="./?site=tv" title="Televisión">Televisión</a>
 				</li>
 			</ul>
-			<div class="social">
-				<span>Síguenos en: </span>
-				<a href="http://www.facebook.com/pixLoop" title="síguenos en Facebook" target="_blank">
-					<img id="follow-facebook" class="follow" src="./css/img/social/facebook.png" alt="Facebook"/></a>
-				<a href="https://twitter.com/pixLoop" title="síguenos en Twitter" target="_blank">
-					<img id="follow-twitter" class="follow" src="./css/img/social/twitter.png" alt="Twitter"/></a>
-				<a href="https://plus.google.com/u/0/115766301651355432068" title="síguenos en Google+" target="_blank">
-					<img id="follow-google" class="follow" src="./css/img/social/google.png" alt="Google+"/></a>
-			</div>
 
 			<ul id="userinfo">
 <?php if (isset($_SESSION["login"]["name"])) { ?>
 	<li class="usertext">
-		Bienvenido <a href="./login/logout.php" title="Click para cerrar sesión">
-			<?php echo $_SESSION["login"]["name"]; ?>
-		</a>
+		Bienvenido <b><?php echo $_SESSION["login"]["name"]; ?></b> (<a href="./login/logout.php" title="Click para cerrar sesión">Salir</a>)
 	</li>
 <?php } else { ?>
 	<li class="usertext">
@@ -164,7 +154,7 @@ switch ($_GET['section']) {
 					<a href="<?php echo './?site='.$_GET['site'].'&section=comentadas&page=1'?>" title="Ver las noticias más comentadas">+Comentadas</a>
 				</li>
 			</ul>
-
+			
 			<!--<div id="searchform"> 
 				<form action="" method="get"> 
 					<a href="" id="searchglass">
@@ -214,9 +204,20 @@ switch ($_GET['section']) {
 <div id="container">
 	<!-- sidebar-->
 	<div id="sidebar">
+		<div class="social">
+			<span>Síguenos en: </span>
+			<a href="http://www.facebook.com/pixLoop" title="síguenos en Facebook" target="_blank">
+				<img id="follow-facebook" class="follow" src="./css/img/social/facebook.png" alt="Facebook"/></a>
+			<a href="https://twitter.com/pixLoop" title="síguenos en Twitter" target="_blank">
+				<img id="follow-twitter" class="follow" src="./css/img/social/twitter.png" alt="Twitter"/></a>
+			<a href="https://plus.google.com/u/0/115766301651355432068" title="síguenos en Google+" target="_blank">
+				<img id="follow-google" class="follow" src="./css/img/social/google.png" alt="Google+"/></a>
+		</div>
+		<div style="clear:both;"></div>
 		<div class="fb-like-box" data-href="http://www.facebook.com/pixLoop" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div>
 	<a class="twitter-timeline" href="https://twitter.com/pixLoop" data-widget-id="311182746909278208">Tweets por @pixLoop</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 		<div id="top-fonts">
 			<h3>fuentes +Valoradas</h3>
 			<ul>
