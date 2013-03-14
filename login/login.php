@@ -36,8 +36,8 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
 		if (isset($_SESSION["userprofile"]["id"]) && isset($_SESSION["login"]["page"])) 
 			$_SESSION["login"]["short"] = $_SESSION["login"]["page"].":".$_SESSION["userprofile"]["id"];
-		if (isset($_SESSION["userprofile"]["name"])) 
-			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
+		if (isset($_SESSION["userprofile"]["first_name"])) 
+			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["first_name"];
 		if (isset($_SESSION["userprofile"]["link"])) 
 			$_SESSION["login"]["url"] = $_SESSION["userprofile"]["link"];
 		if (isset($_SESSION["userprofile"]["picture"])) 
@@ -59,8 +59,8 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
 		if (isset($_SESSION["userprofile"]["id"]) && isset($_SESSION["login"]["page"])) 
 			$_SESSION["login"]["short"] = $_SESSION["login"]["page"].":".$_SESSION["userprofile"]["id"];
-		if (isset($_SESSION["userprofile"]["name"])) 
-			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
+		if (isset($_SESSION["userprofile"]["given_name"])) 
+			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["given_name"];
 		if (isset($_SESSION["userprofile"]["link"])) 
 			$_SESSION["login"]["url"] = $_SESSION["userprofile"]["link"];
 		if (isset($_SESSION["userprofile"]["picture"])) 

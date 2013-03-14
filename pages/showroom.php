@@ -122,14 +122,17 @@ function displayStory($story, $comments) {
 			<li><a>+Nuevos</a></li>
 			<li><a>+Votados</a></li>
 		</ul>
+		<div style="clear:both;"></div>
+<?php if(isset($_SESSION["login"]["short"])) {?>
 		<div id="post-comment">
 			<p>Escribe un comentario:</p>
 			<form name="post-form" id="post-form" action="./?comment=<?php echo $story['id']; ?>" method="post">
-				<input type="hidden" name="user" value="TW:249132690">
+				<input type="hidden" name="user" value="<?php echo $_SESSION['login']['short']; ?>">
 				<p><textarea name="comment" rows="5" cols="65"></textarea></p>
 				<p><input type="submit" name="post" value="Comenta"></p>
 			</form>
 		</div>
+<?php } ?>
 <?php displayComments($comments); ?>
 	</div>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ca22c1311ce025"></script>
