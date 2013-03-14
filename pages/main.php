@@ -131,9 +131,17 @@ switch ($_GET['section']) {
 			</div>
 
 			<ul id="userinfo">
-				<li class="usertext">
-					<a href="javascript:void(0)" id="login-link">Login</a>
-				</li>
+<?php if (isset($_SESSION["login"]["name"])) { ?>
+	<li class="usertext">
+		Bienvenido <a href="./login/logout.php" title="Click para cerrar sesión">
+			<?php echo $_SESSION["login"]["name"]; ?>
+		</a>
+	</li>
+<?php } else { ?>
+	<li class="usertext">
+		<a href="javascript:void(0)" id="login-link">Login</a>
+	</li>
+<?php } ?>
 			</ul>
 		</div>
 

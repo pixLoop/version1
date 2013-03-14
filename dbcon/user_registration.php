@@ -13,12 +13,11 @@ if (isset($_SESSION["login"]["image"])) {
 	$fields .= ",image";
 	$values .= ",'".$_SESSION["login"]["image"]."'";
 }
-$query = "INSERT INTO Users (".$fields.") values (".$values.")";
+$query = "INSERT INTO Users (".$fields.") VALUES (".$values.")";
 
-echo $query;
 $rows = mysqli_query($con, $query);
 
 closeConnection($con);
 
-//header("Location: ./?".$_SESSION['last_page']);
+header("Location: ./?".$_SESSION['last_page']);
 ?>

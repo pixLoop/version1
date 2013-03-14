@@ -3,7 +3,7 @@ session_start();
 require("./connection.php");
 $con = getConnection();
 
-$fields = "page,id,name,url,image";
+$fields = "page,id,name";
 $values = "'".$_SESSION["login"]["page"]."','".$_SESSION["login"]["id"]."','".$_SESSION["login"]["name"]."'";
 if (isset($_SESSION["login"]["url"])) {
 	$fields .= ",url";
@@ -13,7 +13,7 @@ if (isset($_SESSION["login"]["image"])) {
 	$fields .= ",image";
 	$values .= ",'".$_SESSION["login"]["image"]."'";
 }
-$query = "INSERT INTO Users (".$fields.") values (".$values.")";
+$query = "INSERT INTO Users (".$fields.") VALUES (".$values.")";
 
 echo $query;
 $rows = mysqli_query($con, $query);
