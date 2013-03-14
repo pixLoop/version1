@@ -1,10 +1,30 @@
 <?php session_start();
+function objectToArray($d) {
+	if (is_object($d)) {
+		// Gets the properties of the given object
+		// with get_object_vars function
+		$d = get_object_vars($d);
+	}
+
+	if (is_array($d)) {
+		/*
+		* Return array converted to object
+		* Using __FUNCTION__ (Magic constant)
+		* for recursive call
+		*/
+		return array_map(__FUNCTION__, $d);
+	}
+	else {
+		// Return array
+		return $d;
+	}
+}
 /*==========================================*\
 || ##########################################||
 || # SONHLAB.com - SONHlab Social Auth v1 #
 || ##########################################||
 \*==========================================*/
-$index = '../';
+$index = '../dbcon/user_registration.php';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
 	if ($_SESSION["login"]["page"] == "FB") {
@@ -19,16 +39,17 @@ if ( isset($_SESSION["userprofile"]) ) {
 		if (isset($_SESSION["userprofile"]["picture"])) 
 			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
 	} else if ($_SESSION["login"]["page"] == "TW") {
-		if (isset($_SESSION["userprofile"]["id"])) 
-			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
-		if (isset($_SESSION["userprofile"]["id"]) && isset($_SESSION["login"]["page"])) 
-			$_SESSION["login"]["short"] = $_SESSION["login"]["page"].":".$_SESSION["userprofile"]["id"];
-		if (isset($_SESSION["userprofile"]["name"])) 
-			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
-		if (isset($_SESSION["userprofile"]["screen_name"])) 
-			$_SESSION["login"]["url"] = "https://twitter.com/".$_SESSION["userprofile"]["screen_name"];
-		if (isset($_SESSION["userprofile"]["profile_image_url"])) 
-			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["profile_image_url"];
+		$array = objectToArray($_SESSION["userprofile"]);
+		if (isset($array["id"])) 
+			$_SESSION["login"]["id"] = $array["id"];
+		if (isset($array["id"]) && isset($_SESSION["login"]["page"])) 
+			$_SESSION["login"]["short"] = $_SESSION["login"]["page"].":".$array["id"];
+		if (isset($array["name"])) 
+			$_SESSION["login"]["name"] = $array["name"];
+		if (isset($array["screen_name"])) 
+			$_SESSION["login"]["url"] = "https://twitter.com/".$array["screen_name"];
+		if (isset($array["profile_image_url"])) 
+			$_SESSION["login"]["image"] = $array["profile_image_url"];
 	} else if ($_SESSION["login"]["page"] == "GO") {
 		if (isset($_SESSION["userprofile"]["id"])) 
 			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];

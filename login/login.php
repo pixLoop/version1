@@ -24,7 +24,7 @@ function objectToArray($d) {
 || # SONHLAB.com - SONHlab Social Auth v1 #
 || ##########################################||
 \*==========================================*/
-$index = '../';
+$index = '../dbcon/user_registration.php';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
 	if ($_SESSION["login"]["page"] == "FB") {
@@ -63,9 +63,9 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
 	}
 
-	print_r($_SESSION["login"]);
-	print_r($_SESSION["last_page"]);
-//	header("Location: $index");
+//	print_r($_SESSION["login"]);
+//	print_r($_SESSION["last_page"]);
+	header("Location: $index");
 }
 // Options to Log in
 else {
