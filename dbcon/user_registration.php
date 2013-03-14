@@ -1,9 +1,10 @@
 <?php
+session_start();
 //require("./dbcon/connection.php");
 //$con = getConnection();
 
 $fields = "page,id,name,url,image";
-$values = "'".$_SESSION["login"]["page"]."',".$_SESSION["login"]["id"]."',".$_SESSION["login"]["name"]."'";
+$values = "'".$_SESSION["login"]["page"]."','".$_SESSION["login"]["id"]."','".$_SESSION["login"]["name"]."'";
 if (isset($_SESSION["login"]["url"])) {
 	$fields .= ",url";
 	$values .= ",'".$_SESSION["login"]["url"]."'";
