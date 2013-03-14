@@ -133,9 +133,7 @@ switch ($_GET['section']) {
 			<ul id="userinfo">
 <?php if (isset($_SESSION["login"]["name"])) { ?>
 	<li class="usertext">
-		Bienvenido <a href="./login/logout.php" title="Click para cerrar sesión">
-			<?php echo $_SESSION["login"]["name"]; ?>
-		</a>
+		Bienvenido <b><?php echo $_SESSION["login"]["name"]; ?></b> (<a href="./login/logout.php" title="Click para cerrar sesión">Salir</a>)
 	</li>
 <?php } else { ?>
 	<li class="usertext">
