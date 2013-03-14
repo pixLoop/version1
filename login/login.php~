@@ -9,6 +9,7 @@ $index = '../';
 if ( isset($_SESSION["userprofile"]) ) {
 	print_r($_SESSION["userprofile"]);
 	print_r($_SESSION["login"]);
+	print_r($_SESSION["last_page"]);
 //	header("Location: $index");
 }
 // Options to Log in

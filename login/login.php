@@ -7,7 +7,15 @@
 $index = '../';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
-	print_r($_SESSION["userprofile"]);
+	if (isset($_SESSION["userprofile"]["id"])) 
+		$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
+	if (isset($_SESSION["userprofile"]["name"])) 
+		$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
+	if (isset($_SESSION["userprofile"]["link"])) 
+		$_SESSION["login"]["url"] = $_SESSION["userprofile"]["link"];
+	if (isset($_SESSION["userprofile"]["picture"])) 
+		$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
+
 	print_r($_SESSION["login"]);
 	print_r($_SESSION["last_page"]);
 //	header("Location: $index");
