@@ -63,9 +63,9 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
 	}
 
-	print_r($_SESSION["login"]);
-	print_r($_SESSION["last_page"]);
-//	header("Location: $index");
+//	print_r($_SESSION["login"]);
+//	print_r($_SESSION["last_page"]);
+	header("Location: $index");
 }
 // Options to Log in
 else {

@@ -1,6 +1,7 @@
 <?php
 //require("./dbcon/connection.php");
 //$con = getConnection();
+echo "helloasdasd";
 
 $fields = "page,id,name,url,image";
 $values = "'".$_SESSION["login"]["page"]."',".$_SESSION["login"]["id"]."',".$_SESSION["login"]["name"]."'"
