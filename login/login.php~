@@ -62,6 +62,7 @@ if ( isset($_SESSION["userprofile"]) ) {
 		if (isset($_SESSION["userprofile"]["picture"])) 
 			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
 	}
+unset ($_SESSION['userprofile']);
 
 //	print_r($_SESSION["login"]);
 //	print_r($_SESSION["last_page"]);

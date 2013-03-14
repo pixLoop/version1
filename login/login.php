@@ -27,6 +27,10 @@ function objectToArray($d) {
 $index = '../dbcon/user_registration.php';
 // User Logged in
 if ( isset($_SESSION["userprofile"]) ) {
+	$page = $_SESSION["login"]["page"];
+	unset ($_SESSION['login']);
+	$_SESSION["login"]["page"] = $page;
+
 	if ($_SESSION["login"]["page"] == "FB") {
 		if (isset($_SESSION["userprofile"]["id"])) 
 			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
@@ -63,8 +67,7 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
 	}
 
-//	print_r($_SESSION["login"]);
-//	print_r($_SESSION["last_page"]);
+	unset ($_SESSION['userprofile']);
 	header("Location: $index");
 }
 // Options to Log in
