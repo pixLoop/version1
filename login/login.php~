@@ -27,8 +27,8 @@ if ( isset($_SESSION["userprofile"]) ) {
 			$_SESSION["login"]["name"] = $_SESSION["userprofile"]["name"];
 		if (isset($_SESSION["userprofile"]["screen_name"])) 
 			$_SESSION["login"]["url"] = "https://twitter.com/".$_SESSION["userprofile"]["screen_name"];
-		if (isset($_SESSION["userprofile"]["picture"])) 
-			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["picture"];
+		if (isset($_SESSION["userprofile"]["profile_image_url"])) 
+			$_SESSION["login"]["image"] = $_SESSION["userprofile"]["profile_image_url"];
 	} else if ($_SESSION["login"]["page"] == "GO") {
 		if (isset($_SESSION["userprofile"]["id"])) 
 			$_SESSION["login"]["id"] = $_SESSION["userprofile"]["id"];
