@@ -1,12 +1,32 @@
-@media all and (max-width:960px) {
+@media all and (max-width:780px) {
+	#header-top {
+		height: 40px;
+	}	
+	#userinfo {
+		top: 0;
+	}
+	#sidebar {
+		display: none;	
+	}
+	#wrapper {
+		margin-left: 20px;
+	}
+}
+@media all and (min-width:780px) {
+	#wrapper {
+		margin-left: 50px;
+	}
+}
+@media all and (max-width:1000px) {
 	#header-top {
 		height: 40px;
 	}
 	#userinfo {
 		top: 20px;
 	}
+
 }
-@media all and (min-width:960px) {
+@media all and (min-width:1000px) {
 	#header-top {
 		height: 20px;
 	}	
